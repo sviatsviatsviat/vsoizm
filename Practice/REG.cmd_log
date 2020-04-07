@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/Master Degree/VSOIZM/Practice/REG.xst" -ofn "E:/Master Degree/VSOIZM/Practice/REG.syr" 
