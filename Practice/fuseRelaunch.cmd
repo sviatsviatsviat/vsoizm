@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/Master Degree/VSOIZM/vsoizm/Practice/TB_LINE_OPERATOR_isim_beh.exe" -prj "E:/Master Degree/VSOIZM/vsoizm/Practice/TB_LINE_OPERATOR_beh.prj" "work.TB_LINE_OPERATOR" 

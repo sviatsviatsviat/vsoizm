@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-04-08T00:21:49</DateModified>
+  <DateModified>2020-04-08T22:41:01</DateModified>
   <ModuleName>LINE_REG</ModuleName>
   <SummaryTimeStamp>2020-04-07T21:15:45</SummaryTimeStamp>
-  <SavedFilePath>E:/Master Degree/VSOIZM/Practice/iseconfig/LINE_REG.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>E:/Master Degree/VSOIZM/Practice\</ImplementationReportsDirectory>
+  <SavedFilePath>E:/Master Degree/VSOIZM/vsoizm/Practice/iseconfig/LINE_REG.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>E:/Master Degree/VSOIZM/vsoizm/Practice\</ImplementationReportsDirectory>
   <DateInitialized>2020-04-07T20:54:39</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

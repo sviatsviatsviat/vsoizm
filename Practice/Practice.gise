@@ -34,6 +34,15 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="DBL_IN_REG.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="DBL_IN_REG.xst"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="DBL_IN_REG_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="LINE_OPERATOR.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="LINE_OPERATOR.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="LINE_OPERATOR.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="LINE_OPERATOR.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LINE_OPERATOR.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="LINE_OPERATOR.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="LINE_OPERATOR.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="LINE_OPERATOR.xst"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LINE_OPERATOR_xst.xrpt"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="LINE_REG.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="LINE_REG.lso"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="LINE_REG.ngc"/>
@@ -54,54 +63,118 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="REG.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="REG.xst"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="REG_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_DBL_IN_REG_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_LINE_OPERATOR_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_LINE_OPERATOR_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TB_LINE_OPERATOR_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_LINE_REG_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1586375308" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1586375308">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1586378812" xil_pn:in_ck="7425281684454361078" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1586378812">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ConvolutionPack.vhd"/>
+      <outfile xil_pn:name="DBL_IN_REG.vhd"/>
+      <outfile xil_pn:name="LINE_OPERATOR.vhd"/>
+      <outfile xil_pn:name="LINE_REG.vhd"/>
+      <outfile xil_pn:name="REG.vhd"/>
+      <outfile xil_pn:name="TB_DBL_IN_REG.vhd"/>
+      <outfile xil_pn:name="TB_LINE_OPERATOR.vhd"/>
+      <outfile xil_pn:name="TB_LINE_REG.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1586377695" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-8970404838054867106" xil_pn:start_ts="1586377695">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1586377695" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-895518661549159984" xil_pn:start_ts="1586377695">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1586375308" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="7970783484614118159" xil_pn:start_ts="1586375308">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1586378812" xil_pn:in_ck="7425281684454361078" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1586378812">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ConvolutionPack.vhd"/>
+      <outfile xil_pn:name="DBL_IN_REG.vhd"/>
+      <outfile xil_pn:name="LINE_OPERATOR.vhd"/>
+      <outfile xil_pn:name="LINE_REG.vhd"/>
+      <outfile xil_pn:name="REG.vhd"/>
+      <outfile xil_pn:name="TB_DBL_IN_REG.vhd"/>
+      <outfile xil_pn:name="TB_LINE_OPERATOR.vhd"/>
+      <outfile xil_pn:name="TB_LINE_REG.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1586378815" xil_pn:in_ck="7425281684454361078" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7805752937217839232" xil_pn:start_ts="1586378812">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="TB_LINE_OPERATOR_beh.prj"/>
+      <outfile xil_pn:name="TB_LINE_OPERATOR_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1586378815" xil_pn:in_ck="-5676066373307423863" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8969587841754030477" xil_pn:start_ts="1586378815">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="TB_LINE_OPERATOR_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
     <transform xil_pn:end_ts="1586293178" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1586293178">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1586293178" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-5169727394743418278" xil_pn:start_ts="1586293178">
+    <transform xil_pn:end_ts="1586377681" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="1582351921937332552" xil_pn:start_ts="1586377681">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1586293178" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-6907856345242249631" xil_pn:start_ts="1586293178">
+    <transform xil_pn:end_ts="1586377681" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="7970783484614118159" xil_pn:start_ts="1586377681">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1586293178" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1586293178">
+    <transform xil_pn:end_ts="1586377681" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1586377681">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1586293178" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-1393343409229142168" xil_pn:start_ts="1586293178">
+    <transform xil_pn:end_ts="1586377681" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-4583069380227107050" xil_pn:start_ts="1586377681">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1586293178" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="8243037837698806969" xil_pn:start_ts="1586293178">
+    <transform xil_pn:end_ts="1586377681" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="8243037837698806969" xil_pn:start_ts="1586377681">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1586293178" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-8063589183840585429" xil_pn:start_ts="1586293178">
+    <transform xil_pn:end_ts="1586377681" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="538906410069031961" xil_pn:start_ts="1586377681">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1586294385" xil_pn:in_ck="5631898018161750055" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="8906979505195569064" xil_pn:start_ts="1586294373">
-      <status xil_pn:value="SuccessfullyRun"/>
+    <transform xil_pn:end_ts="1586377688" xil_pn:in_ck="-9045119700594397334" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-4726180528510350826" xil_pn:start_ts="1586377681">
+      <status xil_pn:value="AbortedRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="DBL_IN_REG.ngr"/>
-      <outfile xil_pn:name="LINE_REG.lso"/>
-      <outfile xil_pn:name="LINE_REG.ngc"/>
+      <outfile xil_pn:name="LINE_OPERATOR.lso"/>
+      <outfile xil_pn:name="LINE_OPERATOR.ngc"/>
+      <outfile xil_pn:name="LINE_OPERATOR.ngr"/>
+      <outfile xil_pn:name="LINE_OPERATOR.prj"/>
+      <outfile xil_pn:name="LINE_OPERATOR.syr"/>
+      <outfile xil_pn:name="LINE_OPERATOR.xst"/>
       <outfile xil_pn:name="LINE_REG.ngr"/>
-      <outfile xil_pn:name="LINE_REG.prj"/>
-      <outfile xil_pn:name="LINE_REG.stx"/>
-      <outfile xil_pn:name="LINE_REG.syr"/>
-      <outfile xil_pn:name="LINE_REG.xst"/>
-      <outfile xil_pn:name="LINE_REG_xst.xrpt"/>
       <outfile xil_pn:name="REG.ngr"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
