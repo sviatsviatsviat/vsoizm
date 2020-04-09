@@ -27,8 +27,7 @@
 --------------------------------------------------------------------------------
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
-use IEEE.STD_LOGIC_ARITH.ALL;
-use IEEE.STD_LOGIC_UNSIGNED.ALL;
+use IEEE.NUMERIC_STD.ALL;
  
 ENTITY TB_LINE_OPERATOR IS
 END TB_LINE_OPERATOR;
@@ -116,7 +115,7 @@ wait for CLK_period/2;
 		for i in 1 to 25 loop
 		
 			wait for CLK_period;
-			LINE_IN <= conv_std_logic_vector(i, 8);
+			LINE_IN <= std_logic_vector(to_unsigned(i, 8));
 		
 		end loop;
 		

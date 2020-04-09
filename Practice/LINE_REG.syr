@@ -105,16 +105,16 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "E:\Master Degree\VSOIZM\Practice\REG.vhd" into library work
+Parsing VHDL file "E:\Master Degree\VSOIZM\vsoizm\Practice\REG.vhd" into library work
 Parsing entity <REG>.
 Parsing architecture <Behavioral> of entity <reg>.
-Parsing VHDL file "E:\Master Degree\VSOIZM\Practice\DBL_IN_REG.vhd" into library work
+Parsing VHDL file "E:\Master Degree\VSOIZM\vsoizm\Practice\DBL_IN_REG.vhd" into library work
 Parsing entity <DBL_IN_REG>.
 Parsing architecture <Behavioral> of entity <dbl_in_reg>.
-Parsing VHDL file "E:\Master Degree\VSOIZM\Practice\ConvolutionPack.vhd" into library work
+Parsing VHDL file "E:\Master Degree\VSOIZM\vsoizm\Practice\ConvolutionPack.vhd" into library work
 Parsing package <ConvolutionPack>.
 Parsing package body <ConvolutionPack>.
-Parsing VHDL file "E:\Master Degree\VSOIZM\Practice\LINE_REG.vhd" into library work
+Parsing VHDL file "E:\Master Degree\VSOIZM\vsoizm\Practice\LINE_REG.vhd" into library work
 Parsing entity <LINE_REG>.
 Parsing architecture <Behavioral> of entity <line_reg>.
 
@@ -133,7 +133,7 @@ Elaborating entity <REG> (architecture <Behavioral>) with generics from library 
 =========================================================================
 
 Synthesizing Unit <LINE_REG>.
-    Related source file is "E:\Master Degree\VSOIZM\Practice\LINE_REG.vhd".
+    Related source file is "E:\Master Degree\VSOIZM\vsoizm\Practice\LINE_REG.vhd".
         SIZE = 256
         OUTSIZE = 9
         WORD = 8
@@ -142,14 +142,14 @@ Synthesizing Unit <LINE_REG>.
 Unit <LINE_REG> synthesized.
 
 Synthesizing Unit <DBL_IN_REG>.
-    Related source file is "E:\Master Degree\VSOIZM\Practice\DBL_IN_REG.vhd".
+    Related source file is "E:\Master Degree\VSOIZM\vsoizm\Practice\DBL_IN_REG.vhd".
         N = 8
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <DBL_IN_REG> synthesized.
 
 Synthesizing Unit <REG>.
-    Related source file is "E:\Master Degree\VSOIZM\Practice\REG.vhd".
+    Related source file is "E:\Master Degree\VSOIZM\vsoizm\Practice\REG.vhd".
         N = 8
     Found 8-bit register for signal <reg>.
     Summary:
@@ -381,11 +381,11 @@ CLK            |    0.690|         |         |         |
 
 
 Total REAL time to Xst completion: 10.00 secs
-Total CPU time to Xst completion: 10.24 secs
+Total CPU time to Xst completion: 10.30 secs
  
 --> 
 
-Total memory usage is 4718152 kilobytes
+Total memory usage is 4717192 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

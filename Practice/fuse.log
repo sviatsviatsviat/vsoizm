@@ -13,8 +13,7 @@ Starting static elaboration
 Completed static elaboration
 Compiling package standard
 Compiling package std_logic_1164
-Compiling package std_logic_arith
-Compiling package std_logic_unsigned
+Compiling package numeric_std
 Compiling package convolutionpack
 Compiling architecture behavioral of entity REG [\REG(72)\]
 Compiling architecture behavioral of entity REG [\REG(8)\]
@@ -23,7 +22,7 @@ Compiling architecture behavioral of entity LINE_REG [\LINE_REG(256,9,8)\]
 Compiling architecture behavioral of entity LINE_OPERATOR [\LINE_OPERATOR(256,9,8)\]
 Compiling architecture behavior of entity tb_line_operator
 Time Resolution for simulation is 1ps.
-Compiled 16 VHDL Units
+Compiled 15 VHDL Units
 Built simulation executable E:/Master Degree/VSOIZM/vsoizm/Practice/TB_LINE_OPERATOR_isim_beh.exe
-Fuse Memory Usage: 36680 KB
-Fuse CPU Usage: 390 ms
+Fuse Memory Usage: 38816 KB
+Fuse CPU Usage: 452 ms

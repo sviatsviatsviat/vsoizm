@@ -1,0 +1,7 @@
+vhdl work "REG.vhd"
+vhdl work "DBL_IN_REG.vhd"
+vhdl work "ConvolutionPack.vhd"
+vhdl work "LINE_REG.vhd"
+vhdl work "LINE_OPERATOR.vhd"
+vhdl work "DIVIDER.vhd"
+vhdl work "CONVOLUTION_OPERATOR.vhd"

@@ -10,7 +10,7 @@ Total CPU time to Xst completion: 0.06 secs
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total CPU time to Xst completion: 0.07 secs
  
 --> Reading design: LINE_OPERATOR.prj
 
@@ -144,31 +144,31 @@ Synthesizing Unit <LINE_OPERATOR>.
         LINESIZE = 256
         KERNELSIZE = 9
         WORD = 8
-    Found 16-bit adder for signal <_n0221> created at line 37.
-    Found 16-bit adder for signal <_n0222> created at line 37.
-    Found 16-bit adder for signal <_n0223> created at line 37.
-    Found 16-bit adder for signal <_n0224> created at line 37.
-    Found 16-bit adder for signal <_n0225> created at line 37.
-    Found 16-bit adder for signal <_n0226> created at line 37.
-    Found 16-bit adder for signal <_n0227> created at line 37.
-    Found 16-bit adder for signal <KERNEL_SUM> created at line 37.
-    Found 24-bit adder for signal <_n0229> created at line 42.
-    Found 24-bit adder for signal <_n0230> created at line 42.
-    Found 24-bit adder for signal <_n0231> created at line 42.
-    Found 24-bit adder for signal <_n0232> created at line 42.
-    Found 24-bit adder for signal <_n0233> created at line 42.
-    Found 24-bit adder for signal <_n0234> created at line 42.
-    Found 24-bit adder for signal <_n0235> created at line 42.
-    Found 24-bit adder for signal <CONV_SUM> created at line 42.
-    Found 9x8-bit multiplier for signal <multiples<8>> created at line 96.
-    Found 9x8-bit multiplier for signal <multiples<7>> created at line 96.
-    Found 9x8-bit multiplier for signal <multiples<6>> created at line 96.
-    Found 9x8-bit multiplier for signal <multiples<5>> created at line 96.
-    Found 9x8-bit multiplier for signal <multiples<4>> created at line 96.
-    Found 9x8-bit multiplier for signal <multiples<3>> created at line 96.
-    Found 9x8-bit multiplier for signal <multiples<2>> created at line 96.
-    Found 9x8-bit multiplier for signal <multiples<1>> created at line 96.
-    Found 9x8-bit multiplier for signal <multiples<0>> created at line 96.
+    Found 16-bit adder for signal <_n0194> created at line 36.
+    Found 16-bit adder for signal <_n0195> created at line 36.
+    Found 16-bit adder for signal <_n0196> created at line 36.
+    Found 16-bit adder for signal <_n0197> created at line 36.
+    Found 16-bit adder for signal <_n0198> created at line 36.
+    Found 16-bit adder for signal <_n0199> created at line 36.
+    Found 16-bit adder for signal <_n0200> created at line 36.
+    Found 16-bit adder for signal <KERNEL_SUM> created at line 36.
+    Found 24-bit adder for signal <_n0202> created at line 41.
+    Found 24-bit adder for signal <_n0203> created at line 41.
+    Found 24-bit adder for signal <_n0204> created at line 41.
+    Found 24-bit adder for signal <_n0205> created at line 41.
+    Found 24-bit adder for signal <_n0206> created at line 41.
+    Found 24-bit adder for signal <_n0207> created at line 41.
+    Found 24-bit adder for signal <_n0208> created at line 41.
+    Found 24-bit adder for signal <CONV_SUM> created at line 41.
+    Found 8x8-bit multiplier for signal <multiples<8>> created at line 1417.
+    Found 8x8-bit multiplier for signal <multiples<7>> created at line 1417.
+    Found 8x8-bit multiplier for signal <multiples<6>> created at line 1417.
+    Found 8x8-bit multiplier for signal <multiples<5>> created at line 1417.
+    Found 8x8-bit multiplier for signal <multiples<4>> created at line 1417.
+    Found 8x8-bit multiplier for signal <multiples<3>> created at line 1417.
+    Found 8x8-bit multiplier for signal <multiples<2>> created at line 1417.
+    Found 8x8-bit multiplier for signal <multiples<1>> created at line 1417.
+    Found 8x8-bit multiplier for signal <multiples<0>> created at line 1417.
     Summary:
 	inferred   9 Multiplier(s).
 	inferred  16 Adder/Subtractor(s).
@@ -211,7 +211,7 @@ HDL Synthesis Report
 
 Macro Statistics
 # Multipliers                                          : 9
- 9x8-bit multiplier                                    : 9
+ 8x8-bit multiplier                                    : 9
 # Adders/Subtractors                                   : 16
  16-bit adder                                          : 8
  24-bit adder                                          : 8
@@ -226,4 +226,270 @@ Macro Statistics
 =========================================================================
 *                       Advanced HDL Synthesis                          *
 =========================================================================
+
+
+Synthesizing (advanced) Unit <LINE_OPERATOR>.
+	The following adders/subtractors are grouped into adder tree <Madd_CONV_SUM1> :
+ 	<Madd__n0202> in block <LINE_OPERATOR>, 	<Madd__n0203> in block <LINE_OPERATOR>, 	<Madd__n0205> in block <LINE_OPERATOR>, 	<Madd__n0207> in block <LINE_OPERATOR>, 	<Madd__n0206> in block <LINE_OPERATOR>.
+	The following adders/subtractors are grouped into adder tree <Madd_KERNEL_SUM1> :
+ 	<Madd__n0194> in block <LINE_OPERATOR>, 	<Madd__n0195> in block <LINE_OPERATOR>, 	<Madd__n0197> in block <LINE_OPERATOR>, 	<Madd__n0199> in block <LINE_OPERATOR>, 	<Madd__n0198> in block <LINE_OPERATOR>.
+	Multiplier <Mmult_multiples<7>> in block <LINE_OPERATOR> and adder/subtractor <ADDER_FOR_MULTADD_Madd7> in block <LINE_OPERATOR> are combined into a MAC<Maddsub_multiples<7>>.
+	Multiplier <Mmult_multiples<8>> in block <LINE_OPERATOR> and adder/subtractor <ADDER_FOR_MULTADD_Madd6> in block <LINE_OPERATOR> are combined into a MAC<Maddsub_multiples<8>>.
+	Multiplier <Mmult_multiples<0>> in block <LINE_OPERATOR> and adder/subtractor <ADDER_FOR_MULTADD_Madd5> in block <LINE_OPERATOR> are combined into a MAC<Maddsub_multiples<0>>.
+	Multiplier <Mmult_multiples<1>> in block <LINE_OPERATOR> and adder/subtractor <ADDER_FOR_MULTADD_Madd4> in block <LINE_OPERATOR> are combined into a MAC<Maddsub_multiples<1>>.
+	Multiplier <Mmult_multiples<2>> in block <LINE_OPERATOR> and adder/subtractor <ADDER_FOR_MULTADD_Madd3> in block <LINE_OPERATOR> are combined into a MAC<Maddsub_multiples<2>>.
+	Multiplier <Mmult_multiples<3>> in block <LINE_OPERATOR> and adder/subtractor <ADDER_FOR_MULTADD_Madd2> in block <LINE_OPERATOR> are combined into a MAC<Maddsub_multiples<3>>.
+	Multiplier <Mmult_multiples<4>> in block <LINE_OPERATOR> and adder/subtractor <ADDER_FOR_MULTADD_Madd1> in block <LINE_OPERATOR> are combined into a MAC<Maddsub_multiples<4>>.
+	Multiplier <Mmult_multiples<6>> in block <LINE_OPERATOR> and adder/subtractor <ADDER_FOR_MULTADD_Madd> in block <LINE_OPERATOR> are combined into a MAC<Maddsub_multiples<6>>.
+Unit <LINE_OPERATOR> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# MACs                                                 : 8
+ 8x8-to-24-bit MAC                                     : 8
+# Multipliers                                          : 1
+ 8x8-bit multiplier                                    : 1
+# Adder Trees                                          : 1
+ 16-bit / 9-inputs adder tree                          : 1
+# Registers                                            : 2120
+ Flip-Flops                                            : 2120
+# Multiplexers                                         : 256
+ 8-bit 2-to-1 multiplexer                              : 256
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <LINE_OPERATOR> ...
+
+Optimizing unit <REG_1> ...
+
+Optimizing unit <REG_2> ...
+
+Optimizing unit <LINE_REG> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block LINE_OPERATOR, actual ratio is 5.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 2120
+ Flip-Flops                                            : 2120
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : LINE_OPERATOR.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 2324
+#      GND                         : 1
+#      LUT2                        : 25
+#      LUT3                        : 68
+#      LUT4                        : 48
+#      LUT5                        : 2040
+#      MUXCY                       : 68
+#      VCC                         : 1
+#      XORCY                       : 73
+# FlipFlops/Latches                : 2120
+#      FDCE                        : 2120
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 140
+#      IBUF                        : 92
+#      OBUF                        : 48
+# DSPs                             : 9
+#      DSP48E1                     : 9
+
+Device utilization summary:
+---------------------------
+
+Selected Device : xa7z020clg400-1i 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:            2048  out of  106400     1%  
+ Number of Slice LUTs:                 2181  out of  53200     4%  
+    Number used as Logic:              2181  out of  53200     4%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   2186
+   Number with an unused Flip Flop:     138  out of   2186     6%  
+   Number with an unused LUT:             5  out of   2186     0%  
+   Number of fully used LUT-FF pairs:  2043  out of   2186    93%  
+   Number of unique control sets:         2
+
+IO Utilization: 
+ Number of IOs:                         141
+ Number of bonded IOBs:                 141  out of    125   112% (*) 
+    IOB Flip Flops/Latches:              72
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+ Number of DSP48E1s:                      9  out of    220     4%  
+
+WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 2120  |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 0.756ns (Maximum Frequency: 1322.751MHz)
+   Minimum input arrival time before clock: 1.486ns
+   Maximum output required time after clock: 18.728ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 0.756ns (frequency: 1322.751MHz)
+  Total number of paths / destination ports: 2040 / 2040
+-------------------------------------------------------------------------
+Delay:               0.756ns (Levels of Logic = 1)
+  Source:            image_line/regs[8].reg/reg_internal/reg_7 (FF)
+  Destination:       image_line/regs[7].reg/reg_internal/reg_7 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: image_line/regs[8].reg/reg_internal/reg_7 to image_line/regs[7].reg/reg_internal/reg_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            12   0.232   0.481  image_line/regs[8].reg/reg_internal/reg_7 (image_line/regs[8].reg/reg_internal/reg_7)
+     LUT5:I4->O            1   0.043   0.000  image_line/regs[7].reg/Mmux_reg_in81 (image_line/regs[7].reg/reg_in<7>)
+     FDCE:D                   -0.001          image_line/regs[7].reg/reg_internal/reg_7
+    ----------------------------------------
+    Total                      0.756ns (0.275ns logic, 0.481ns route)
+                                       (36.4% logic, 63.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 24720 / 6360
+-------------------------------------------------------------------------
+Offset:              1.486ns (Levels of Logic = 3)
+  Source:            LINE_LENGTH<8> (PAD)
+  Destination:       image_line/regs[254].reg/reg_internal/reg_7 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: LINE_LENGTH<8> to image_line/regs[254].reg/reg_internal/reg_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   0.000   0.568  LINE_LENGTH_8_IBUF (LINE_LENGTH_8_IBUF)
+     LUT3:I0->O          512   0.043   0.832  image_line/input_sel<127><8>11 (image_line/input_sel<127><8>1)
+     LUT5:I1->O            1   0.043   0.000  image_line/regs[190].reg/Mmux_reg_in11 (image_line/regs[190].reg/reg_in<0>)
+     FDCE:D                   -0.001          image_line/regs[190].reg/reg_internal/reg_0
+    ----------------------------------------
+    Total                      1.486ns (0.086ns logic, 1.400ns route)
+                                       (5.8% logic, 94.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 29699762454062632 / 48
+-------------------------------------------------------------------------
+Offset:              18.728ns (Levels of Logic = 10)
+  Source:            kernel_slice/reg_47 (FF)
+  Destination:       CONV_SUM<23> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: kernel_slice/reg_47 to CONV_SUM<23>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            36   0.232   0.552  kernel_slice/reg_47 (kernel_slice/reg_47)
+     DSP48E1:A7->PCOUT47    1   4.036   0.000  Mmult_multiples<5> (Mmult_multiples<5>_PCOUT_to_Maddsub_multiples<6>_PCIN_47)
+     DSP48E1:PCIN47->PCOUT47    1   1.713   0.000  Maddsub_multiples<6> (Maddsub_multiples<6>_PCOUT_to_Maddsub_multiples<4>_PCIN_47)
+     DSP48E1:PCIN47->PCOUT47    1   1.713   0.000  Maddsub_multiples<4> (Maddsub_multiples<4>_PCOUT_to_Maddsub_multiples<3>_PCIN_47)
+     DSP48E1:PCIN47->PCOUT47    1   1.713   0.000  Maddsub_multiples<3> (Maddsub_multiples<3>_PCOUT_to_Maddsub_multiples<2>_PCIN_47)
+     DSP48E1:PCIN47->PCOUT47    1   1.713   0.000  Maddsub_multiples<2> (Maddsub_multiples<2>_PCOUT_to_Maddsub_multiples<1>_PCIN_47)
+     DSP48E1:PCIN47->PCOUT47    1   1.713   0.000  Maddsub_multiples<1> (Maddsub_multiples<1>_PCOUT_to_Maddsub_multiples<0>_PCIN_47)
+     DSP48E1:PCIN47->PCOUT47    1   1.713   0.000  Maddsub_multiples<0> (Maddsub_multiples<0>_PCOUT_to_Maddsub_multiples<8>_PCIN_47)
+     DSP48E1:PCIN47->PCOUT47    1   1.713   0.000  Maddsub_multiples<8> (Maddsub_multiples<8>_PCOUT_to_Maddsub_multiples<7>_PCIN_47)
+     DSP48E1:PCIN47->P23    1   1.518   0.399  Maddsub_multiples<7> (ADDER_FOR_MULTADD_Madd_237)
+     OBUF:I->O                 0.000          CONV_SUM_23_OBUF (CONV_SUM<23>)
+    ----------------------------------------
+    Total                     18.728ns (17.777ns logic, 0.951ns route)
+                                       (94.9% logic, 5.1% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    0.756|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 11.40 secs
+ 
+--> 
+
+Total memory usage is 4719240 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
 

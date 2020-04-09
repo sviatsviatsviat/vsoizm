@@ -1,5 +1,1 @@
-work	"ConvolutionPack.vhd"
-work	"DBL_IN_REG.vhd"
-work	"LINE_OPERATOR.vhd"
-work	"LINE_REG.vhd"
-work	"REG.vhd"
+work	"DIVIDER.vhd"

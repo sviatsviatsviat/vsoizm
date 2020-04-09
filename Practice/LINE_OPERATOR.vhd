@@ -19,8 +19,7 @@
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.STD_LOGIC_ARITH.ALL;
-use IEEE.STD_LOGIC_UNSIGNED.ALL;
+use IEEE.NUMERIC_STD.ALL;
 
 library work;
 use work.ConvolutionPack.ALL;
@@ -71,7 +70,7 @@ end component REG;
 
 type t_lvals is array (KERNELSIZE-1 downto 0) of unsigned(WORD-1 downto 0);
 type t_kvals is array (KERNELSIZE-1 downto 0) of signed(WORD-1 downto 0);
-type t_multiples is array (KERNELSIZE-1 downto 0) of signed(2*WORD downto 0);
+type t_multiples is array (KERNELSIZE-1 downto 0) of signed(2*WORD-1 downto 0);
 type t_sums is array (KERNELSIZE downto 0) of signed(3*WORD-1 downto 0);
 type t_ksums is array (KERNELSIZE downto 0) of signed(2*WORD-1 downto 0);
 
@@ -93,7 +92,7 @@ image_line: LINE_REG generic map(LINESIZE, KERNELSIZE, WORD) port map(CLK, RST, 
 multiplicators: for i in KERNELSIZE downto 1 generate
 	lvals(i-1) <= unsigned(line_output(WORD*i-1 downto WORD*(i-1)));
 	kvals(i-1) <= signed(kernel_values(WORD*i-1 downto WORD*(i-1)));
-	multiples(i-1) <= lvals(i-1)*kvals(i-1);
+	multiples(i-1) <= to_integer(lvals(i-1))*kvals(i-1);
 end generate;
 
 sums(KERNELSIZE) <= mzero;
