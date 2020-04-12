@@ -40,9 +40,7 @@ ARCHITECTURE behavior OF TB_LINE_OPERATOR IS
     PORT(
          CLK : IN  std_logic;
          RST : IN  std_logic;
-         KERNEL_EN : IN  std_logic;
          KERNEL_IN : IN  std_logic_vector(71 downto 0);
-         KERNEL_SUM : OUT signed(15 downto 0);
          LINE_EN : IN  std_logic;
          LINE_LENGTH : IN integer range 1 to 256;
          LINE_IN : IN  std_logic_vector(7 downto 0);
@@ -55,7 +53,6 @@ ARCHITECTURE behavior OF TB_LINE_OPERATOR IS
    --Inputs
    signal CLK : std_logic := '0';
    signal RST : std_logic := '0';
-   signal KERNEL_EN : std_logic := '0';
    signal KERNEL_IN : std_logic_vector(71 downto 0) := (others => '0');
    signal LINE_EN : std_logic := '0';
    signal LINE_LENGTH : integer range 1 to 256 := 12;
@@ -78,9 +75,7 @@ BEGIN
    uut: LINE_OPERATOR PORT MAP (
           CLK => CLK,
           RST => RST,
-          KERNEL_EN => KERNEL_EN,
           KERNEL_IN => KERNEL_IN,
-          KERNEL_SUM => KERNEL_SUM,
           LINE_EN => LINE_EN,
           LINE_LENGTH => LINE_LENGTH,
           LINE_IN => LINE_IN,
@@ -107,12 +102,10 @@ wait for CLK_period/2;
 		RST <= '0'; wait for CLK_period;
 		
 		KERNEL_IN(23 downto 0) <= neiborgs & core & neiborgs;
-		KERNEL_EN <= '1'; wait for CLK_period;
-		KERNEL_EN <= '0';
-		
+
 		LINE_IN <= (others => '0');
 		LINE_EN <= '1';
-		for i in 1 to 25 loop
+		for i in 0 to 25 loop
 		
 			wait for CLK_period;
 			LINE_IN <= std_logic_vector(to_unsigned(i, 8));

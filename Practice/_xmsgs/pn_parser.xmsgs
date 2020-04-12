@@ -11,6 +11,9 @@
 <msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Master Degree/VSOIZM/vsoizm/Practice/CONTROLLER.vhd&quot; into library work</arg>
 </msg>
 
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Master Degree/VSOIZM/vsoizm/Practice/CONVOLUTION_MODULE.vhd&quot; into library work</arg>
+</msg>
+
 <msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Master Degree/VSOIZM/vsoizm/Practice/CONVOLUTION_OPERATOR.vhd&quot; into library work</arg>
 </msg>
 

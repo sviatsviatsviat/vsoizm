@@ -1,0 +1,6 @@
+E:\Master Degree\VSOIZM\vsoizm\ImageConvertor\ImageConverter\ImageConverter\bin\Debug\ImageConverter.exe.config
+E:\Master Degree\VSOIZM\vsoizm\ImageConvertor\ImageConverter\ImageConverter\bin\Debug\ImageConverter.exe
+E:\Master Degree\VSOIZM\vsoizm\ImageConvertor\ImageConverter\ImageConverter\bin\Debug\ImageConverter.pdb
+E:\Master Degree\VSOIZM\vsoizm\ImageConvertor\ImageConverter\ImageConverter\obj\Debug\ImageConverter.csprojAssemblyReference.cache
+E:\Master Degree\VSOIZM\vsoizm\ImageConvertor\ImageConverter\ImageConverter\obj\Debug\ImageConverter.exe
+E:\Master Degree\VSOIZM\vsoizm\ImageConvertor\ImageConverter\ImageConverter\obj\Debug\ImageConverter.pdb

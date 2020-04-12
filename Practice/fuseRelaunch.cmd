@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "secureip" -o "E:/Master Degree/VSOIZM/vsoizm/Practice/TB_CONVOLUTION_UNIT_isim_beh.exe" -prj "E:/Master Degree/VSOIZM/vsoizm/Practice/TB_CONVOLUTION_UNIT_beh.prj" "work.TB_CONVOLUTION_UNIT" 
+-intstyle "ise" -incremental -lib "secureip" -o "E:/Master Degree/VSOIZM/vsoizm/Practice/TB_CONVOLUTION_MODULE_TEST_isim_beh.exe" -prj "E:/Master Degree/VSOIZM/vsoizm/Practice/TB_CONVOLUTION_MODULE_TEST_beh.prj" "work.TB_CONVOLUTION_MODULE_TEST" 

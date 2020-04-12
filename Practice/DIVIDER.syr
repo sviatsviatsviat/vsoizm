@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.07 secs
+Total CPU time to Xst completion: 0.06 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.07 secs
+Total CPU time to Xst completion: 0.06 secs
  
 --> Reading design: DIVIDER.prj
 
@@ -348,14 +348,14 @@ Top Level Output File Name         : DIVIDER.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 1755
+# BELS                             : 1765
 #      GND                         : 1
 #      INV                         : 51
 #      LUT2                        : 7
-#      LUT3                        : 148
-#      LUT4                        : 232
-#      LUT5                        : 207
-#      LUT6                        : 332
+#      LUT3                        : 146
+#      LUT4                        : 238
+#      LUT5                        : 209
+#      LUT6                        : 336
 #      MUXCY                       : 451
 #      VCC                         : 1
 #      XORCY                       : 325
@@ -370,14 +370,14 @@ Selected Device : xa7z020clg400-1i
 
 
 Slice Logic Utilization: 
- Number of Slice LUTs:                  977  out of  53200     1%  
-    Number used as Logic:               977  out of  53200     1%  
+ Number of Slice LUTs:                  987  out of  53200     1%  
+    Number used as Logic:               987  out of  53200     1%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:    977
-   Number with an unused Flip Flop:     977  out of    977   100%  
-   Number with an unused LUT:             0  out of    977     0%  
-   Number of fully used LUT-FF pairs:     0  out of    977     0%  
+ Number of LUT Flip Flop pairs used:    987
+   Number with an unused Flip Flop:     987  out of    987   100%  
+   Number with an unused LUT:             0  out of    987     0%  
+   Number of fully used LUT-FF pairs:     0  out of    987     0%  
    Number of unique control sets:         0
 
 IO Utilization: 
@@ -417,7 +417,7 @@ Speed Grade: -1
    Minimum period: No path found
    Minimum input arrival time before clock: No path found
    Maximum output required time after clock: No path found
-   Maximum combinational path delay: 50.671ns
+   Maximum combinational path delay: 51.462ns
 
 Timing Details:
 ---------------
@@ -425,9 +425,9 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 2906531475866712100000000000000000000 / 8
+  Total number of paths / destination ports: 3076276228128971400000000000000000000 / 8
 -------------------------------------------------------------------------
-Delay:               50.671ns (Levels of Logic = 234)
+Delay:               51.462ns (Levels of Logic = 235)
   Source:            DIVIDER<0> (PAD)
   Destination:       RESULT<7> (PAD)
 
@@ -451,7 +451,7 @@ Delay:               50.671ns (Levels of Logic = 234)
      MUXCY:CI->O           1   0.013   0.000  VALUE[23]_DIVIDER[15]_div_1/Msub_b[15]_unary_minus_3_OUT_cy<11> (VALUE[23]_DIVIDER[15]_div_1/Msub_b[15]_unary_minus_3_OUT_cy<11>)
      XORCY:CI->O           9   0.251   0.516  VALUE[23]_DIVIDER[15]_div_1/Msub_b[15]_unary_minus_3_OUT_xor<12> (VALUE[23]_DIVIDER[15]_div_1/b[15]_unary_minus_3_OUT<12>)
      LUT3:I1->O           35   0.043   0.823  VALUE[23]_DIVIDER[15]_div_1/Mmux_b[15]_b[15]_mux_3_OUT41 (VALUE[23]_DIVIDER[15]_div_1/b[15]_b[15]_mux_3_OUT<12>)
-     LUT6:I0->O            1   0.043   0.670  VALUE[23]_DIVIDER[15]_div_1/BUS_0004_INV_824_o324_SW0 (N2)
+     LUT6:I0->O            1   0.043   0.670  VALUE[23]_DIVIDER[15]_div_1/BUS_0004_INV_824_o324_SW0 (N20)
      LUT6:I0->O            6   0.043   0.609  VALUE[23]_DIVIDER[15]_div_1/BUS_0004_INV_824_o324 (VALUE[23]_DIVIDER[15]_div_1/BUS_0004_INV_824_o32)
      LUT6:I2->O            4   0.043   0.682  VALUE[23]_DIVIDER[15]_div_1/Mmux_a[23]_GND_5_o_MUX_251_o111 (VALUE[23]_DIVIDER[15]_div_1/a[23]_GND_5_o_MUX_252_o)
      LUT6:I1->O            4   0.043   0.682  VALUE[23]_DIVIDER[15]_div_1/BUS_0004_INV_824_o3 (VALUE[23]_DIVIDER[15]_div_1/BUS_0004_INV_824_o)
@@ -638,15 +638,15 @@ Delay:               50.671ns (Levels of Logic = 234)
      LUT5:I0->O            2   0.043   0.582  VALUE[23]_DIVIDER[15]_div_1/Mmux_n1731121 (VALUE[23]_DIVIDER[15]_div_1/n1731<1>)
      LUT4:I0->O            0   0.043   0.000  VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_lutdi (VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_lutdi)
      MUXCY:DI->O           1   0.218   0.000  VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<0> (VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<0>)
-     MUXCY:CI->O           1   0.013   0.000  VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<1> (VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<1>)
-     MUXCY:CI->O           1   0.013   0.000  VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<2> (VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<2>)
-     MUXCY:CI->O           1   0.013   0.000  VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<3> (VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<3>)
-     MUXCY:CI->O           1   0.013   0.000  VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<4> (VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<4>)
-     MUXCY:CI->O           1   0.013   0.000  VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<5> (VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<5>)
-     MUXCY:CI->O           1   0.013   0.000  VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<6> (VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<6>)
-     MUXCY:CI->O           1   0.013   0.000  VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<7> (VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<7>)
+     MUXCY:CI->O           1   0.012   0.000  VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<1> (VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<1>)
+     MUXCY:CI->O           1   0.012   0.000  VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<2> (VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<2>)
+     MUXCY:CI->O           1   0.012   0.000  VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<3> (VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<3>)
+     MUXCY:CI->O           1   0.012   0.000  VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<4> (VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<4>)
+     MUXCY:CI->O           1   0.012   0.000  VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<5> (VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<5>)
+     MUXCY:CI->O           1   0.012   0.000  VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<6> (VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<6>)
+     MUXCY:CI->O           1   0.012   0.000  VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<7> (VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<7>)
      MUXCY:CI->O           2   0.148   0.415  VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<8> (VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<8>)
-     LUT3:I2->O            1   0.043   0.000  VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<9>1 (VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<9>1)
+     LUT3:I2->O            1   0.043   0.000  VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<9> (VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_803_o_cy<9>)
      MUXCY:S->O            1   0.230   0.000  VALUE[23]_DIVIDER[15]_div_1/Madd_GND_5_o_BUS_0001_add_54_OUT[24:0]_cy<0> (VALUE[23]_DIVIDER[15]_div_1/Madd_GND_5_o_BUS_0001_add_54_OUT[24:0]_cy<0>)
      MUXCY:CI->O           1   0.013   0.000  VALUE[23]_DIVIDER[15]_div_1/Madd_GND_5_o_BUS_0001_add_54_OUT[24:0]_cy<1> (VALUE[23]_DIVIDER[15]_div_1/Madd_GND_5_o_BUS_0001_add_54_OUT[24:0]_cy<1>)
      MUXCY:CI->O           1   0.013   0.000  VALUE[23]_DIVIDER[15]_div_1/Madd_GND_5_o_BUS_0001_add_54_OUT[24:0]_cy<2> (VALUE[23]_DIVIDER[15]_div_1/Madd_GND_5_o_BUS_0001_add_54_OUT[24:0]_cy<2>)
@@ -665,14 +665,15 @@ Delay:               50.671ns (Levels of Logic = 234)
      MUXCY:CI->O           1   0.013   0.000  VALUE[23]_DIVIDER[15]_div_1/Madd_GND_5_o_BUS_0001_add_54_OUT[24:0]_cy<15> (VALUE[23]_DIVIDER[15]_div_1/Madd_GND_5_o_BUS_0001_add_54_OUT[24:0]_cy<15>)
      MUXCY:CI->O           1   0.013   0.000  VALUE[23]_DIVIDER[15]_div_1/Madd_GND_5_o_BUS_0001_add_54_OUT[24:0]_cy<16> (VALUE[23]_DIVIDER[15]_div_1/Madd_GND_5_o_BUS_0001_add_54_OUT[24:0]_cy<16>)
      MUXCY:CI->O           1   0.013   0.000  VALUE[23]_DIVIDER[15]_div_1/Madd_GND_5_o_BUS_0001_add_54_OUT[24:0]_cy<17> (VALUE[23]_DIVIDER[15]_div_1/Madd_GND_5_o_BUS_0001_add_54_OUT[24:0]_cy<17>)
-     XORCY:CI->O           1   0.251   0.576  VALUE[23]_DIVIDER[15]_div_1/Madd_GND_5_o_BUS_0001_add_54_OUT[24:0]_xor<18> (VALUE[23]_DIVIDER[15]_div_1/GND_5_o_BUS_0001_add_54_OUT[24:0]<18>)
-     LUT6:I2->O            1   0.043   0.548  Mmux_RESULT1117 (Mmux_RESULT1117)
-     LUT6:I3->O            8   0.043   0.455  Mmux_RESULT1118 (Mmux_RESULT111)
-     LUT6:I5->O            1   0.043   0.399  Mmux_RESULT61 (RESULT_5_OBUF)
-     OBUF:I->O                 0.000          RESULT_5_OBUF (RESULT<5>)
+     XORCY:CI->O           1   0.251   0.662  VALUE[23]_DIVIDER[15]_div_1/Madd_GND_5_o_BUS_0001_add_54_OUT[24:0]_xor<18> (VALUE[23]_DIVIDER[15]_div_1/GND_5_o_BUS_0001_add_54_OUT[24:0]<18>)
+     LUT6:I1->O            1   0.043   0.662  Mmux_RESULT1211 (Mmux_RESULT1211)
+     LUT5:I0->O            1   0.043   0.548  Mmux_RESULT1214_SW0 (N18)
+     LUT6:I3->O            8   0.043   0.455  Mmux_RESULT1214 (Mmux_RESULT12)
+     LUT6:I5->O            1   0.043   0.399  Mmux_RESULT1 (RESULT_0_OBUF)
+     OBUF:I->O                 0.000          RESULT_0_OBUF (RESULT<0>)
     ----------------------------------------
-    Total                     50.671ns (12.840ns logic, 37.832ns route)
-                                       (25.3% logic, 74.7% route)
+    Total                     51.462ns (12.883ns logic, 38.580ns route)
+                                       (25.0% logic, 75.0% route)
 
 =========================================================================
 
@@ -683,11 +684,11 @@ Cross Clock Domains Report:
 
 
 Total REAL time to Xst completion: 8.00 secs
-Total CPU time to Xst completion: 7.17 secs
+Total CPU time to Xst completion: 7.29 secs
  
 --> 
 
-Total memory usage is 4717320 kilobytes
+Total memory usage is 4717384 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

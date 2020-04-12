@@ -36,13 +36,9 @@ entity CONVOLUTION_UNIT is
 			  
 			  RES_WIDTH: out integer range 0 to LINESIZE-1;
 			  RES_HEIGHT: out integer range 0 to LINESIZE-1;
-			  
-			  KERNEL_RW: in std_logic;
-			  IMAGE_RW: in std_logic;
-			  RES_RW: in std_logic;
-			  
-			  KERNEL_MEM_IN: in std_logic_vector(WORD-1 downto 0);
-			  IMAGE_MEM_IN: in std_logic_vector(WORD-1 downto 0);
+			  			  
+			  --KERNEL_MEM_IN: in std_logic_vector(WORD-1 downto 0);
+			  --IMAGE_MEM_IN: in std_logic_vector(WORD-1 downto 0);
 			  
 			  --CONVOLUTION_RESULT: out std_logic_vector(WORD-1 downto 0); --dummy temp port
 			  RES_MEM_OUT: out std_logic_vector(WORD-1 downto 0);
@@ -53,38 +49,6 @@ entity CONVOLUTION_UNIT is
 end CONVOLUTION_UNIT;
 
 architecture Behavioral of CONVOLUTION_UNIT is
-
-component KERNEL is
-	 Generic (
-				 KERNELSIZE : integer := 9;
-				 WORD : integer := 8
-				);
-    Port ( CLK : in  STD_LOGIC;
-           RST : in  STD_LOGIC;
-           EN : in  STD_LOGIC;
-           SIZE : in integer range 0 to KERNELSIZE-1;
-           KERNEL_IN : in STD_LOGIC_VECTOR (WORD-1 downto 0);
-           KERNEL_OUT : out std_logic_vector(KERNELSIZE*KERNELSIZE*WORD-1 downto 0);
-			  KERNEL_SUM : out signed(WORD*2-1 downto 0)
-			  );
-end component KERNEL;
-
-component CONVOLUTION_OPERATOR is
-	 Generic (LINESIZE : integer := 256;
-				 KERNELSIZE : integer := 9;
-				 WORD : integer := 8
-			);
-    Port ( CLK : in  STD_LOGIC;
-           RST : in  STD_LOGIC;
-			  KERNEL_IN : in std_logic_vector(KERNELSIZE*KERNELSIZE*WORD-1 downto 0);
-			  KERNEL_SUM : in signed(WORD*2-1 downto 0);
-			  KERNEL_SIZE : in integer range 0 to KERNELSIZE-1;
-			  LINE_EN : in std_logic;
-			  LINE_LENGTH : in integer range 0 to LINESIZE-1;
-			  LINE_IN : in std_logic_vector(WORD-1 downto 0);
-			  CONV_RESULT: out std_logic_vector(WORD-1 downto 0)
-			  );
-end component CONVOLUTION_OPERATOR;
 
 component CONTROLLER is
 	 Generic (
@@ -144,14 +108,54 @@ component MATRIX_UNIT is
 			  DOUT : out  std_logic_vector(WORD-1 downto 0));
 end component MATRIX_UNIT;
 
+component CONVOLUTION_MODULE is
+	  	 Generic (LINESIZE : integer := 256;
+				 KERNELSIZE : integer := 9;
+				 WORD : integer := 8
+			);
+        Port ( CLK : in  STD_LOGIC;
+           RST : in  STD_LOGIC;
+           KERNEL_EN : in  STD_LOGIC;
+           KERNEL_IN : in STD_LOGIC_VECTOR (WORD-1 downto 0);
+			  KERNEL_SIZE : in integer range 0 to KERNELSIZE-1;
+			  LINE_EN : in std_logic;
+			  LINE_LENGTH : in integer range 0 to LINESIZE-1;
+			  LINE_IN : in std_logic_vector(WORD-1 downto 0);
+			  CONV_RESULT: out std_logic_vector(WORD-1 downto 0)
+			  );
+end component CONVOLUTION_MODULE;
+
 signal kernel_en, line_en, res_en, kernel_done, line_done, res_done, conv_en: std_logic;
-signal kern_line, kern_col: integer range 0 to KERNELSIZE-1;
+signal kern_line, kern_col, kern_size: integer range 0 to KERNELSIZE-1;
 signal kernel_in, line_in, conv_res: std_logic_vector(WORD-1 downto 0);
-signal kernel_out: std_logic_vector(KERNELSIZE*KERNELSIZE*WORD-1 downto 0);
-signal kernel_sum: signed(WORD*2-1 downto 0);
-signal r_width, r_height, res_line, res_col, line_line, line_col: integer range 0 to LINESIZE-1;
+signal r_width, r_height, res_line, res_col, line_line, line_col, img_width, img_height: integer range 0 to LINESIZE-1;
+signal KERNEL_RW: std_logic;
+signal IMAGE_RW: std_logic;
+signal RES_RW: std_logic;
 
 begin
+
+conv_module: CONVOLUTION_MODULE generic map(LINESIZE, KERNELSIZE, WORD)
+	port map(CLK, RST, kernel_en, kernel_in, kern_size, conv_en, img_width, line_in, conv_res);
+
+paramSet: process(START, RST, KERNEL_SIZE, IMAGE_WIDTH, IMAGE_HEIGHT)
+begin
+	if (RST='1') then
+		img_width <= 0;
+		img_height <= 0;
+		kern_size <= 0;
+		KERNEL_RW <= '0';
+		IMAGE_RW <= '0';
+		RES_RW <= '0';
+	elsif (rising_edge(START)) then
+		img_width <= IMAGE_WIDTH;
+		img_height <= IMAGE_HEIGHT;
+		kern_size <= KERNEL_SIZE;
+		KERNEL_RW <= '0';
+		IMAGE_RW <= '0';
+		RES_RW <= '1';
+	end if;
+end process;
 
 RES_WIDTH <= r_width;
 RES_HEIGHT <= r_height;
@@ -166,17 +170,11 @@ brain: CONTROLLER generic map(LINESIZE, KERNELSIZE, WORD)
 		HALT, ERROR
 		);
 
-kern: KERNEL generic map(KERNELSIZE, WORD)
-	port map(CLK, RST, kernel_en, KERNEL_SIZE, kernel_in, kernel_out, kernel_sum);
-	
-convolution: CONVOLUTION_OPERATOR generic map(LINESIZE, KERNELSIZE, WORD)
-	port map(CLK, RST, kernel_out, kernel_sum, KERNEL_SIZE, conv_en, image_width, line_in, conv_res);
-
 image_mem: MATRIX_UNIT generic map(LINESIZE, WORD, WORD*2, WORD)
-	port map(CLK, RST, IMAGE_RW, line_en, IMAGE_WIDTH, IMAGE_HEIGHT, line_done, line_line, line_col, IMAGE_MEM_IN, line_in);
+	port map(CLK, RST, IMAGE_RW, line_en, img_width, img_height, line_done, line_line, line_col, (others => '0'), line_in);
 	
 kernel_mem: MATRIX_UNIT generic map(KERNELSIZE, 4, WORD, WORD)
-	port map(CLK, RST, KERNEL_RW, kernel_en, KERNEL_SIZE, KERNEL_SIZE, kernel_done, kern_line, kern_col, KERNEL_MEM_IN, kernel_in);
+	port map(CLK, RST, KERNEL_RW, kernel_en, kern_size, kern_size, kernel_done, kern_line, kern_col, (others => '0'), kernel_in);
 	
 image_out_mem: MATRIX_UNIT generic map(LINESIZE, WORD, WORD*2, WORD)
 	port map(CLK, RST, RES_RW, res_en, r_width, r_height, res_done, res_line, res_col, conv_res, RES_MEM_OUT);

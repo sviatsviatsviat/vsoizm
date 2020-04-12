@@ -33,6 +33,24 @@
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="CONTROLLER_envsettings.html"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="CONTROLLER_summary.html"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CONTROLLER_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="CONVOLUTION_MODULE.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="CONVOLUTION_MODULE.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="CONVOLUTION_MODULE.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="CONVOLUTION_MODULE.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="CONVOLUTION_MODULE.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="CONVOLUTION_MODULE.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CONVOLUTION_MODULE.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="CONVOLUTION_MODULE.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="CONVOLUTION_MODULE.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="CONVOLUTION_MODULE.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="CONVOLUTION_MODULE_envsettings.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="CONVOLUTION_MODULE_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="CONVOLUTION_MODULE_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="CONVOLUTION_MODULE_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CONVOLUTION_MODULE_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CONVOLUTION_MODULE_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="CONVOLUTION_MODULE_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CONVOLUTION_MODULE_xst.xrpt"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="CONVOLUTION_OPERATOR.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="CONVOLUTION_OPERATOR.lso"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="CONVOLUTION_OPERATOR.ngc"/>
@@ -156,16 +174,18 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="REG.xst"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="REG_xst.xrpt"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_CONTROLLER_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_CONVOLUTION_UNIT_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_CONVOLUTION_MODULE_TEST_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_CONVOLUTION_MODULE_TEST_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TB_CONVOLUTION_MODULE_TEST_isim_beh.wdb"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_CONVOLUTION_UNIT_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TB_CONVOLUTION_UNIT_isim_beh.wdb"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_DBL_IN_REG_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_DIVIDER_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_LINE_OPERATOR_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_LINE_OPERATOR_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TB_LINE_OPERATOR_isim_beh.wdb"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_LINE_REG_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_RAM_MATRIX_RDR_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
@@ -173,18 +193,20 @@
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1586624636" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1586624636">
+    <transform xil_pn:end_ts="1586728406" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1586728406">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1586632294" xil_pn:in_ck="3604426929017587797" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1586632294">
+    <transform xil_pn:end_ts="1586729472" xil_pn:in_ck="7827832958859402195" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1586729472">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="CONTROLLER.vhd"/>
+      <outfile xil_pn:name="CONVOLUTION_MODULE.vhd"/>
       <outfile xil_pn:name="CONVOLUTION_OPERATOR.vhd"/>
       <outfile xil_pn:name="CONVOLUTION_UNIT.vhd"/>
       <outfile xil_pn:name="ConvolutionPack.vhd"/>
@@ -198,6 +220,7 @@
       <outfile xil_pn:name="RAM_UNIT.vhd"/>
       <outfile xil_pn:name="REG.vhd"/>
       <outfile xil_pn:name="TB_CONTROLLER.vhd"/>
+      <outfile xil_pn:name="TB_CONVOLUTION_MODULE_TEST.vhd"/>
       <outfile xil_pn:name="TB_CONVOLUTION_UNIT.vhd"/>
       <outfile xil_pn:name="TB_DBL_IN_REG.vhd"/>
       <outfile xil_pn:name="TB_DIVIDER.vhd"/>
@@ -205,22 +228,23 @@
       <outfile xil_pn:name="TB_LINE_REG.vhd"/>
       <outfile xil_pn:name="TB_RAM_MATRIX_RDR.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1586630708" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="5861576545095836842" xil_pn:start_ts="1586630708">
+    <transform xil_pn:end_ts="1586728406" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-7435726461274513" xil_pn:start_ts="1586728406">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1586630708" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="7114133126496877852" xil_pn:start_ts="1586630708">
+    <transform xil_pn:end_ts="1586728406" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-1628833492861398175" xil_pn:start_ts="1586728406">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1586630453" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-3941743760205406149" xil_pn:start_ts="1586630453">
+    <transform xil_pn:end_ts="1586729472" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-4543929235119669629" xil_pn:start_ts="1586729472">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1586632294" xil_pn:in_ck="3604426929017587797" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1586632294">
+    <transform xil_pn:end_ts="1586729472" xil_pn:in_ck="7827832958859402195" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1586729472">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="CONTROLLER.vhd"/>
+      <outfile xil_pn:name="CONVOLUTION_MODULE.vhd"/>
       <outfile xil_pn:name="CONVOLUTION_OPERATOR.vhd"/>
       <outfile xil_pn:name="CONVOLUTION_UNIT.vhd"/>
       <outfile xil_pn:name="ConvolutionPack.vhd"/>
@@ -234,6 +258,7 @@
       <outfile xil_pn:name="RAM_UNIT.vhd"/>
       <outfile xil_pn:name="REG.vhd"/>
       <outfile xil_pn:name="TB_CONTROLLER.vhd"/>
+      <outfile xil_pn:name="TB_CONVOLUTION_MODULE_TEST.vhd"/>
       <outfile xil_pn:name="TB_CONVOLUTION_UNIT.vhd"/>
       <outfile xil_pn:name="TB_DBL_IN_REG.vhd"/>
       <outfile xil_pn:name="TB_DIVIDER.vhd"/>
@@ -241,24 +266,24 @@
       <outfile xil_pn:name="TB_LINE_REG.vhd"/>
       <outfile xil_pn:name="TB_RAM_MATRIX_RDR.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1586632297" xil_pn:in_ck="3604426929017587797" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4218659671639018520" xil_pn:start_ts="1586632294">
+    <transform xil_pn:end_ts="1586730076" xil_pn:in_ck="7827832958859402195" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-8604068098919370878" xil_pn:start_ts="1586730071">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="TB_CONVOLUTION_UNIT_beh.prj"/>
-      <outfile xil_pn:name="TB_CONVOLUTION_UNIT_isim_beh.exe"/>
+      <outfile xil_pn:name="TB_CONVOLUTION_MODULE_TEST_beh.prj"/>
+      <outfile xil_pn:name="TB_CONVOLUTION_MODULE_TEST_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1586632297" xil_pn:in_ck="1792297883217547870" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="4043930629553488709" xil_pn:start_ts="1586632297">
+    <transform xil_pn:end_ts="1586730077" xil_pn:in_ck="4022878157646704486" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6564517575753103160" xil_pn:start_ts="1586730076">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="TB_CONVOLUTION_UNIT_isim_beh.wdb"/>
+      <outfile xil_pn:name="TB_CONVOLUTION_MODULE_TEST_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>
@@ -266,54 +291,49 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1586632191" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-4847437082745531276" xil_pn:start_ts="1586632191">
+    <transform xil_pn:end_ts="1586729308" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-8526188069378422724" xil_pn:start_ts="1586729308">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1586632191" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-3941743760205406149" xil_pn:start_ts="1586632191">
+    <transform xil_pn:end_ts="1586729308" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-4543929235119669629" xil_pn:start_ts="1586729308">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1586632191" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1586632191">
+    <transform xil_pn:end_ts="1586729308" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1586729308">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1586632191" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-7749703640787048574" xil_pn:start_ts="1586632191">
+    <transform xil_pn:end_ts="1586729308" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="5563053925417124746" xil_pn:start_ts="1586729308">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1586632191" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="8243037837698806969" xil_pn:start_ts="1586632191">
+    <transform xil_pn:end_ts="1586729308" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="8243037837698806969" xil_pn:start_ts="1586729308">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1586632191" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="7099271553629744389" xil_pn:start_ts="1586632191">
+    <transform xil_pn:end_ts="1586729308" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-2342982463718461427" xil_pn:start_ts="1586729308">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1586632256" xil_pn:in_ck="6616147627081902736" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="1664942168366672898" xil_pn:start_ts="1586632191">
+    <transform xil_pn:end_ts="1586729381" xil_pn:in_ck="-1884049639932202651" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="7691800065494551306" xil_pn:start_ts="1586729372">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="CONTROLLER.ngr"/>
-      <outfile xil_pn:name="CONVOLUTION_OPERATOR.ngr"/>
-      <outfile xil_pn:name="CONVOLUTION_UNIT.lso"/>
-      <outfile xil_pn:name="CONVOLUTION_UNIT.ngc"/>
-      <outfile xil_pn:name="CONVOLUTION_UNIT.ngr"/>
-      <outfile xil_pn:name="CONVOLUTION_UNIT.prj"/>
-      <outfile xil_pn:name="CONVOLUTION_UNIT.stx"/>
-      <outfile xil_pn:name="CONVOLUTION_UNIT.syr"/>
-      <outfile xil_pn:name="CONVOLUTION_UNIT.xst"/>
-      <outfile xil_pn:name="CONVOLUTION_UNIT_xst.xrpt"/>
-      <outfile xil_pn:name="DBL_IN_REG.ngr"/>
+      <outfile xil_pn:name="DIVIDER.lso"/>
+      <outfile xil_pn:name="DIVIDER.ngc"/>
       <outfile xil_pn:name="DIVIDER.ngr"/>
-      <outfile xil_pn:name="KERNEL.ngr"/>
-      <outfile xil_pn:name="LINE_OPERATOR.ngr"/>
-      <outfile xil_pn:name="LINE_REG.ngr"/>
-      <outfile xil_pn:name="RAM_IN.ngr"/>
-      <outfile xil_pn:name="RAM_MATRIX_RDR.ngr"/>
-      <outfile xil_pn:name="REG.ngr"/>
+      <outfile xil_pn:name="DIVIDER.prj"/>
+      <outfile xil_pn:name="DIVIDER.stx"/>
+      <outfile xil_pn:name="DIVIDER.syr"/>
+      <outfile xil_pn:name="DIVIDER.xst"/>
+      <outfile xil_pn:name="DIVIDER_xst.xrpt"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1586712555" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-7408684712706258659" xil_pn:start_ts="1586712555">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
   </transforms>
 

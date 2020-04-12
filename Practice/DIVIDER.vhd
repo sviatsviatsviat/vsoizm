@@ -43,7 +43,7 @@ constant zeros: std_logic_vector(2*WORD-1 downto 0) := (others => '0');
 
 begin
 
-conv_result <= mzero when DIVIDER = mzero else VALUE / DIVIDER;
+conv_result <= VALUE when DIVIDER = mzero else VALUE / DIVIDER;
 conv_trunc <= std_logic_vector(conv_result);
 
 processPixeResult: process(conv_result, conv_trunc)

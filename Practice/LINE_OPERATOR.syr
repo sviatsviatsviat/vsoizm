@@ -142,23 +142,23 @@ Synthesizing Unit <LINE_OPERATOR>.
         LINESIZE = 256
         KERNELSIZE = 9
         WORD = 8
-    Found 24-bit adder for signal <_n0117> created at line 39.
-    Found 24-bit adder for signal <_n0118> created at line 39.
-    Found 24-bit adder for signal <_n0119> created at line 39.
-    Found 24-bit adder for signal <_n0120> created at line 39.
-    Found 24-bit adder for signal <_n0121> created at line 39.
-    Found 24-bit adder for signal <_n0122> created at line 39.
-    Found 24-bit adder for signal <_n0123> created at line 39.
+    Found 24-bit adder for signal <_n0135> created at line 39.
+    Found 24-bit adder for signal <_n0136> created at line 39.
+    Found 24-bit adder for signal <_n0137> created at line 39.
+    Found 24-bit adder for signal <_n0138> created at line 39.
+    Found 24-bit adder for signal <_n0139> created at line 39.
+    Found 24-bit adder for signal <_n0140> created at line 39.
+    Found 24-bit adder for signal <_n0141> created at line 39.
     Found 24-bit adder for signal <CONV_SUM> created at line 39.
-    Found 8x8-bit multiplier for signal <multiples<8>> created at line 1417.
-    Found 8x8-bit multiplier for signal <multiples<7>> created at line 1417.
-    Found 8x8-bit multiplier for signal <multiples<6>> created at line 1417.
-    Found 8x8-bit multiplier for signal <multiples<5>> created at line 1417.
-    Found 8x8-bit multiplier for signal <multiples<4>> created at line 1417.
-    Found 8x8-bit multiplier for signal <multiples<3>> created at line 1417.
-    Found 8x8-bit multiplier for signal <multiples<2>> created at line 1417.
-    Found 8x8-bit multiplier for signal <multiples<1>> created at line 1417.
-    Found 8x8-bit multiplier for signal <multiples<0>> created at line 1417.
+    Found 9x9-bit multiplier for signal <multiples<8>> created at line 1411.
+    Found 9x9-bit multiplier for signal <multiples<7>> created at line 1411.
+    Found 9x9-bit multiplier for signal <multiples<6>> created at line 1411.
+    Found 9x9-bit multiplier for signal <multiples<5>> created at line 1411.
+    Found 9x9-bit multiplier for signal <multiples<4>> created at line 1411.
+    Found 9x9-bit multiplier for signal <multiples<3>> created at line 1411.
+    Found 9x9-bit multiplier for signal <multiples<2>> created at line 1411.
+    Found 9x9-bit multiplier for signal <multiples<1>> created at line 1411.
+    Found 9x9-bit multiplier for signal <multiples<0>> created at line 1411.
     Summary:
 	inferred   9 Multiplier(s).
 	inferred   8 Adder/Subtractor(s).
@@ -193,7 +193,7 @@ HDL Synthesis Report
 
 Macro Statistics
 # Multipliers                                          : 9
- 8x8-bit multiplier                                    : 9
+ 9x9-bit multiplier                                    : 9
 # Adders/Subtractors                                   : 8
  24-bit adder                                          : 8
 # Registers                                            : 256
@@ -210,7 +210,7 @@ Macro Statistics
 
 Synthesizing (advanced) Unit <LINE_OPERATOR>.
 	The following adders/subtractors are grouped into adder tree <Madd_CONV_SUM1> :
- 	<Madd__n0117> in block <LINE_OPERATOR>, 	<Madd__n0118> in block <LINE_OPERATOR>, 	<Madd__n0120> in block <LINE_OPERATOR>, 	<Madd__n0122> in block <LINE_OPERATOR>, 	<Madd__n0121> in block <LINE_OPERATOR>.
+ 	<Madd__n0135> in block <LINE_OPERATOR>, 	<Madd__n0136> in block <LINE_OPERATOR>, 	<Madd__n0138> in block <LINE_OPERATOR>, 	<Madd__n0140> in block <LINE_OPERATOR>, 	<Madd__n0139> in block <LINE_OPERATOR>.
 	Multiplier <Mmult_multiples<7>> in block <LINE_OPERATOR> and adder/subtractor <ADDER_FOR_MULTADD_Madd7> in block <LINE_OPERATOR> are combined into a MAC<Maddsub_multiples<7>>.
 	Multiplier <Mmult_multiples<8>> in block <LINE_OPERATOR> and adder/subtractor <ADDER_FOR_MULTADD_Madd6> in block <LINE_OPERATOR> are combined into a MAC<Maddsub_multiples<8>>.
 	Multiplier <Mmult_multiples<0>> in block <LINE_OPERATOR> and adder/subtractor <ADDER_FOR_MULTADD_Madd5> in block <LINE_OPERATOR> are combined into a MAC<Maddsub_multiples<0>>.
@@ -226,9 +226,9 @@ Advanced HDL Synthesis Report
 
 Macro Statistics
 # MACs                                                 : 8
- 8x8-to-24-bit MAC                                     : 8
+ 8x9-to-24-bit MAC                                     : 8
 # Multipliers                                          : 1
- 8x8-bit multiplier                                    : 1
+ 8x9-bit multiplier                                    : 1
 # Registers                                            : 2048
  Flip-Flops                                            : 2048
 # Multiplexers                                         : 256
@@ -280,17 +280,18 @@ Top Level Output File Name         : LINE_OPERATOR.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 2062
+# BELS                             : 2314
 #      GND                         : 1
-#      LUT3                        : 20
-#      LUT5                        : 2040
+#      LUT2                        : 8
+#      LUT3                        : 2048
+#      LUT6                        : 256
 #      VCC                         : 1
 # FlipFlops/Latches                : 2048
 #      FDCE                        : 2048
 # Clock Buffers                    : 1
 #      BUFGP                       : 1
-# IO Buffers                       : 123
-#      IBUF                        : 91
+# IO Buffers                       : 122
+#      IBUF                        : 90
 #      OBUF                        : 32
 # DSPs                             : 9
 #      DSP48E1                     : 9
@@ -303,19 +304,19 @@ Selected Device : xa7z020clg400-1i
 
 Slice Logic Utilization: 
  Number of Slice Registers:            2048  out of  106400     1%  
- Number of Slice LUTs:                 2060  out of  53200     3%  
-    Number used as Logic:              2060  out of  53200     3%  
+ Number of Slice LUTs:                 2312  out of  53200     4%  
+    Number used as Logic:              2312  out of  53200     4%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   2064
-   Number with an unused Flip Flop:      16  out of   2064     0%  
-   Number with an unused LUT:             4  out of   2064     0%  
-   Number of fully used LUT-FF pairs:  2044  out of   2064    99%  
+ Number of LUT Flip Flop pairs used:   2313
+   Number with an unused Flip Flop:     265  out of   2313    11%  
+   Number with an unused LUT:             1  out of   2313     0%  
+   Number of fully used LUT-FF pairs:  2047  out of   2313    88%  
    Number of unique control sets:         1
 
 IO Utilization: 
- Number of IOs:                         124
- Number of bonded IOBs:                 124  out of    125    99%  
+ Number of IOs:                         123
+ Number of bonded IOBs:                 123  out of    125    98%  
 
 Specific Feature Utilization:
  Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
@@ -353,10 +354,10 @@ Timing Summary:
 ---------------
 Speed Grade: -1
 
-   Minimum period: 0.756ns (Maximum Frequency: 1322.751MHz)
-   Minimum input arrival time before clock: 1.486ns
-   Maximum output required time after clock: 18.462ns
-   Maximum combinational path delay: 18.455ns
+   Minimum period: 0.690ns (Maximum Frequency: 1449.275MHz)
+   Minimum input arrival time before clock: 2.055ns
+   Maximum output required time after clock: 18.581ns
+   Maximum combinational path delay: 18.224ns
 
 Timing Details:
 ---------------
@@ -364,10 +365,10 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'CLK'
-  Clock period: 0.756ns (frequency: 1322.751MHz)
+  Clock period: 0.690ns (frequency: 1449.276MHz)
   Total number of paths / destination ports: 2040 / 2040
 -------------------------------------------------------------------------
-Delay:               0.756ns (Levels of Logic = 1)
+Delay:               0.690ns (Levels of Logic = 1)
   Source:            image_line/regs[8].reg/reg_internal/reg_7 (FF)
   Destination:       image_line/regs[7].reg/reg_internal/reg_7 (FF)
   Source Clock:      CLK rising
@@ -377,39 +378,40 @@ Delay:               0.756ns (Levels of Logic = 1)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q            12   0.232   0.481  image_line/regs[8].reg/reg_internal/reg_7 (image_line/regs[8].reg/reg_internal/reg_7)
-     LUT5:I4->O            1   0.043   0.000  image_line/regs[7].reg/Mmux_reg_in81 (image_line/regs[7].reg/reg_in<7>)
+     FDCE:C->Q             2   0.232   0.415  image_line/regs[8].reg/reg_internal/reg_7 (image_line/regs[8].reg/reg_internal/reg_7)
+     LUT3:I2->O            1   0.043   0.000  image_line/regs[7].reg/Mmux_reg_in81 (image_line/regs[7].reg/reg_in<7>)
      FDCE:D                   -0.001          image_line/regs[7].reg/reg_internal/reg_7
     ----------------------------------------
-    Total                      0.756ns (0.275ns logic, 0.481ns route)
-                                       (36.4% logic, 63.6% route)
+    Total                      0.690ns (0.275ns logic, 0.415ns route)
+                                       (39.9% logic, 60.1% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
-  Total number of paths / destination ports: 24504 / 6144
+  Total number of paths / destination ports: 22528 / 6144
 -------------------------------------------------------------------------
-Offset:              1.486ns (Levels of Logic = 3)
-  Source:            LINE_LENGTH<8> (PAD)
-  Destination:       image_line/regs[254].reg/reg_internal/reg_7 (FF)
+Offset:              2.055ns (Levels of Logic = 4)
+  Source:            LINE_LENGTH<0> (PAD)
+  Destination:       image_line/regs[255].reg/reg_internal/reg_7 (FF)
   Destination Clock: CLK rising
 
-  Data Path: LINE_LENGTH<8> to image_line/regs[254].reg/reg_internal/reg_7
+  Data Path: LINE_LENGTH<0> to image_line/regs[255].reg/reg_internal/reg_7
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             4   0.000   0.568  LINE_LENGTH_8_IBUF (LINE_LENGTH_8_IBUF)
-     LUT3:I0->O          512   0.043   0.832  image_line/input_sel<127><8>11 (image_line/input_sel<127><8>1)
-     LUT5:I1->O            1   0.043   0.000  image_line/regs[190].reg/Mmux_reg_in11 (image_line/regs[190].reg/reg_in<0>)
-     FDCE:D                   -0.001          image_line/regs[190].reg/reg_internal/reg_0
+     IBUF:I->O             8   0.000   0.594  LINE_LENGTH_0_IBUF (LINE_LENGTH_0_IBUF)
+     LUT3:I0->O           32   0.043   0.823  image_line/input_sel<0><7>21 (image_line/input_sel<0><7>2)
+     LUT6:I0->O            8   0.043   0.509  image_line/input_sel<88><7>1 (image_line/input_sel<88>)
+     LUT3:I1->O            1   0.043   0.000  image_line/regs[88].reg/Mmux_reg_in11 (image_line/regs[88].reg/reg_in<0>)
+     FDCE:D                   -0.001          image_line/regs[88].reg/reg_internal/reg_0
     ----------------------------------------
-    Total                      1.486ns (0.086ns logic, 1.400ns route)
-                                       (5.8% logic, 94.2% route)
+    Total                      2.055ns (0.129ns logic, 1.926ns route)
+                                       (6.3% logic, 93.7% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
-  Total number of paths / destination ports: 12432458701636278 / 32
+  Total number of paths / destination ports: 5525537200727240 / 32
 -------------------------------------------------------------------------
-Offset:              18.462ns (Levels of Logic = 10)
+Offset:              18.581ns (Levels of Logic = 10)
   Source:            image_line/regs[5].reg/reg_internal/reg_7 (FF)
   Destination:       CONV_SUM<23> (PAD)
   Source Clock:      CLK rising
@@ -418,34 +420,7 @@ Offset:              18.462ns (Levels of Logic = 10)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q            12   0.232   0.471  image_line/regs[5].reg/reg_internal/reg_7 (image_line/regs[5].reg/reg_internal/reg_7)
-     DSP48E1:B7->PCOUT47    1   3.851   0.000  Mmult_multiples<5> (Mmult_multiples<5>_PCOUT_to_Maddsub_multiples<6>_PCIN_47)
-     DSP48E1:PCIN47->PCOUT47    1   1.713   0.000  Maddsub_multiples<6> (Maddsub_multiples<6>_PCOUT_to_Maddsub_multiples<4>_PCIN_47)
-     DSP48E1:PCIN47->PCOUT47    1   1.713   0.000  Maddsub_multiples<4> (Maddsub_multiples<4>_PCOUT_to_Maddsub_multiples<3>_PCIN_47)
-     DSP48E1:PCIN47->PCOUT47    1   1.713   0.000  Maddsub_multiples<3> (Maddsub_multiples<3>_PCOUT_to_Maddsub_multiples<2>_PCIN_47)
-     DSP48E1:PCIN47->PCOUT47    1   1.713   0.000  Maddsub_multiples<2> (Maddsub_multiples<2>_PCOUT_to_Maddsub_multiples<1>_PCIN_47)
-     DSP48E1:PCIN47->PCOUT47    1   1.713   0.000  Maddsub_multiples<1> (Maddsub_multiples<1>_PCOUT_to_Maddsub_multiples<0>_PCIN_47)
-     DSP48E1:PCIN47->PCOUT47    1   1.713   0.000  Maddsub_multiples<0> (Maddsub_multiples<0>_PCOUT_to_Maddsub_multiples<8>_PCIN_47)
-     DSP48E1:PCIN47->PCOUT47    1   1.713   0.000  Maddsub_multiples<8> (Maddsub_multiples<8>_PCOUT_to_Maddsub_multiples<7>_PCIN_47)
-     DSP48E1:PCIN47->P23    1   1.518   0.399  Maddsub_multiples<7> (ADDER_FOR_MULTADD_Madd_237)
-     OBUF:I->O                 0.000          CONV_SUM_23_OBUF (CONV_SUM<23>)
-    ----------------------------------------
-    Total                     18.462ns (17.592ns logic, 0.870ns route)
-                                       (95.3% logic, 4.7% route)
-
-=========================================================================
-Timing constraint: Default path analysis
-  Total number of paths / destination ports: 17267303752272588 / 24
--------------------------------------------------------------------------
-Delay:               18.455ns (Levels of Logic = 11)
-  Source:            KERNEL_IN<47> (PAD)
-  Destination:       CONV_SUM<23> (PAD)
-
-  Data Path: KERNEL_IN<47> to CONV_SUM<23>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     IBUF:I->O            18   0.000   0.511  KERNEL_IN_47_IBUF (KERNEL_IN_47_IBUF)
+     FDCE:C->Q             2   0.232   0.405  image_line/regs[5].reg/reg_internal/reg_7 (image_line/regs[5].reg/reg_internal/reg_7)
      DSP48E1:A7->PCOUT47    1   4.036   0.000  Mmult_multiples<5> (Mmult_multiples<5>_PCOUT_to_Maddsub_multiples<6>_PCIN_47)
      DSP48E1:PCIN47->PCOUT47    1   1.713   0.000  Maddsub_multiples<6> (Maddsub_multiples<6>_PCOUT_to_Maddsub_multiples<4>_PCIN_47)
      DSP48E1:PCIN47->PCOUT47    1   1.713   0.000  Maddsub_multiples<4> (Maddsub_multiples<4>_PCOUT_to_Maddsub_multiples<3>_PCIN_47)
@@ -457,8 +432,35 @@ Delay:               18.455ns (Levels of Logic = 11)
      DSP48E1:PCIN47->P23    1   1.518   0.399  Maddsub_multiples<7> (ADDER_FOR_MULTADD_Madd_237)
      OBUF:I->O                 0.000          CONV_SUM_23_OBUF (CONV_SUM<23>)
     ----------------------------------------
-    Total                     18.455ns (17.545ns logic, 0.910ns route)
-                                       (95.1% logic, 4.9% route)
+    Total                     18.581ns (17.777ns logic, 0.804ns route)
+                                       (95.7% logic, 4.3% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 12432458701636272 / 24
+-------------------------------------------------------------------------
+Delay:               18.224ns (Levels of Logic = 11)
+  Source:            KERNEL_IN<47> (PAD)
+  Destination:       CONV_SUM<23> (PAD)
+
+  Data Path: KERNEL_IN<47> to CONV_SUM<23>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            11   0.000   0.465  KERNEL_IN_47_IBUF (KERNEL_IN_47_IBUF)
+     DSP48E1:B7->PCOUT47    1   3.851   0.000  Mmult_multiples<5> (Mmult_multiples<5>_PCOUT_to_Maddsub_multiples<6>_PCIN_47)
+     DSP48E1:PCIN47->PCOUT47    1   1.713   0.000  Maddsub_multiples<6> (Maddsub_multiples<6>_PCOUT_to_Maddsub_multiples<4>_PCIN_47)
+     DSP48E1:PCIN47->PCOUT47    1   1.713   0.000  Maddsub_multiples<4> (Maddsub_multiples<4>_PCOUT_to_Maddsub_multiples<3>_PCIN_47)
+     DSP48E1:PCIN47->PCOUT47    1   1.713   0.000  Maddsub_multiples<3> (Maddsub_multiples<3>_PCOUT_to_Maddsub_multiples<2>_PCIN_47)
+     DSP48E1:PCIN47->PCOUT47    1   1.713   0.000  Maddsub_multiples<2> (Maddsub_multiples<2>_PCOUT_to_Maddsub_multiples<1>_PCIN_47)
+     DSP48E1:PCIN47->PCOUT47    1   1.713   0.000  Maddsub_multiples<1> (Maddsub_multiples<1>_PCOUT_to_Maddsub_multiples<0>_PCIN_47)
+     DSP48E1:PCIN47->PCOUT47    1   1.713   0.000  Maddsub_multiples<0> (Maddsub_multiples<0>_PCOUT_to_Maddsub_multiples<8>_PCIN_47)
+     DSP48E1:PCIN47->PCOUT47    1   1.713   0.000  Maddsub_multiples<8> (Maddsub_multiples<8>_PCOUT_to_Maddsub_multiples<7>_PCIN_47)
+     DSP48E1:PCIN47->P23    1   1.518   0.399  Maddsub_multiples<7> (ADDER_FOR_MULTADD_Madd_237)
+     OBUF:I->O                 0.000          CONV_SUM_23_OBUF (CONV_SUM<23>)
+    ----------------------------------------
+    Total                     18.224ns (17.360ns logic, 0.864ns route)
+                                       (95.3% logic, 4.7% route)
 
 =========================================================================
 
@@ -470,18 +472,18 @@ Clock to Setup on destination clock CLK
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-CLK            |    0.756|         |         |         |
+CLK            |    0.690|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 11.00 secs
-Total CPU time to Xst completion: 11.24 secs
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 10.04 secs
  
 --> 
 
-Total memory usage is 4718280 kilobytes
+Total memory usage is 4718216 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
