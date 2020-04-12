@@ -51,3 +51,4 @@ xst -intstyle ise -ifn "E:/Master Degree/VSOIZM/vsoizm/Practice/LINE_OPERATOR.xs
 xst -intstyle ise -ifn "E:/Master Degree/VSOIZM/vsoizm/Practice/LINE_OPERATOR.xst" -ofn "E:/Master Degree/VSOIZM/vsoizm/Practice/LINE_OPERATOR.syr" 
 xst -intstyle ise -ifn "E:/Master Degree/VSOIZM/vsoizm/Practice/LINE_OPERATOR.xst" -ofn "E:/Master Degree/VSOIZM/vsoizm/Practice/LINE_OPERATOR.syr" 
 xst -intstyle ise -ifn "E:/Master Degree/VSOIZM/vsoizm/Practice/LINE_OPERATOR.xst" -ofn "E:/Master Degree/VSOIZM/vsoizm/Practice/LINE_OPERATOR.syr" 
+xst -intstyle ise -ifn "E:/Master Degree/VSOIZM/vsoizm/Practice/LINE_OPERATOR.xst" -ofn "E:/Master Degree/VSOIZM/vsoizm/Practice/LINE_OPERATOR.syr" 

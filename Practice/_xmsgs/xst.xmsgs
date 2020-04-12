@@ -5,34 +5,22 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\Master Degree\VSOIZM\vsoizm\Practice\CONVOLUTION_OPERATOR.vhd</arg>&quot; line <arg fmt="%s" index="2">96</arg>: Output port &lt;<arg fmt="%s" index="3">LINE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">line_ops[8].line_op</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\Master Degree\VSOIZM\vsoizm\Practice\KERNEL.vhd</arg>&quot; line <arg fmt="%s" index="2">79</arg>: Output port &lt;<arg fmt="%s" index="3">LINE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">g0[0].kernel_slice</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\Master Degree\VSOIZM\vsoizm\Practice\CONVOLUTION_OPERATOR.vhd</arg>&quot; line <arg fmt="%s" index="2">96</arg>: Output port &lt;<arg fmt="%s" index="3">LINE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">line_ops[7].line_op</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\Master Degree\VSOIZM\vsoizm\Practice\CONVOLUTION_OPERATOR.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">LINE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">line_ops[0].line_op</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\Master Degree\VSOIZM\vsoizm\Practice\CONVOLUTION_OPERATOR.vhd</arg>&quot; line <arg fmt="%s" index="2">96</arg>: Output port &lt;<arg fmt="%s" index="3">LINE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">line_ops[6].line_op</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3217" delta="new" >HDL ADVISOR - Register &lt;<arg fmt="%s" index="1">reg_out</arg>&gt; currently described with an asynchronous reset, could be combined with distributed RAM &lt;<arg fmt="%s" index="2">Mram_c_ram</arg>&gt; for implementation on block RAM resources if you made this reset synchronous instead.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\Master Degree\VSOIZM\vsoizm\Practice\CONVOLUTION_OPERATOR.vhd</arg>&quot; line <arg fmt="%s" index="2">96</arg>: Output port &lt;<arg fmt="%s" index="3">LINE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">line_ops[5].line_op</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_c_ram</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\Master Degree\VSOIZM\vsoizm\Practice\CONVOLUTION_OPERATOR.vhd</arg>&quot; line <arg fmt="%s" index="2">96</arg>: Output port &lt;<arg fmt="%s" index="3">LINE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">line_ops[4].line_op</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3217" delta="new" >HDL ADVISOR - Register &lt;<arg fmt="%s" index="1">reg_out</arg>&gt; currently described with an asynchronous reset, could be combined with distributed RAM &lt;<arg fmt="%s" index="2">Mram_c_ram</arg>&gt; for implementation on block RAM resources if you made this reset synchronous instead.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\Master Degree\VSOIZM\vsoizm\Practice\CONVOLUTION_OPERATOR.vhd</arg>&quot; line <arg fmt="%s" index="2">96</arg>: Output port &lt;<arg fmt="%s" index="3">LINE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">line_ops[3].line_op</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\Master Degree\VSOIZM\vsoizm\Practice\CONVOLUTION_OPERATOR.vhd</arg>&quot; line <arg fmt="%s" index="2">96</arg>: Output port &lt;<arg fmt="%s" index="3">LINE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">line_ops[2].line_op</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\Master Degree\VSOIZM\vsoizm\Practice\CONVOLUTION_OPERATOR.vhd</arg>&quot; line <arg fmt="%s" index="2">96</arg>: Output port &lt;<arg fmt="%s" index="3">LINE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">line_ops[1].line_op</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\Master Degree\VSOIZM\vsoizm\Practice\CONVOLUTION_OPERATOR.vhd</arg>&quot; line <arg fmt="%s" index="2">96</arg>: Output port &lt;<arg fmt="%s" index="3">LINE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">line_ops[0].line_op</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="warning" file="Xst" num="1336" delta="new" > (*) More than 100% of Device resources are used
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_c_ram</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
 </msg>
 
 </messages>

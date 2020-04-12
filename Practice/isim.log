@@ -1,5 +1,5 @@
 ISim log file
-Running: E:\Master Degree\VSOIZM\vsoizm\Practice\TB_LINE_OPERATOR_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/Master Degree/VSOIZM/vsoizm/Practice/TB_LINE_OPERATOR_isim_beh.wdb 
+Running: E:\Master Degree\VSOIZM\vsoizm\Practice\TB_CONVOLUTION_UNIT_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/Master Degree/VSOIZM/vsoizm/Practice/TB_CONVOLUTION_UNIT_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 This is a Full version of ISim.
 Time resolution is 1 ps
@@ -7,88 +7,876 @@ Time resolution is 1 ps
 # wave add /
 # run 1000 ns
 Simulator is doing circuit initialization process.
-at 0 ps, Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/mem/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/mem/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/mem/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/mem/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
 Finished circuit initialization process.
-at 5 ns(4), Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 5 ns(4), Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 5 ns(4), Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 5 ns(4), Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 5 ns(4), Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 5 ns(4), Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 5 ns(4), Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 5 ns(4), Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 5 ns(4), Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-
-** Failure:End of simulition
-User(VHDL) Code Called Simulation Stop
-In process TB_LINE_OPERATOR.vhd:stim_proc 
- 
-INFO: Simulator is stopped.
-# restart
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 5 ns(26), Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
 # restart
 # restart
 # restart
 # run all
 Simulator is doing circuit initialization process.
-at 0 ps, Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/mem/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/mem/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/mem/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
 Finished circuit initialization process.
-at 5 ns(4), Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 5 ns(4), Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 5 ns(4), Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 5 ns(4), Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 5 ns(4), Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 5 ns(4), Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 5 ns(4), Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 5 ns(4), Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 5 ns(4), Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 5 ns(26), Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
 
-** Failure:End of simulition
+** Failure:End of simulation
 User(VHDL) Code Called Simulation Stop
-In process TB_LINE_OPERATOR.vhd:stim_proc 
+In process TB_CONVOLUTION_UNIT.vhd:stim_proc 
+ 
+INFO: Simulator is stopped.
+# restart
+# run all
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/mem/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/mem/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/mem/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 5 ns(26), Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+
+** Failure:End of simulation
+User(VHDL) Code Called Simulation Stop
+In process TB_CONVOLUTION_UNIT.vhd:stim_proc 
  
 INFO: Simulator is stopped.
 # restart
 # restart
 # run all
 Simulator is doing circuit initialization process.
-at 0 ps, Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/mem/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/mem/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/mem/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
 Finished circuit initialization process.
-at 5 ns(4), Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 5 ns(4), Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 5 ns(4), Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 5 ns(4), Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 5 ns(4), Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 5 ns(4), Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 5 ns(4), Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 5 ns(4), Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 5 ns(4), Instance /tb_line_operator/uut/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 5 ns(26), Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
 
-** Failure:End of simulition
+** Failure:End of simulation
 User(VHDL) Code Called Simulation Stop
-In process TB_LINE_OPERATOR.vhd:stim_proc 
+In process TB_CONVOLUTION_UNIT.vhd:stim_proc 
+ 
+INFO: Simulator is stopped.
+# restart
+# restart
+# run all
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/mem/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/mem/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/mem/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 5 ns(26), Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+
+** Failure:End of simulation
+User(VHDL) Code Called Simulation Stop
+In process TB_CONVOLUTION_UNIT.vhd:stim_proc 
+ 
+INFO: Simulator is stopped.
+# restart
+# restart
+# run all
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/mem/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/mem/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/mem/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 5 ns(26), Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+
+** Failure:End of simulation
+User(VHDL) Code Called Simulation Stop
+In process TB_CONVOLUTION_UNIT.vhd:stim_proc 
+ 
+INFO: Simulator is stopped.
+# restart
+# restart
+# run all
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(8)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(7)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(6)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(5)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(4)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(3)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(2)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(1)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/\line_ops(0)\/line_op/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/mem/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/mem/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/mem/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/kernel_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_convolution_unit/uut/image_out_mem/rif/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 5 ns(26), Instance /tb_convolution_unit/uut/convolution/div/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+
+** Failure:End of simulation
+User(VHDL) Code Called Simulation Stop
+In process TB_CONVOLUTION_UNIT.vhd:stim_proc 
  
 INFO: Simulator is stopped.

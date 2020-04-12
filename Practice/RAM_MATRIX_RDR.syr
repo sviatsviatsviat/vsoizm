@@ -1,0 +1,726 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Reading design: RAM_MATRIX_RDR.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "RAM_MATRIX_RDR.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "RAM_MATRIX_RDR"
+Output Format                      : NGC
+Target Device                      : xa7z020-1I-clg400
+
+---- Source Options
+Top Module Name                    : RAM_MATRIX_RDR
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "E:\Master Degree\VSOIZM\vsoizm\Practice\RAM_MATRIX_RDR.vhd" into library work
+Parsing entity <RAM_MATRIX_RDR>.
+Parsing architecture <Behavioral> of entity <ram_matrix_rdr>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <RAM_MATRIX_RDR> (architecture <Behavioral>) with generics from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <RAM_MATRIX_RDR>.
+    Related source file is "E:\Master Degree\VSOIZM\vsoizm\Practice\RAM_MATRIX_RDR.vhd".
+        MATRIXSIZE = 256
+        MATRIXBITS = 8
+        ADDRSIZE = 16
+        WORD = 8
+    Found 16-bit register for signal <next_addr>.
+    Found 16-bit register for signal <ADDR>.
+    Found 9-bit adder for signal <width_wire> created at line 1241.
+    Found 9-bit adder for signal <height_wire> created at line 1241.
+    Found 16-bit adder for signal <next_addr[15]_GND_4_o_add_8_OUT> created at line 1241.
+    Found 18-bit subtractor for signal <GND_4_o_GND_4_o_sub_6_OUT<17:0>> created at line 1308.
+    Found 9x9-bit multiplier for signal <width_wire[8]_height_wire[8]_MuLt_4_OUT> created at line 54.
+    Found 18-bit comparator equal for signal <DONE> created at line 54
+    Summary:
+	inferred   1 Multiplier(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred  32 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <RAM_MATRIX_RDR> synthesized.
+
+Synthesizing Unit <div_16u_9u>.
+    Related source file is "".
+    Found 25-bit adder for signal <n0775> created at line 0.
+    Found 25-bit adder for signal <GND_5_o_b[8]_add_1_OUT> created at line 0.
+    Found 24-bit adder for signal <n0779> created at line 0.
+    Found 24-bit adder for signal <GND_5_o_b[8]_add_3_OUT> created at line 0.
+    Found 23-bit adder for signal <n0783> created at line 0.
+    Found 23-bit adder for signal <GND_5_o_b[8]_add_5_OUT> created at line 0.
+    Found 22-bit adder for signal <n0787> created at line 0.
+    Found 22-bit adder for signal <GND_5_o_b[8]_add_7_OUT> created at line 0.
+    Found 21-bit adder for signal <n0791> created at line 0.
+    Found 21-bit adder for signal <GND_5_o_b[8]_add_9_OUT> created at line 0.
+    Found 20-bit adder for signal <n0795> created at line 0.
+    Found 20-bit adder for signal <GND_5_o_b[8]_add_11_OUT> created at line 0.
+    Found 19-bit adder for signal <n0799> created at line 0.
+    Found 19-bit adder for signal <GND_5_o_b[8]_add_13_OUT> created at line 0.
+    Found 18-bit adder for signal <n0803> created at line 0.
+    Found 18-bit adder for signal <GND_5_o_b[8]_add_15_OUT> created at line 0.
+    Found 17-bit adder for signal <n0807> created at line 0.
+    Found 17-bit adder for signal <GND_5_o_b[8]_add_17_OUT> created at line 0.
+    Found 16-bit adder for signal <n0811> created at line 0.
+    Found 16-bit adder for signal <a[15]_b[8]_add_19_OUT> created at line 0.
+    Found 16-bit adder for signal <n0815> created at line 0.
+    Found 16-bit adder for signal <a[15]_GND_5_o_add_21_OUT> created at line 0.
+    Found 16-bit adder for signal <n0819> created at line 0.
+    Found 16-bit adder for signal <a[15]_GND_5_o_add_23_OUT> created at line 0.
+    Found 16-bit adder for signal <n0823> created at line 0.
+    Found 16-bit adder for signal <a[15]_GND_5_o_add_25_OUT> created at line 0.
+    Found 16-bit adder for signal <n0827> created at line 0.
+    Found 16-bit adder for signal <a[15]_GND_5_o_add_27_OUT[15:0]> created at line 0.
+    Found 16-bit adder for signal <n0831> created at line 0.
+    Found 16-bit adder for signal <a[15]_GND_5_o_add_29_OUT[15:0]> created at line 0.
+    Found 16-bit adder for signal <n0835> created at line 0.
+    Found 16-bit adder for signal <a[15]_GND_5_o_add_31_OUT[15:0]> created at line 0.
+    Found 25-bit comparator lessequal for signal <BUS_0001> created at line 0
+    Found 24-bit comparator lessequal for signal <BUS_0002> created at line 0
+    Found 23-bit comparator lessequal for signal <BUS_0003> created at line 0
+    Found 22-bit comparator lessequal for signal <BUS_0004> created at line 0
+    Found 21-bit comparator lessequal for signal <BUS_0005> created at line 0
+    Found 20-bit comparator lessequal for signal <BUS_0006> created at line 0
+    Found 19-bit comparator lessequal for signal <BUS_0007> created at line 0
+    Found 18-bit comparator lessequal for signal <BUS_0008> created at line 0
+    Found 17-bit comparator lessequal for signal <BUS_0009> created at line 0
+    Found 16-bit comparator lessequal for signal <BUS_0010> created at line 0
+    Found 16-bit comparator lessequal for signal <BUS_0011> created at line 0
+    Found 16-bit comparator lessequal for signal <BUS_0012> created at line 0
+    Found 16-bit comparator lessequal for signal <BUS_0013> created at line 0
+    Found 16-bit comparator lessequal for signal <BUS_0014> created at line 0
+    Found 16-bit comparator lessequal for signal <BUS_0015> created at line 0
+    Found 16-bit comparator lessequal for signal <BUS_0016> created at line 0
+    Found 16-bit comparator lessequal for signal <BUS_0017> created at line 0
+    Summary:
+	inferred  32 Adder/Subtractor(s).
+	inferred  17 Comparator(s).
+	inferred 211 Multiplexer(s).
+Unit <div_16u_9u> synthesized.
+
+Synthesizing Unit <mod_16u_9u>.
+    Related source file is "".
+    Found 25-bit adder for signal <n0775> created at line 0.
+    Found 25-bit adder for signal <GND_6_o_b[8]_add_1_OUT> created at line 0.
+    Found 24-bit adder for signal <n0779> created at line 0.
+    Found 24-bit adder for signal <GND_6_o_b[8]_add_3_OUT> created at line 0.
+    Found 23-bit adder for signal <n0783> created at line 0.
+    Found 23-bit adder for signal <GND_6_o_b[8]_add_5_OUT> created at line 0.
+    Found 22-bit adder for signal <n0787> created at line 0.
+    Found 22-bit adder for signal <GND_6_o_b[8]_add_7_OUT> created at line 0.
+    Found 21-bit adder for signal <n0791> created at line 0.
+    Found 21-bit adder for signal <GND_6_o_b[8]_add_9_OUT> created at line 0.
+    Found 20-bit adder for signal <n0795> created at line 0.
+    Found 20-bit adder for signal <GND_6_o_b[8]_add_11_OUT> created at line 0.
+    Found 19-bit adder for signal <n0799> created at line 0.
+    Found 19-bit adder for signal <GND_6_o_b[8]_add_13_OUT> created at line 0.
+    Found 18-bit adder for signal <n0803> created at line 0.
+    Found 18-bit adder for signal <GND_6_o_b[8]_add_15_OUT> created at line 0.
+    Found 17-bit adder for signal <n0807> created at line 0.
+    Found 17-bit adder for signal <GND_6_o_b[8]_add_17_OUT> created at line 0.
+    Found 16-bit adder for signal <n0811> created at line 0.
+    Found 16-bit adder for signal <a[15]_b[8]_add_19_OUT> created at line 0.
+    Found 16-bit adder for signal <n0815> created at line 0.
+    Found 16-bit adder for signal <a[15]_GND_6_o_add_21_OUT> created at line 0.
+    Found 16-bit adder for signal <n0819> created at line 0.
+    Found 16-bit adder for signal <a[15]_GND_6_o_add_23_OUT> created at line 0.
+    Found 16-bit adder for signal <n0823> created at line 0.
+    Found 16-bit adder for signal <a[15]_GND_6_o_add_25_OUT> created at line 0.
+    Found 16-bit adder for signal <n0827> created at line 0.
+    Found 16-bit adder for signal <a[15]_GND_6_o_add_27_OUT> created at line 0.
+    Found 16-bit adder for signal <n0831> created at line 0.
+    Found 16-bit adder for signal <a[15]_GND_6_o_add_29_OUT> created at line 0.
+    Found 16-bit adder for signal <n0835> created at line 0.
+    Found 16-bit adder for signal <a[15]_GND_6_o_add_31_OUT> created at line 0.
+    Found 16-bit adder for signal <n0839> created at line 0.
+    Found 16-bit adder for signal <a[15]_GND_6_o_add_33_OUT> created at line 0.
+    Found 25-bit comparator lessequal for signal <BUS_0001> created at line 0
+    Found 24-bit comparator lessequal for signal <BUS_0002> created at line 0
+    Found 23-bit comparator lessequal for signal <BUS_0003> created at line 0
+    Found 22-bit comparator lessequal for signal <BUS_0004> created at line 0
+    Found 21-bit comparator lessequal for signal <BUS_0005> created at line 0
+    Found 20-bit comparator lessequal for signal <BUS_0006> created at line 0
+    Found 19-bit comparator lessequal for signal <BUS_0007> created at line 0
+    Found 18-bit comparator lessequal for signal <BUS_0008> created at line 0
+    Found 17-bit comparator lessequal for signal <BUS_0009> created at line 0
+    Found 16-bit comparator lessequal for signal <BUS_0010> created at line 0
+    Found 16-bit comparator lessequal for signal <BUS_0011> created at line 0
+    Found 16-bit comparator lessequal for signal <BUS_0012> created at line 0
+    Found 16-bit comparator lessequal for signal <BUS_0013> created at line 0
+    Found 16-bit comparator lessequal for signal <BUS_0014> created at line 0
+    Found 16-bit comparator lessequal for signal <BUS_0015> created at line 0
+    Found 16-bit comparator lessequal for signal <BUS_0016> created at line 0
+    Found 16-bit comparator lessequal for signal <BUS_0017> created at line 0
+    Summary:
+	inferred  34 Adder/Subtractor(s).
+	inferred  17 Comparator(s).
+	inferred 257 Multiplexer(s).
+Unit <mod_16u_9u> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 1
+ 9x9-bit multiplier                                    : 1
+# Adders/Subtractors                                   : 70
+ 16-bit adder                                          : 31
+ 17-bit adder                                          : 4
+ 18-bit adder                                          : 4
+ 18-bit subtractor                                     : 1
+ 19-bit adder                                          : 4
+ 20-bit adder                                          : 4
+ 21-bit adder                                          : 4
+ 22-bit adder                                          : 4
+ 23-bit adder                                          : 4
+ 24-bit adder                                          : 4
+ 25-bit adder                                          : 4
+ 9-bit adder                                           : 2
+# Registers                                            : 2
+ 16-bit register                                       : 2
+# Comparators                                          : 35
+ 16-bit comparator lessequal                           : 16
+ 17-bit comparator lessequal                           : 2
+ 18-bit comparator equal                               : 1
+ 18-bit comparator lessequal                           : 2
+ 19-bit comparator lessequal                           : 2
+ 20-bit comparator lessequal                           : 2
+ 21-bit comparator lessequal                           : 2
+ 22-bit comparator lessequal                           : 2
+ 23-bit comparator lessequal                           : 2
+ 24-bit comparator lessequal                           : 2
+ 25-bit comparator lessequal                           : 2
+# Multiplexers                                         : 468
+ 1-bit 2-to-1 multiplexer                              : 464
+ 16-bit 2-to-1 multiplexer                             : 3
+ 9-bit 2-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <RAM_MATRIX_RDR>.
+The following registers are absorbed into counter <next_addr>: 1 register on signal <next_addr>.
+	Multiplier <Mmult_width_wire[8]_height_wire[8]_MuLt_4_OUT> in block <RAM_MATRIX_RDR> and adder/subtractor <Msub_GND_4_o_GND_4_o_sub_6_OUT<17:0>> in block <RAM_MATRIX_RDR> are combined into a MAC<Maddsub_width_wire[8]_height_wire[8]_MuLt_4_OUT>.
+	Adder/Subtractor <Madd_width_wire> in block <RAM_MATRIX_RDR> and  <Maddsub_width_wire[8]_height_wire[8]_MuLt_4_OUT> in block <RAM_MATRIX_RDR> are combined into a MAC with pre-adder <Maddsub_width_wire[8]_height_wire[8]_MuLt_4_OUT1>.
+Unit <RAM_MATRIX_RDR> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# MACs                                                 : 1
+ 9x9-to-18-bit MAC with pre-adder                      : 1
+# Adders/Subtractors                                   : 35
+ 16-bit adder carry in                                 : 32
+ 9-bit adder                                           : 2
+ 9-bit adder carry in                                  : 1
+# Counters                                             : 1
+ 16-bit up counter                                     : 1
+# Registers                                            : 16
+ Flip-Flops                                            : 16
+# Comparators                                          : 35
+ 16-bit comparator lessequal                           : 16
+ 17-bit comparator lessequal                           : 2
+ 18-bit comparator equal                               : 1
+ 18-bit comparator lessequal                           : 2
+ 19-bit comparator lessequal                           : 2
+ 20-bit comparator lessequal                           : 2
+ 21-bit comparator lessequal                           : 2
+ 22-bit comparator lessequal                           : 2
+ 23-bit comparator lessequal                           : 2
+ 24-bit comparator lessequal                           : 2
+ 25-bit comparator lessequal                           : 2
+# Multiplexers                                         : 468
+ 1-bit 2-to-1 multiplexer                              : 464
+ 16-bit 2-to-1 multiplexer                             : 3
+ 9-bit 2-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <RAM_MATRIX_RDR> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block RAM_MATRIX_RDR, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 32
+ Flip-Flops                                            : 32
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : RAM_MATRIX_RDR.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 1277
+#      GND                         : 1
+#      INV                         : 21
+#      LUT1                        : 16
+#      LUT2                        : 31
+#      LUT3                        : 80
+#      LUT4                        : 154
+#      LUT5                        : 240
+#      LUT6                        : 172
+#      MUXCY                       : 307
+#      MUXF7                       : 2
+#      VCC                         : 1
+#      XORCY                       : 252
+# FlipFlops/Latches                : 32
+#      FDCE                        : 32
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 51
+#      IBUF                        : 18
+#      OBUF                        : 33
+# DSPs                             : 1
+#      DSP48E1                     : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : xa7z020clg400-1i 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              32  out of  106400     0%  
+ Number of Slice LUTs:                  714  out of  53200     1%  
+    Number used as Logic:               714  out of  53200     1%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    724
+   Number with an unused Flip Flop:     692  out of    724    95%  
+   Number with an unused LUT:            10  out of    724     1%  
+   Number of fully used LUT-FF pairs:    22  out of    724     3%  
+   Number of unique control sets:         2
+
+IO Utilization: 
+ Number of IOs:                          52
+ Number of bonded IOBs:                  52  out of    125    41%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+ Number of DSP48E1s:                      1  out of    220     0%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 32    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 1.346ns (Maximum Frequency: 742.942MHz)
+   Minimum input arrival time before clock: 0.807ns
+   Maximum output required time after clock: 34.273ns
+   Maximum combinational path delay: 34.598ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 1.346ns (frequency: 742.942MHz)
+  Total number of paths / destination ports: 152 / 32
+-------------------------------------------------------------------------
+Delay:               1.346ns (Levels of Logic = 17)
+  Source:            next_addr_0 (FF)
+  Destination:       next_addr_15 (FF)
+  Source Clock:      CLK falling
+  Destination Clock: CLK falling
+
+  Data Path: next_addr_0 to next_addr_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             2   0.232   0.405  next_addr_0 (next_addr_0)
+     INV:I->O              1   0.053   0.000  Mcount_next_addr_lut<0>_INV_0 (Mcount_next_addr_lut<0>)
+     MUXCY:S->O            1   0.230   0.000  Mcount_next_addr_cy<0> (Mcount_next_addr_cy<0>)
+     MUXCY:CI->O           1   0.012   0.000  Mcount_next_addr_cy<1> (Mcount_next_addr_cy<1>)
+     MUXCY:CI->O           1   0.012   0.000  Mcount_next_addr_cy<2> (Mcount_next_addr_cy<2>)
+     MUXCY:CI->O           1   0.012   0.000  Mcount_next_addr_cy<3> (Mcount_next_addr_cy<3>)
+     MUXCY:CI->O           1   0.012   0.000  Mcount_next_addr_cy<4> (Mcount_next_addr_cy<4>)
+     MUXCY:CI->O           1   0.012   0.000  Mcount_next_addr_cy<5> (Mcount_next_addr_cy<5>)
+     MUXCY:CI->O           1   0.012   0.000  Mcount_next_addr_cy<6> (Mcount_next_addr_cy<6>)
+     MUXCY:CI->O           1   0.012   0.000  Mcount_next_addr_cy<7> (Mcount_next_addr_cy<7>)
+     MUXCY:CI->O           1   0.012   0.000  Mcount_next_addr_cy<8> (Mcount_next_addr_cy<8>)
+     MUXCY:CI->O           1   0.012   0.000  Mcount_next_addr_cy<9> (Mcount_next_addr_cy<9>)
+     MUXCY:CI->O           1   0.012   0.000  Mcount_next_addr_cy<10> (Mcount_next_addr_cy<10>)
+     MUXCY:CI->O           1   0.012   0.000  Mcount_next_addr_cy<11> (Mcount_next_addr_cy<11>)
+     MUXCY:CI->O           1   0.012   0.000  Mcount_next_addr_cy<12> (Mcount_next_addr_cy<12>)
+     MUXCY:CI->O           1   0.012   0.000  Mcount_next_addr_cy<13> (Mcount_next_addr_cy<13>)
+     MUXCY:CI->O           0   0.013   0.000  Mcount_next_addr_cy<14> (Mcount_next_addr_cy<14>)
+     XORCY:CI->O           1   0.251   0.000  Mcount_next_addr_xor<15> (Result<15>)
+     FDCE:D                   -0.001          next_addr_15
+    ----------------------------------------
+    Total                      1.346ns (0.941ns logic, 0.405ns route)
+                                       (69.9% logic, 30.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 64 / 64
+-------------------------------------------------------------------------
+Offset:              0.807ns (Levels of Logic = 1)
+  Source:            RST (PAD)
+  Destination:       curr_addr_0 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: RST to curr_addr_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            32   0.000   0.552  RST_IBUF (RST_IBUF)
+     FDCE:CLR                  0.255          curr_addr_0
+    ----------------------------------------
+    Total                      0.807ns (0.255ns logic, 0.552ns route)
+                                       (31.6% logic, 68.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 1631980323021221600 / 33
+-------------------------------------------------------------------------
+Offset:              34.273ns (Levels of Logic = 67)
+  Source:            curr_addr_15 (FF)
+  Destination:       COLUMN<7> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: curr_addr_15 to COLUMN<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             3   0.232   0.676  curr_addr_15 (curr_addr_15)
+     LUT5:I0->O            2   0.043   0.554  curr_addr[15]_width_wire[8]_div_2/a[15]_GND_5_o_MUX_83_o1 (curr_addr[15]_width_wire[8]_div_2/a[15]_GND_5_o_MUX_83_o)
+     LUT6:I3->O            3   0.043   0.590  curr_addr[15]_width_wire[8]_mod_3/Mmux_a[14]_GND_6_o_MUX_580_o11 (curr_addr[15]_width_wire[8]_mod_3/a[14]_GND_6_o_MUX_580_o)
+     LUT4:I0->O            2   0.043   0.415  curr_addr[15]_width_wire[8]_div_2/o<13>_SW0 (N54)
+     LUT6:I5->O            2   0.043   0.415  curr_addr[15]_width_wire[8]_div_2/o<13> (curr_addr[15]_width_wire[8]_div_2/o<13>)
+     LUT6:I5->O            3   0.043   0.676  curr_addr[15]_width_wire[8]_div_2/a[15]_GND_5_o_MUX_173_o1 (curr_addr[15]_width_wire[8]_div_2/a[15]_GND_5_o_MUX_173_o)
+     LUT6:I1->O            1   0.043   0.670  curr_addr[15]_width_wire[8]_mod_3/BUS_0005_INV_433_o11 (curr_addr[15]_width_wire[8]_mod_3/BUS_0005_INV_433_o1)
+     LUT6:I0->O            6   0.043   0.695  curr_addr[15]_width_wire[8]_mod_3/BUS_0005_INV_433_o13 (curr_addr[15]_width_wire[8]_mod_3/BUS_0005_INV_433_o)
+     LUT5:I0->O            3   0.043   0.676  curr_addr[15]_width_wire[8]_div_2/a[13]_GND_5_o_MUX_217_o1 (curr_addr[15]_width_wire[8]_div_2/a[13]_GND_5_o_MUX_217_o)
+     LUT6:I1->O            1   0.043   0.548  curr_addr[15]_width_wire[8]_div_2/o<11>221 (curr_addr[15]_width_wire[8]_div_2/o<11>221)
+     LUT5:I2->O           19   0.043   0.789  curr_addr[15]_width_wire[8]_div_2/o<11>21 (curr_addr[15]_width_wire[8]_div_2/o<11>)
+     LUT6:I0->O            3   0.043   0.684  curr_addr[15]_width_wire[8]_div_2/Mmux_a[0]_GND_5_o_MUX_270_o131 (curr_addr[15]_width_wire[8]_div_2/a[12]_GND_5_o_MUX_258_o)
+     LUT6:I0->O            1   0.043   0.670  curr_addr[15]_width_wire[8]_div_2/o<10>1 (curr_addr[15]_width_wire[8]_div_2/o<10>1)
+     LUT6:I0->O            1   0.043   0.576  curr_addr[15]_width_wire[8]_div_2/o<10>24_SW0 (N60)
+     LUT6:I2->O           37   0.043   0.816  curr_addr[15]_width_wire[8]_div_2/o<10>24 (curr_addr[15]_width_wire[8]_div_2/o<10>)
+     LUT5:I0->O            5   0.043   0.697  curr_addr[15]_width_wire[8]_mod_3/Mmux_a[11]_GND_6_o_MUX_665_o11 (curr_addr[15]_width_wire[8]_mod_3/a[11]_GND_6_o_MUX_665_o)
+     LUT6:I0->O            1   0.043   0.576  curr_addr[15]_width_wire[8]_mod_3/BUS_0008_INV_496_o3 (curr_addr[15]_width_wire[8]_mod_3/BUS_0008_INV_496_o1)
+     LUT5:I1->O            1   0.043   0.576  curr_addr[15]_width_wire[8]_mod_3/BUS_0008_INV_496_o1 (curr_addr[15]_width_wire[8]_mod_3/BUS_0008_INV_496_o2)
+     LUT5:I1->O           29   0.043   0.814  curr_addr[15]_width_wire[8]_mod_3/BUS_0008_INV_496_o21 (curr_addr[15]_width_wire[8]_mod_3/BUS_0008_INV_496_o)
+     LUT5:I0->O            1   0.043   0.670  curr_addr[15]_width_wire[8]_mod_3/Mmux_a[10]_GND_6_o_MUX_684_o11 (curr_addr[15]_width_wire[8]_mod_3/a[10]_GND_6_o_MUX_684_o)
+     LUT6:I0->O            1   0.043   0.662  curr_addr[15]_width_wire[8]_mod_3/BUS_0009_INV_515_o2 (curr_addr[15]_width_wire[8]_mod_3/BUS_0009_INV_515_o1)
+     LUT6:I1->O            1   0.043   0.548  curr_addr[15]_width_wire[8]_mod_3/BUS_0009_INV_515_o1 (curr_addr[15]_width_wire[8]_mod_3/BUS_0009_INV_515_o2)
+     LUT6:I3->O           16   0.043   0.760  curr_addr[15]_width_wire[8]_mod_3/BUS_0009_INV_515_o21 (curr_addr[15]_width_wire[8]_mod_3/BUS_0009_INV_515_o)
+     LUT5:I0->O            4   0.043   0.596  curr_addr[15]_width_wire[8]_mod_3/Mmux_a[10]_GND_6_o_MUX_701_o11 (curr_addr[15]_width_wire[8]_mod_3/a[10]_GND_6_o_MUX_701_o)
+     LUT4:I0->O            0   0.043   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0010_INV_533_o_lutdi1 (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0010_INV_533_o_lutdi1)
+     MUXCY:DI->O           1   0.218   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0010_INV_533_o_cy<1> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0010_INV_533_o_cy<1>)
+     MUXCY:CI->O           1   0.013   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0010_INV_533_o_cy<2> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0010_INV_533_o_cy<2>)
+     MUXCY:CI->O          19   0.147   0.695  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0010_INV_533_o_cy<3> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0010_INV_533_o_cy<3>)
+     LUT5:I1->O            6   0.043   0.609  curr_addr[15]_width_wire[8]_mod_3/Mmux_a[0]_a[15]_MUX_727_o171 (curr_addr[15]_width_wire[8]_mod_3/a[7]_a[15]_MUX_720_o)
+     LUT4:I0->O            0   0.043   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0011_INV_550_o_lutdi (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0011_INV_550_o_lutdi)
+     MUXCY:DI->O           1   0.218   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0011_INV_550_o_cy<0> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0011_INV_550_o_cy<0>)
+     MUXCY:CI->O           1   0.012   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0011_INV_550_o_cy<1> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0011_INV_550_o_cy<1>)
+     MUXCY:CI->O           1   0.012   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0011_INV_550_o_cy<2> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0011_INV_550_o_cy<2>)
+     MUXCY:CI->O           5   0.148   0.490  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0011_INV_550_o_cy<3> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0011_INV_550_o_cy<3>)
+     LUT6:I4->O           31   0.043   0.700  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0011_INV_550_o_cy<4> (curr_addr[15]_width_wire[8]_mod_3/BUS_0011_INV_550_o)
+     LUT3:I0->O            2   0.043   0.582  curr_addr[15]_width_wire[8]_mod_3/Mmux_a[0]_a[15]_MUX_743_o161 (curr_addr[15]_width_wire[8]_mod_3/a[6]_a[15]_MUX_737_o)
+     LUT4:I0->O            0   0.043   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0012_INV_567_o_lutdi (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0012_INV_567_o_lutdi)
+     MUXCY:DI->O           1   0.218   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0012_INV_567_o_cy<0> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0012_INV_567_o_cy<0>)
+     MUXCY:CI->O           1   0.012   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0012_INV_567_o_cy<1> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0012_INV_567_o_cy<1>)
+     MUXCY:CI->O           1   0.012   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0012_INV_567_o_cy<2> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0012_INV_567_o_cy<2>)
+     MUXCY:CI->O           4   0.148   0.568  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0012_INV_567_o_cy<3> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0012_INV_567_o_cy<3>)
+     LUT5:I2->O           25   0.043   0.813  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0012_INV_567_o_cy<4> (curr_addr[15]_width_wire[8]_mod_3/BUS_0012_INV_567_o)
+     LUT5:I0->O            6   0.043   0.609  curr_addr[15]_width_wire[8]_mod_3/Mmux_a[0]_a[15]_MUX_759_o171 (curr_addr[15]_width_wire[8]_mod_3/a[7]_a[15]_MUX_752_o)
+     LUT4:I0->O            0   0.043   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0013_INV_584_o_lutdi1 (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0013_INV_584_o_lutdi1)
+     MUXCY:DI->O           1   0.218   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0013_INV_584_o_cy<1> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0013_INV_584_o_cy<1>)
+     MUXCY:CI->O           1   0.012   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0013_INV_584_o_cy<2> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0013_INV_584_o_cy<2>)
+     MUXCY:CI->O           1   0.148   0.576  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0013_INV_584_o_cy<3> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0013_INV_584_o_cy<3>)
+     LUT6:I2->O           48   0.043   0.818  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0013_INV_584_o_cy<4> (curr_addr[15]_width_wire[8]_mod_3/BUS_0013_INV_584_o)
+     LUT5:I0->O            2   0.043   0.554  curr_addr[15]_width_wire[8]_mod_3/Mmux_a[0]_a[15]_MUX_775_o151 (curr_addr[15]_width_wire[8]_mod_3/a[5]_a[15]_MUX_770_o)
+     LUT4:I1->O            1   0.043   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0014_INV_601_o_lut<1> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0014_INV_601_o_lut<1>)
+     MUXCY:S->O            1   0.230   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0014_INV_601_o_cy<1> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0014_INV_601_o_cy<1>)
+     MUXCY:CI->O           1   0.012   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0014_INV_601_o_cy<2> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0014_INV_601_o_cy<2>)
+     MUXCY:CI->O           1   0.012   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0014_INV_601_o_cy<3> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0014_INV_601_o_cy<3>)
+     MUXCY:CI->O           1   0.148   0.463  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0014_INV_601_o_cy<4> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0014_INV_601_o_cy<4>)
+     LUT6:I4->O           26   0.043   0.813  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0014_INV_601_o_cy<5> (curr_addr[15]_width_wire[8]_mod_3/BUS_0014_INV_601_o)
+     LUT5:I0->O            5   0.043   0.689  curr_addr[15]_width_wire[8]_mod_3/Mmux_a[11]_a[15]_MUX_780_o11 (curr_addr[15]_width_wire[8]_mod_3/a[11]_a[15]_MUX_780_o)
+     LUT5:I0->O            1   0.043   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0015_INV_618_o_lut<4> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0015_INV_618_o_lut<4>)
+     MUXCY:S->O           27   0.365   0.614  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0015_INV_618_o_cy<4> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0015_INV_618_o_cy<4>)
+     LUT5:I3->O            2   0.043   0.668  curr_addr[15]_width_wire[8]_mod_3/Mmux_a[10]_a[15]_MUX_797_o11 (curr_addr[15]_width_wire[8]_mod_3/a[10]_a[15]_MUX_797_o)
+     LUT5:I0->O            1   0.043   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0016_INV_635_o_lut<4> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0016_INV_635_o_lut<4>)
+     MUXCY:S->O            1   0.365   0.463  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0016_INV_635_o_cy<4> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0016_INV_635_o_cy<4>)
+     LUT6:I4->O           29   0.043   0.814  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0016_INV_635_o_cy<5> (curr_addr[15]_width_wire[8]_mod_3/BUS_0016_INV_635_o)
+     LUT5:I0->O            2   0.043   0.668  curr_addr[15]_width_wire[8]_mod_3/Mmux_a[9]_a[15]_MUX_814_o11 (curr_addr[15]_width_wire[8]_mod_3/a[9]_a[15]_MUX_814_o)
+     LUT5:I0->O            1   0.043   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0017_INV_652_o_lut<4> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0017_INV_652_o_lut<4>)
+     MUXCY:S->O            1   0.365   0.409  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0017_INV_652_o_cy<4> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0017_INV_652_o_cy<4>)
+     LUT5:I4->O            8   0.043   0.708  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0017_INV_652_o_cy<5> (curr_addr[15]_width_wire[8]_mod_3/BUS_0017_INV_652_o)
+     LUT5:I0->O            1   0.043   0.399  curr_addr[15]_width_wire[8]_mod_3/Mmux_o81 (COLUMN_7_OBUF)
+     OBUF:I->O                 0.000          COLUMN_7_OBUF (COLUMN<7>)
+    ----------------------------------------
+    Total                     34.273ns (5.201ns logic, 29.071ns route)
+                                       (15.2% logic, 84.8% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 13459128191198390000 / 17
+-------------------------------------------------------------------------
+Delay:               34.598ns (Levels of Logic = 69)
+  Source:            WIDTH<7> (PAD)
+  Destination:       COLUMN<7> (PAD)
+
+  Data Path: WIDTH<7> to COLUMN<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            19   0.000   0.781  WIDTH_7_IBUF (Madd_width_wire_lut<7>)
+     LUT5:I0->O            1   0.043   0.409  curr_addr[15]_width_wire[8]_div_2/o<15>1_SW0 (N58)
+     LUT5:I4->O            2   0.043   0.554  curr_addr[15]_width_wire[8]_div_2/a[15]_GND_5_o_MUX_83_o1 (curr_addr[15]_width_wire[8]_div_2/a[15]_GND_5_o_MUX_83_o)
+     LUT6:I3->O            3   0.043   0.590  curr_addr[15]_width_wire[8]_mod_3/Mmux_a[14]_GND_6_o_MUX_580_o11 (curr_addr[15]_width_wire[8]_mod_3/a[14]_GND_6_o_MUX_580_o)
+     LUT4:I0->O            2   0.043   0.415  curr_addr[15]_width_wire[8]_div_2/o<13>_SW0 (N54)
+     LUT6:I5->O            2   0.043   0.415  curr_addr[15]_width_wire[8]_div_2/o<13> (curr_addr[15]_width_wire[8]_div_2/o<13>)
+     LUT6:I5->O            3   0.043   0.676  curr_addr[15]_width_wire[8]_div_2/a[15]_GND_5_o_MUX_173_o1 (curr_addr[15]_width_wire[8]_div_2/a[15]_GND_5_o_MUX_173_o)
+     LUT6:I1->O            1   0.043   0.670  curr_addr[15]_width_wire[8]_mod_3/BUS_0005_INV_433_o11 (curr_addr[15]_width_wire[8]_mod_3/BUS_0005_INV_433_o1)
+     LUT6:I0->O            6   0.043   0.695  curr_addr[15]_width_wire[8]_mod_3/BUS_0005_INV_433_o13 (curr_addr[15]_width_wire[8]_mod_3/BUS_0005_INV_433_o)
+     LUT5:I0->O            3   0.043   0.676  curr_addr[15]_width_wire[8]_div_2/a[13]_GND_5_o_MUX_217_o1 (curr_addr[15]_width_wire[8]_div_2/a[13]_GND_5_o_MUX_217_o)
+     LUT6:I1->O            1   0.043   0.548  curr_addr[15]_width_wire[8]_div_2/o<11>221 (curr_addr[15]_width_wire[8]_div_2/o<11>221)
+     LUT5:I2->O           19   0.043   0.789  curr_addr[15]_width_wire[8]_div_2/o<11>21 (curr_addr[15]_width_wire[8]_div_2/o<11>)
+     LUT6:I0->O            3   0.043   0.684  curr_addr[15]_width_wire[8]_div_2/Mmux_a[0]_GND_5_o_MUX_270_o131 (curr_addr[15]_width_wire[8]_div_2/a[12]_GND_5_o_MUX_258_o)
+     LUT6:I0->O            1   0.043   0.670  curr_addr[15]_width_wire[8]_div_2/o<10>1 (curr_addr[15]_width_wire[8]_div_2/o<10>1)
+     LUT6:I0->O            1   0.043   0.576  curr_addr[15]_width_wire[8]_div_2/o<10>24_SW0 (N60)
+     LUT6:I2->O           37   0.043   0.816  curr_addr[15]_width_wire[8]_div_2/o<10>24 (curr_addr[15]_width_wire[8]_div_2/o<10>)
+     LUT5:I0->O            5   0.043   0.697  curr_addr[15]_width_wire[8]_mod_3/Mmux_a[11]_GND_6_o_MUX_665_o11 (curr_addr[15]_width_wire[8]_mod_3/a[11]_GND_6_o_MUX_665_o)
+     LUT6:I0->O            1   0.043   0.576  curr_addr[15]_width_wire[8]_mod_3/BUS_0008_INV_496_o3 (curr_addr[15]_width_wire[8]_mod_3/BUS_0008_INV_496_o1)
+     LUT5:I1->O            1   0.043   0.576  curr_addr[15]_width_wire[8]_mod_3/BUS_0008_INV_496_o1 (curr_addr[15]_width_wire[8]_mod_3/BUS_0008_INV_496_o2)
+     LUT5:I1->O           29   0.043   0.814  curr_addr[15]_width_wire[8]_mod_3/BUS_0008_INV_496_o21 (curr_addr[15]_width_wire[8]_mod_3/BUS_0008_INV_496_o)
+     LUT5:I0->O            1   0.043   0.670  curr_addr[15]_width_wire[8]_mod_3/Mmux_a[10]_GND_6_o_MUX_684_o11 (curr_addr[15]_width_wire[8]_mod_3/a[10]_GND_6_o_MUX_684_o)
+     LUT6:I0->O            1   0.043   0.662  curr_addr[15]_width_wire[8]_mod_3/BUS_0009_INV_515_o2 (curr_addr[15]_width_wire[8]_mod_3/BUS_0009_INV_515_o1)
+     LUT6:I1->O            1   0.043   0.548  curr_addr[15]_width_wire[8]_mod_3/BUS_0009_INV_515_o1 (curr_addr[15]_width_wire[8]_mod_3/BUS_0009_INV_515_o2)
+     LUT6:I3->O           16   0.043   0.760  curr_addr[15]_width_wire[8]_mod_3/BUS_0009_INV_515_o21 (curr_addr[15]_width_wire[8]_mod_3/BUS_0009_INV_515_o)
+     LUT5:I0->O            4   0.043   0.596  curr_addr[15]_width_wire[8]_mod_3/Mmux_a[10]_GND_6_o_MUX_701_o11 (curr_addr[15]_width_wire[8]_mod_3/a[10]_GND_6_o_MUX_701_o)
+     LUT4:I0->O            0   0.043   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0010_INV_533_o_lutdi1 (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0010_INV_533_o_lutdi1)
+     MUXCY:DI->O           1   0.218   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0010_INV_533_o_cy<1> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0010_INV_533_o_cy<1>)
+     MUXCY:CI->O           1   0.013   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0010_INV_533_o_cy<2> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0010_INV_533_o_cy<2>)
+     MUXCY:CI->O          19   0.147   0.695  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0010_INV_533_o_cy<3> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0010_INV_533_o_cy<3>)
+     LUT5:I1->O            6   0.043   0.609  curr_addr[15]_width_wire[8]_mod_3/Mmux_a[0]_a[15]_MUX_727_o171 (curr_addr[15]_width_wire[8]_mod_3/a[7]_a[15]_MUX_720_o)
+     LUT4:I0->O            0   0.043   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0011_INV_550_o_lutdi (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0011_INV_550_o_lutdi)
+     MUXCY:DI->O           1   0.218   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0011_INV_550_o_cy<0> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0011_INV_550_o_cy<0>)
+     MUXCY:CI->O           1   0.012   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0011_INV_550_o_cy<1> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0011_INV_550_o_cy<1>)
+     MUXCY:CI->O           1   0.012   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0011_INV_550_o_cy<2> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0011_INV_550_o_cy<2>)
+     MUXCY:CI->O           5   0.148   0.490  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0011_INV_550_o_cy<3> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0011_INV_550_o_cy<3>)
+     LUT6:I4->O           31   0.043   0.700  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0011_INV_550_o_cy<4> (curr_addr[15]_width_wire[8]_mod_3/BUS_0011_INV_550_o)
+     LUT3:I0->O            2   0.043   0.582  curr_addr[15]_width_wire[8]_mod_3/Mmux_a[0]_a[15]_MUX_743_o161 (curr_addr[15]_width_wire[8]_mod_3/a[6]_a[15]_MUX_737_o)
+     LUT4:I0->O            0   0.043   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0012_INV_567_o_lutdi (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0012_INV_567_o_lutdi)
+     MUXCY:DI->O           1   0.218   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0012_INV_567_o_cy<0> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0012_INV_567_o_cy<0>)
+     MUXCY:CI->O           1   0.012   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0012_INV_567_o_cy<1> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0012_INV_567_o_cy<1>)
+     MUXCY:CI->O           1   0.012   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0012_INV_567_o_cy<2> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0012_INV_567_o_cy<2>)
+     MUXCY:CI->O           4   0.148   0.568  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0012_INV_567_o_cy<3> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0012_INV_567_o_cy<3>)
+     LUT5:I2->O           25   0.043   0.813  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0012_INV_567_o_cy<4> (curr_addr[15]_width_wire[8]_mod_3/BUS_0012_INV_567_o)
+     LUT5:I0->O            6   0.043   0.609  curr_addr[15]_width_wire[8]_mod_3/Mmux_a[0]_a[15]_MUX_759_o171 (curr_addr[15]_width_wire[8]_mod_3/a[7]_a[15]_MUX_752_o)
+     LUT4:I0->O            0   0.043   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0013_INV_584_o_lutdi1 (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0013_INV_584_o_lutdi1)
+     MUXCY:DI->O           1   0.218   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0013_INV_584_o_cy<1> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0013_INV_584_o_cy<1>)
+     MUXCY:CI->O           1   0.012   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0013_INV_584_o_cy<2> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0013_INV_584_o_cy<2>)
+     MUXCY:CI->O           1   0.148   0.576  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0013_INV_584_o_cy<3> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0013_INV_584_o_cy<3>)
+     LUT6:I2->O           48   0.043   0.818  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0013_INV_584_o_cy<4> (curr_addr[15]_width_wire[8]_mod_3/BUS_0013_INV_584_o)
+     LUT5:I0->O            2   0.043   0.554  curr_addr[15]_width_wire[8]_mod_3/Mmux_a[0]_a[15]_MUX_775_o151 (curr_addr[15]_width_wire[8]_mod_3/a[5]_a[15]_MUX_770_o)
+     LUT4:I1->O            1   0.043   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0014_INV_601_o_lut<1> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0014_INV_601_o_lut<1>)
+     MUXCY:S->O            1   0.230   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0014_INV_601_o_cy<1> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0014_INV_601_o_cy<1>)
+     MUXCY:CI->O           1   0.012   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0014_INV_601_o_cy<2> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0014_INV_601_o_cy<2>)
+     MUXCY:CI->O           1   0.012   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0014_INV_601_o_cy<3> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0014_INV_601_o_cy<3>)
+     MUXCY:CI->O           1   0.148   0.463  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0014_INV_601_o_cy<4> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0014_INV_601_o_cy<4>)
+     LUT6:I4->O           26   0.043   0.813  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0014_INV_601_o_cy<5> (curr_addr[15]_width_wire[8]_mod_3/BUS_0014_INV_601_o)
+     LUT5:I0->O            5   0.043   0.689  curr_addr[15]_width_wire[8]_mod_3/Mmux_a[11]_a[15]_MUX_780_o11 (curr_addr[15]_width_wire[8]_mod_3/a[11]_a[15]_MUX_780_o)
+     LUT5:I0->O            1   0.043   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0015_INV_618_o_lut<4> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0015_INV_618_o_lut<4>)
+     MUXCY:S->O           27   0.365   0.614  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0015_INV_618_o_cy<4> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0015_INV_618_o_cy<4>)
+     LUT5:I3->O            2   0.043   0.668  curr_addr[15]_width_wire[8]_mod_3/Mmux_a[10]_a[15]_MUX_797_o11 (curr_addr[15]_width_wire[8]_mod_3/a[10]_a[15]_MUX_797_o)
+     LUT5:I0->O            1   0.043   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0016_INV_635_o_lut<4> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0016_INV_635_o_lut<4>)
+     MUXCY:S->O            1   0.365   0.463  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0016_INV_635_o_cy<4> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0016_INV_635_o_cy<4>)
+     LUT6:I4->O           29   0.043   0.814  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0016_INV_635_o_cy<5> (curr_addr[15]_width_wire[8]_mod_3/BUS_0016_INV_635_o)
+     LUT5:I0->O            2   0.043   0.668  curr_addr[15]_width_wire[8]_mod_3/Mmux_a[9]_a[15]_MUX_814_o11 (curr_addr[15]_width_wire[8]_mod_3/a[9]_a[15]_MUX_814_o)
+     LUT5:I0->O            1   0.043   0.000  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0017_INV_652_o_lut<4> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0017_INV_652_o_lut<4>)
+     MUXCY:S->O            1   0.365   0.409  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0017_INV_652_o_cy<4> (curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0017_INV_652_o_cy<4>)
+     LUT5:I4->O            8   0.043   0.708  curr_addr[15]_width_wire[8]_mod_3/Mcompar_BUS_0017_INV_652_o_cy<5> (curr_addr[15]_width_wire[8]_mod_3/BUS_0017_INV_652_o)
+     LUT5:I0->O            1   0.043   0.399  curr_addr[15]_width_wire[8]_mod_3/Mmux_o81 (COLUMN_7_OBUF)
+     OBUF:I->O                 0.000          COLUMN_7_OBUF (COLUMN<7>)
+    ----------------------------------------
+    Total                     34.598ns (5.012ns logic, 29.585ns route)
+                                       (14.5% logic, 85.5% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |         |    0.637|    1.346|         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.75 secs
+ 
+--> 
+
+Total memory usage is 4719816 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

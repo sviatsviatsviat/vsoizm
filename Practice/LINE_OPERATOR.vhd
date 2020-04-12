@@ -31,11 +31,9 @@ entity LINE_OPERATOR is
 				);
     Port ( CLK : in  STD_LOGIC;
            RST : in  STD_LOGIC;
-			  KERNEL_EN : in std_logic;
 			  KERNEL_IN : in std_logic_vector(KERNELSIZE*WORD-1 downto 0);
-			  KERNEL_SUM : out signed(WORD*2-1 downto 0);
 			  LINE_EN : in std_logic;
-			  LINE_LENGTH : in integer range 1 to LINESIZE;
+			  LINE_LENGTH : in integer range 0 to LINESIZE-1;
 			  LINE_IN : in std_logic_vector(WORD-1 downto 0);
 			  LINE_OUT : out std_logic_vector(WORD-1 downto 0);
 			  CONV_SUM : out signed(3*WORD-1 downto 0)
@@ -52,7 +50,7 @@ component LINE_REG is
     Port ( CLK : in  STD_LOGIC;
            RST : in  STD_LOGIC;
 			  EN : in std_logic;
-			  LINE_LENGTH : in integer range 1 to SIZE;
+			  LINE_LENGTH : in integer range 0 to SIZE-1;
 			  REG_IN : in std_logic_vector(WORD-1 downto 0);
 			  OUTPUT : out std_logic_vector(WORD*OUTSIZE-1 downto 0);
 			  LINE_OUT : out std_logic_vector(WORD-1 downto 0)
@@ -72,39 +70,32 @@ type t_lvals is array (KERNELSIZE-1 downto 0) of unsigned(WORD-1 downto 0);
 type t_kvals is array (KERNELSIZE-1 downto 0) of signed(WORD-1 downto 0);
 type t_multiples is array (KERNELSIZE-1 downto 0) of signed(2*WORD-1 downto 0);
 type t_sums is array (KERNELSIZE downto 0) of signed(3*WORD-1 downto 0);
-type t_ksums is array (KERNELSIZE downto 0) of signed(2*WORD-1 downto 0);
 
 signal lvals: t_lvals;
 signal kvals: t_kvals;
 signal multiples: t_multiples;
 signal sums: t_sums;
-signal ksums: t_ksums;
 signal kernel_values, line_output: std_logic_vector(KERNELSIZE*WORD-1 downto 0);
 
 constant mzero: signed(3*WORD-1 downto 0) := (others => '0');
-constant kzero: signed(2*WORD-1 downto 0) := (others => '0');
 
 begin
 
-kernel_slice: REG generic map(KERNELSIZE*WORD) port map(CLK, RST, KERNEL_EN, KERNEL_IN, kernel_values);
 image_line: LINE_REG generic map(LINESIZE, KERNELSIZE, WORD) port map(CLK, RST, LINE_EN, LINE_LENGTH, LINE_IN, line_output, LINE_OUT);
 
 multiplicators: for i in KERNELSIZE downto 1 generate
 	lvals(i-1) <= unsigned(line_output(WORD*i-1 downto WORD*(i-1)));
-	kvals(i-1) <= signed(kernel_values(WORD*i-1 downto WORD*(i-1)));
+	kvals(i-1) <= signed(KERNEL_IN(WORD*i-1 downto WORD*(i-1)));
 	multiples(i-1) <= to_integer(lvals(i-1))*kvals(i-1);
 end generate;
 
 sums(KERNELSIZE) <= mzero;
-ksums(KERNELSIZE) <= kzero;
 
 adders: for i in KERNELSIZE-1 downto 0 generate
 	sums(i) <= sums(i+1) + multiples(i);
-	ksums(i) <= ksums(i+1) + kvals(i);
 end generate;
 
 CONV_SUM <= sums(0);
-KERNEL_SUM <= ksums(0);
 
 end Behavioral;
 

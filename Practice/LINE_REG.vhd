@@ -31,7 +31,7 @@ entity LINE_REG is
     Port ( CLK : in  STD_LOGIC;
            RST : in  STD_LOGIC;
 			  EN : in std_logic;
-			  LINE_LENGTH : in integer range 1 to SIZE;
+			  LINE_LENGTH : in integer range 0 to SIZE-1;
 			  REG_IN : in std_logic_vector(WORD-1 downto 0);
 			  OUTPUT : out std_logic_vector(WORD*OUTSIZE-1 downto 0);
 			  LINE_OUT : out std_logic_vector(WORD-1 downto 0)
@@ -57,11 +57,11 @@ signal input_sel : std_logic_vector(SIZE-1 downto 0);
 	
 begin
 
-wires(SIZE) <= REG_IN;
+wires(SIZE) <= (others => '0');
 LINE_OUT <= wires(0);
 
 regs: for i in SIZE-1 downto 0 generate
-	input_sel(i) <= '1' when LINE_LENGTH = i+1 else '0';
+	input_sel(i) <= '1' when LINE_LENGTH = i else '0';
 	reg: DBL_IN_REG generic map(WORD) port map(CLK, RST, EN, input_sel(i), wires(i+1), REG_IN, wires(i));
 end generate;
 

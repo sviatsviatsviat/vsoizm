@@ -8,16 +8,21 @@
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/CONVOLUTION_OPERATOR - Behavioral E:|Master Degree|VSOIZM|vsoizm|Practice|CONVOLUTION_OPERATOR.vhd/line_op - LINE_OPERATOR - Behavioral/image_line - LINE_REG - Behavioral/reg - DBL_IN_REG - Behavioral</ClosedNode>
+         <ClosedNode>/CONVOLUTION_UNIT - Behavioral E:|Master Degree|VSOIZM|vsoizm|Practice|CONVOLUTION_UNIT.vhd/convolution - CONVOLUTION_OPERATOR - Behavioral</ClosedNode>
+         <ClosedNode>/CONVOLUTION_UNIT - Behavioral E:|Master Degree|VSOIZM|vsoizm|Practice|CONVOLUTION_UNIT.vhd/image_mem - MATRIX_UNIT - Behavioral</ClosedNode>
+         <ClosedNode>/CONVOLUTION_UNIT - Behavioral E:|Master Degree|VSOIZM|vsoizm|Practice|CONVOLUTION_UNIT.vhd/image_out_mem - MATRIX_UNIT - Behavioral</ClosedNode>
+         <ClosedNode>/CONVOLUTION_UNIT - Behavioral E:|Master Degree|VSOIZM|vsoizm|Practice|CONVOLUTION_UNIT.vhd/kern - KERNEL - Behavioral</ClosedNode>
+         <ClosedNode>/CONVOLUTION_UNIT - Behavioral E:|Master Degree|VSOIZM|vsoizm|Practice|CONVOLUTION_UNIT.vhd/kernel_mem - MATRIX_UNIT - Behavioral</ClosedNode>
          <ClosedNode>/LINE_OPERATOR - Behavioral E:|Master Degree|VSOIZM|vsoizm|Practice|LINE_OPERATOR.vhd/image_line - LINE_REG - Behavioral</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>CONVOLUTION_OPERATOR - Behavioral (E:/Master Degree/VSOIZM/vsoizm/Practice/CONVOLUTION_OPERATOR.vhd)</SelectedItem>
+         <SelectedItem>brain - CONTROLLER - Behavioral (E:/Master Degree/VSOIZM/vsoizm/Practice/CONTROLLER.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001de000000020000000000000000000000000200000064ffffffff000000810000000300000002000001de0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000022d000000020000000000000000000000000200000064ffffffff0000008100000003000000020000022d0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>CONVOLUTION_OPERATOR - Behavioral (E:/Master Degree/VSOIZM/vsoizm/Practice/CONVOLUTION_OPERATOR.vhd)</CurrentItem>
+      <CurrentItem>brain - CONTROLLER - Behavioral (E:/Master Degree/VSOIZM/vsoizm/Practice/CONTROLLER.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -25,13 +30,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000162000000010000000100000000000000000000000064ffffffff000000810000000000000001000001620000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -42,7 +47,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000001a3000000040101000100000000000000000000000064ffffffff000000810000000000000004000000b50000000100000000000000240000000100000000000000660000000100000000000000640000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000004e3000000040101000100000000000000000000000064ffffffff000000810000000000000004000000b50000000100000000000000240000000100000000000000660000000100000000000003a40000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>TB_LINE_OPERATOR.vhd</CurrentItem>
    </ItemView>
@@ -80,20 +85,25 @@
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/CONVOLUTION_OPERATOR - Behavioral E:|Master Degree|VSOIZM|vsoizm|Practice|CONVOLUTION_OPERATOR.vhd</ClosedNode>
+         <ClosedNode>/CONVOLUTION_UNIT - Behavioral E:|Master Degree|VSOIZM|vsoizm|Practice|CONVOLUTION_UNIT.vhd</ClosedNode>
          <ClosedNode>/LINE_OPERATOR - Behavioral E:|Master Degree|VSOIZM|vsoizm|Practice|LINE_OPERATOR.vhd/image_line - LINE_REG - Behavioral</ClosedNode>
+         <ClosedNode>/TB_CONTROLLER - behavior E:|Master Degree|VSOIZM|vsoizm|Practice|TB_CONTROLLER.vhd</ClosedNode>
+         <ClosedNode>/TB_CONVOLUTION_UNIT - behavior E:|Master Degree|VSOIZM|vsoizm|Practice|TB_CONVOLUTION_UNIT.vhd</ClosedNode>
          <ClosedNode>/TB_DBL_IN_REG - behavior E:|Master Degree|VSOIZM|vsoizm|Practice|TB_DBL_IN_REG.vhd</ClosedNode>
          <ClosedNode>/TB_DIVIDER - behavior E:|Master Degree|VSOIZM|vsoizm|Practice|TB_DIVIDER.vhd</ClosedNode>
          <ClosedNode>/TB_LINE_OPERATOR - behavior E:|Master Degree|VSOIZM|vsoizm|Practice|TB_LINE_OPERATOR.vhd</ClosedNode>
+         <ClosedNode>/TB_LINE_OPERATOR - behavior E:|Master Degree|VSOIZM|vsoizm|Practice|TB_LINE_OPERATOR.vhd/uut - LINE_OPERATOR - Behavioral/image_line - LINE_REG - Behavioral</ClosedNode>
          <ClosedNode>/TB_LINE_REG - behavior E:|Master Degree|VSOIZM|vsoizm|Practice|TB_LINE_REG.vhd</ClosedNode>
+         <ClosedNode>/TB_RAM_MATRIX_RDR - behavior E:|Master Degree|VSOIZM|vsoizm|Practice|TB_RAM_MATRIX_RDR.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>TB_LINE_OPERATOR - behavior (E:/Master Degree/VSOIZM/vsoizm/Practice/TB_LINE_OPERATOR.vhd)</SelectedItem>
+         <SelectedItem>TB_CONVOLUTION_UNIT - behavior (E:/Master Degree/VSOIZM/vsoizm/Practice/TB_CONVOLUTION_UNIT.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001ce000000020000000000000000000000000200000064ffffffff000000810000000300000002000001ce0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001a7000000020000000000000000000000000200000064ffffffff000000810000000300000002000001a70000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>TB_LINE_OPERATOR - behavior (E:/Master Degree/VSOIZM/vsoizm/Practice/TB_LINE_OPERATOR.vhd)</CurrentItem>
+      <CurrentItem>TB_CONVOLUTION_UNIT - behavior (E:/Master Degree/VSOIZM/vsoizm/Practice/TB_CONVOLUTION_UNIT.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>

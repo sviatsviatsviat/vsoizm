@@ -1,4 +1,4 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o E:/Master Degree/VSOIZM/vsoizm/Practice/TB_LINE_OPERATOR_isim_beh.exe -prj E:/Master Degree/VSOIZM/vsoizm/Practice/TB_LINE_OPERATOR_beh.prj work.TB_LINE_OPERATOR 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o E:/Master Degree/VSOIZM/vsoizm/Practice/TB_CONVOLUTION_UNIT_isim_beh.exe -prj E:/Master Degree/VSOIZM/vsoizm/Practice/TB_CONVOLUTION_UNIT_beh.prj work.TB_CONVOLUTION_UNIT 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 16
 Turning on mult-threading, number of parallel sub-compilation jobs: 32 
@@ -7,22 +7,43 @@ Parsing VHDL file "E:/Master Degree/VSOIZM/vsoizm/Practice/REG.vhd" into library
 Parsing VHDL file "E:/Master Degree/VSOIZM/vsoizm/Practice/DBL_IN_REG.vhd" into library work
 Parsing VHDL file "E:/Master Degree/VSOIZM/vsoizm/Practice/ConvolutionPack.vhd" into library work
 Parsing VHDL file "E:/Master Degree/VSOIZM/vsoizm/Practice/LINE_REG.vhd" into library work
+Parsing VHDL file "E:/Master Degree/VSOIZM/vsoizm/Practice/RAM_MATRIX_RDR.vhd" into library work
+Parsing VHDL file "E:/Master Degree/VSOIZM/vsoizm/Practice/RAM_IN.vhd" into library work
 Parsing VHDL file "E:/Master Degree/VSOIZM/vsoizm/Practice/LINE_OPERATOR.vhd" into library work
-Parsing VHDL file "E:/Master Degree/VSOIZM/vsoizm/Practice/TB_LINE_OPERATOR.vhd" into library work
+Parsing VHDL file "E:/Master Degree/VSOIZM/vsoizm/Practice/DIVIDER.vhd" into library work
+Parsing VHDL file "E:/Master Degree/VSOIZM/vsoizm/Practice/RAM_UNIT.vhd" into library work
+Parsing VHDL file "E:/Master Degree/VSOIZM/vsoizm/Practice/KERNEL.vhd" into library work
+Parsing VHDL file "E:/Master Degree/VSOIZM/vsoizm/Practice/CONVOLUTION_OPERATOR.vhd" into library work
+Parsing VHDL file "E:/Master Degree/VSOIZM/vsoizm/Practice/CONTROLLER.vhd" into library work
+Parsing VHDL file "E:/Master Degree/VSOIZM/vsoizm/Practice/CONVOLUTION_UNIT.vhd" into library work
+Parsing VHDL file "E:/Master Degree/VSOIZM/vsoizm/Practice/TB_CONVOLUTION_UNIT.vhd" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling package standard
 Compiling package std_logic_1164
 Compiling package numeric_std
 Compiling package convolutionpack
-Compiling architecture behavioral of entity REG [\REG(72)\]
+Compiling architecture behavioral of entity CONTROLLER [\CONTROLLER(256,9,8)\]
 Compiling architecture behavioral of entity REG [\REG(8)\]
 Compiling architecture behavioral of entity DBL_IN_REG [\DBL_IN_REG(8)\]
+Compiling architecture behavioral of entity LINE_REG [\LINE_REG(9,9,8)\]
+Compiling architecture behavioral of entity KERNEL [\KERNEL(9,8)\]
 Compiling architecture behavioral of entity LINE_REG [\LINE_REG(256,9,8)\]
 Compiling architecture behavioral of entity LINE_OPERATOR [\LINE_OPERATOR(256,9,8)\]
-Compiling architecture behavior of entity tb_line_operator
+Compiling architecture behavioral of entity DIVIDER [\DIVIDER(8)\]
+Compiling architecture behavioral of entity CONVOLUTION_OPERATOR [\CONVOLUTION_OPERATOR(256,9,8)\]
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity RAM_MATRIX_RDR [\RAM_MATRIX_RDR(256,8,16,8)\]
+Compiling architecture behavioral of entity RAM [\RAM(16,8)\]
+Compiling architecture behavioral of entity MATRIX_UNIT [\MATRIX_UNIT(256,8,16,8)\]
+Compiling architecture behavioral of entity RAM_MATRIX_RDR [\RAM_MATRIX_RDR(9,4,8,8)\]
+Compiling architecture behavioral of entity RAM [\RAM(8,8)\]
+Compiling architecture behavioral of entity MATRIX_UNIT [\MATRIX_UNIT(9,4,8,8)\]
+Compiling architecture behavioral of entity CONVOLUTION_UNIT [\CONVOLUTION_UNIT(256,9,8)\]
+Compiling architecture behavior of entity tb_convolution_unit
 Time Resolution for simulation is 1ps.
-Compiled 15 VHDL Units
-Built simulation executable E:/Master Degree/VSOIZM/vsoizm/Practice/TB_LINE_OPERATOR_isim_beh.exe
-Fuse Memory Usage: 38816 KB
-Fuse CPU Usage: 452 ms
+Compiled 39 VHDL Units
+Built simulation executable E:/Master Degree/VSOIZM/vsoizm/Practice/TB_CONVOLUTION_UNIT_isim_beh.exe
+Fuse Memory Usage: 44208 KB
+Fuse CPU Usage: 796 ms
