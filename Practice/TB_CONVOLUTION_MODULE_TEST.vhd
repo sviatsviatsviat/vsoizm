@@ -67,9 +67,12 @@ ARCHITECTURE behavior OF TB_CONVOLUTION_MODULE_TEST IS
 
  	--Outputs
    signal CONV_RESULT : std_logic_vector(7 downto 0);
-		
-	signal kernel_mem: mem_array := init_ram_hex("E:\Master Degree\VSOIZM\kernel.hex", 9);
-	signal image_mem: mem_array := init_ram_hex("E:\Master Degree\VSOIZM\image.hex", 64009);
+	
+	constant kern_size : integer := 5;
+	constant img_size: integer := 253;
+	
+	signal kernel_mem: mem_array := init_ram_hex("E:\Master Degree\VSOIZM\kernel.hex", kern_size**2);
+	signal image_mem: mem_array := init_ram_hex("E:\Master Degree\VSOIZM\image.hex", img_size**2);
 
 	signal bool_started_write: boolean := false;
 
@@ -112,48 +115,47 @@ BEGIN
 		RST <= '1'; wait for CLK_period;
 		RST <= '0';
 	
-		KERNEL_SIZE <= 2;
+		KERNEL_SIZE <= kern_size-1;
 		
 		KERNEL_EN <= '1';
-		for i in 0 to 8 loop
+		for i in 0 to (kern_size**2)-1 loop
 			KERNEL_IN <= kernel_mem(i);
 			wait for CLK_period;
 		end loop;
 		KERNEL_EN <= '0';
-		--wait for CLK_period;
 		
-		LINE_LENGTH <= 252;
+		LINE_LENGTH <= img_size-1;
 		
 		LINE_EN <= '1';
 		
-		for i in 0 to 2 loop
+		for i in 0 to kern_size-1 loop
 			
-			for j in 0 to 252 loop
+			for j in 0 to img_size-1 loop
 				wait for CLK_period;
-				LINE_IN <= image_mem(i*253+j);
+				LINE_IN <= image_mem(i*img_size+j);
 			end loop;
 			
 		end loop;
 		
 		bool_started_write <= true;
-		for i in 3 to 252 loop
+		for i in kern_size to img_size-1 loop
 			
-			for j in 0 to 250 loop
+			for j in 0 to img_size-kern_size loop
 				write(row, to_integer(unsigned(CONV_RESULT)));
 				writeline(test_vector,row);
 				wait for CLK_period;
-				LINE_IN <= image_mem(i*253+j);
+				LINE_IN <= image_mem(i*img_size+j);
 			end loop;
 			
-			for j in 251 to 252 loop	
+			for j in img_size-kern_size+1 to img_size-1 loop	
 				wait for CLK_period;			
-				LINE_IN <= image_mem(i*253+j);
+				LINE_IN <= image_mem(i*img_size+j);
 			end loop;
 			
 		end loop;
 		
 		LINE_IN <= (others => '0');
-		for i in 0 to 250 loop
+		for i in 0 to img_size-kern_size loop
 				write(row, to_integer(unsigned(CONV_RESULT)));
 				writeline(test_vector,row);
 				wait for CLK_period;

@@ -2,14 +2,14 @@ Command line:
    TB_CONVOLUTION_MODULE_TEST_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  55648
+     -socket  55373
 
-Mon Apr 13 01:21:18 2020
+Tue Apr 14 20:23:55 2020
 
 
  Elaboration Time: 0.90625 sec
 
- Current Memory Usage: 5943.17 Meg
+ Current Memory Usage: 5943.25 Meg
 
  Total Signals          : 33722
  Total Nets             : 1118180
@@ -17,8 +17,8 @@ Mon Apr 13 01:21:18 2020
  Total Blocks           : 7704
  Total Primitive Blocks : 2885
  Total Processes        : 10280
- Total Traceable Variables  : 7787
- Total Scalar Nets and Variables : 1126727
+ Total Traceable Variables  : 7789
+ Total Scalar Nets and Variables : 1126729
 
 ** Failure:End of simulation
 User(VHDL) Code Called Simulation Stop
@@ -26,9 +26,9 @@ In process TB_CONVOLUTION_MODULE_TEST.vhd:stim_proc
  
 
 
- Total Simulation Time: 138.484 sec
+ Total Simulation Time: 234.953 sec
 
- Current Memory Usage: 5785.88 Meg
+ Current Memory Usage: 5785.96 Meg
 
-Mon Apr 13 01:24:33 2020
+Tue Apr 14 20:28:15 2020
 

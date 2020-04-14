@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.07 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.07 secs
  
 --> Reading design: CONVOLUTION_MODULE.prj
 
@@ -306,23 +306,23 @@ Synthesizing Unit <LINE_OPERATOR>.
         LINESIZE = 256
         KERNELSIZE = 9
         WORD = 8
-    Found 24-bit adder for signal <_n0117> created at line 77.
-    Found 24-bit adder for signal <_n0118> created at line 77.
-    Found 24-bit adder for signal <_n0119> created at line 77.
-    Found 24-bit adder for signal <_n0120> created at line 77.
-    Found 24-bit adder for signal <_n0121> created at line 77.
-    Found 24-bit adder for signal <_n0122> created at line 77.
-    Found 24-bit adder for signal <_n0123> created at line 77.
+    Found 24-bit adder for signal <_n0135> created at line 77.
+    Found 24-bit adder for signal <_n0136> created at line 77.
+    Found 24-bit adder for signal <_n0137> created at line 77.
+    Found 24-bit adder for signal <_n0138> created at line 77.
+    Found 24-bit adder for signal <_n0139> created at line 77.
+    Found 24-bit adder for signal <_n0140> created at line 77.
+    Found 24-bit adder for signal <_n0141> created at line 77.
     Found 24-bit adder for signal <sums<0>> created at line 77.
-    Found 8x8-bit multiplier for signal <multiples<8>> created at line 1417.
-    Found 8x8-bit multiplier for signal <multiples<7>> created at line 1417.
-    Found 8x8-bit multiplier for signal <multiples<6>> created at line 1417.
-    Found 8x8-bit multiplier for signal <multiples<5>> created at line 1417.
-    Found 8x8-bit multiplier for signal <multiples<4>> created at line 1417.
-    Found 8x8-bit multiplier for signal <multiples<3>> created at line 1417.
-    Found 8x8-bit multiplier for signal <multiples<2>> created at line 1417.
-    Found 8x8-bit multiplier for signal <multiples<1>> created at line 1417.
-    Found 8x8-bit multiplier for signal <multiples<0>> created at line 1417.
+    Found 9x9-bit multiplier for signal <multiples<8>> created at line 1411.
+    Found 9x9-bit multiplier for signal <multiples<7>> created at line 1411.
+    Found 9x9-bit multiplier for signal <multiples<6>> created at line 1411.
+    Found 9x9-bit multiplier for signal <multiples<5>> created at line 1411.
+    Found 9x9-bit multiplier for signal <multiples<4>> created at line 1411.
+    Found 9x9-bit multiplier for signal <multiples<3>> created at line 1411.
+    Found 9x9-bit multiplier for signal <multiples<2>> created at line 1411.
+    Found 9x9-bit multiplier for signal <multiples<1>> created at line 1411.
+    Found 9x9-bit multiplier for signal <multiples<0>> created at line 1411.
     Summary:
 	inferred   9 Multiplier(s).
 	inferred   8 Adder/Subtractor(s).
@@ -400,31 +400,31 @@ Synthesizing Unit <div_24s_16s>.
     Found 24-bit adder for signal <n1831> created at line 0.
     Found 24-bit adder for signal <a[23]_GND_16_o_add_51_OUT[23:0]> created at line 0.
     Found 25-bit adder for signal <GND_16_o_BUS_0001_add_54_OUT[24:0]> created at line 0.
-    Found 40-bit comparator greater for signal <BUS_0001_INV_846_o> created at line 0
-    Found 39-bit comparator greater for signal <BUS_0002_INV_845_o> created at line 0
-    Found 38-bit comparator greater for signal <BUS_0003_INV_844_o> created at line 0
-    Found 37-bit comparator greater for signal <BUS_0004_INV_843_o> created at line 0
-    Found 36-bit comparator greater for signal <BUS_0005_INV_842_o> created at line 0
-    Found 35-bit comparator greater for signal <BUS_0006_INV_841_o> created at line 0
-    Found 34-bit comparator greater for signal <BUS_0007_INV_840_o> created at line 0
-    Found 33-bit comparator greater for signal <BUS_0008_INV_839_o> created at line 0
-    Found 32-bit comparator greater for signal <BUS_0009_INV_838_o> created at line 0
-    Found 31-bit comparator greater for signal <BUS_0010_INV_837_o> created at line 0
-    Found 30-bit comparator greater for signal <BUS_0011_INV_836_o> created at line 0
-    Found 29-bit comparator greater for signal <BUS_0012_INV_835_o> created at line 0
-    Found 28-bit comparator greater for signal <BUS_0013_INV_834_o> created at line 0
-    Found 27-bit comparator greater for signal <BUS_0014_INV_833_o> created at line 0
-    Found 26-bit comparator greater for signal <BUS_0015_INV_832_o> created at line 0
-    Found 25-bit comparator greater for signal <BUS_0016_INV_831_o> created at line 0
-    Found 24-bit comparator greater for signal <BUS_0017_INV_830_o> created at line 0
-    Found 24-bit comparator greater for signal <BUS_0018_INV_829_o> created at line 0
-    Found 24-bit comparator greater for signal <BUS_0019_INV_828_o> created at line 0
-    Found 24-bit comparator greater for signal <BUS_0020_INV_827_o> created at line 0
-    Found 24-bit comparator greater for signal <BUS_0021_INV_826_o> created at line 0
-    Found 24-bit comparator greater for signal <BUS_0022_INV_825_o> created at line 0
-    Found 24-bit comparator greater for signal <BUS_0023_INV_824_o> created at line 0
-    Found 24-bit comparator greater for signal <BUS_0024_INV_823_o> created at line 0
-    Found 24-bit comparator greater for signal <BUS_0025_INV_822_o> created at line 0
+    Found 40-bit comparator greater for signal <BUS_0001_INV_848_o> created at line 0
+    Found 39-bit comparator greater for signal <BUS_0002_INV_847_o> created at line 0
+    Found 38-bit comparator greater for signal <BUS_0003_INV_846_o> created at line 0
+    Found 37-bit comparator greater for signal <BUS_0004_INV_845_o> created at line 0
+    Found 36-bit comparator greater for signal <BUS_0005_INV_844_o> created at line 0
+    Found 35-bit comparator greater for signal <BUS_0006_INV_843_o> created at line 0
+    Found 34-bit comparator greater for signal <BUS_0007_INV_842_o> created at line 0
+    Found 33-bit comparator greater for signal <BUS_0008_INV_841_o> created at line 0
+    Found 32-bit comparator greater for signal <BUS_0009_INV_840_o> created at line 0
+    Found 31-bit comparator greater for signal <BUS_0010_INV_839_o> created at line 0
+    Found 30-bit comparator greater for signal <BUS_0011_INV_838_o> created at line 0
+    Found 29-bit comparator greater for signal <BUS_0012_INV_837_o> created at line 0
+    Found 28-bit comparator greater for signal <BUS_0013_INV_836_o> created at line 0
+    Found 27-bit comparator greater for signal <BUS_0014_INV_835_o> created at line 0
+    Found 26-bit comparator greater for signal <BUS_0015_INV_834_o> created at line 0
+    Found 25-bit comparator greater for signal <BUS_0016_INV_833_o> created at line 0
+    Found 24-bit comparator greater for signal <BUS_0017_INV_832_o> created at line 0
+    Found 24-bit comparator greater for signal <BUS_0018_INV_831_o> created at line 0
+    Found 24-bit comparator greater for signal <BUS_0019_INV_830_o> created at line 0
+    Found 24-bit comparator greater for signal <BUS_0020_INV_829_o> created at line 0
+    Found 24-bit comparator greater for signal <BUS_0021_INV_828_o> created at line 0
+    Found 24-bit comparator greater for signal <BUS_0022_INV_827_o> created at line 0
+    Found 24-bit comparator greater for signal <BUS_0023_INV_826_o> created at line 0
+    Found 24-bit comparator greater for signal <BUS_0024_INV_825_o> created at line 0
+    Found 24-bit comparator greater for signal <BUS_0025_INV_824_o> created at line 0
     Summary:
 	inferred  51 Adder/Subtractor(s).
 	inferred  25 Comparator(s).
@@ -436,7 +436,7 @@ HDL Synthesis Report
 
 Macro Statistics
 # Multipliers                                          : 81
- 8x8-bit multiplier                                    : 81
+ 9x9-bit multiplier                                    : 81
 # Adders/Subtractors                                   : 211
  16-bit adder                                          : 80
  16-bit subtractor                                     : 1
@@ -519,7 +519,7 @@ Unit <KERNEL> synthesized (advanced).
 
 Synthesizing (advanced) Unit <LINE_OPERATOR>.
 	The following adders/subtractors are grouped into adder tree <Madd_sums<0>1> :
- 	<Madd__n0117> in block <LINE_OPERATOR>, 	<Madd__n0118> in block <LINE_OPERATOR>, 	<Madd__n0120> in block <LINE_OPERATOR>, 	<Madd__n0122> in block <LINE_OPERATOR>, 	<Madd__n0121> in block <LINE_OPERATOR>.
+ 	<Madd__n0135> in block <LINE_OPERATOR>, 	<Madd__n0136> in block <LINE_OPERATOR>, 	<Madd__n0138> in block <LINE_OPERATOR>, 	<Madd__n0140> in block <LINE_OPERATOR>, 	<Madd__n0139> in block <LINE_OPERATOR>.
 	Multiplier <Mmult_multiples<7>> in block <LINE_OPERATOR> and adder/subtractor <ADDER_FOR_MULTADD_Madd7> in block <LINE_OPERATOR> are combined into a MAC<Maddsub_multiples<7>>.
 	Multiplier <Mmult_multiples<8>> in block <LINE_OPERATOR> and adder/subtractor <ADDER_FOR_MULTADD_Madd6> in block <LINE_OPERATOR> are combined into a MAC<Maddsub_multiples<8>>.
 	Multiplier <Mmult_multiples<0>> in block <LINE_OPERATOR> and adder/subtractor <ADDER_FOR_MULTADD_Madd5> in block <LINE_OPERATOR> are combined into a MAC<Maddsub_multiples<0>>.
@@ -535,9 +535,9 @@ Advanced HDL Synthesis Report
 
 Macro Statistics
 # MACs                                                 : 72
- 8x8-to-24-bit MAC                                     : 72
+ 8x9-to-24-bit MAC                                     : 72
 # Multipliers                                          : 9
- 8x8-bit multiplier                                    : 9
+ 8x9-bit multiplier                                    : 9
 # Adders/Subtractors                                   : 27
  16-bit subtractor                                     : 1
  24-bit adder carry in                                 : 24
@@ -631,14 +631,14 @@ Top Level Output File Name         : CONVOLUTION_MODULE.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 26312
+# BELS                             : 26322
 #      GND                         : 11
 #      INV                         : 51
-#      LUT2                        : 190
-#      LUT3                        : 19262
-#      LUT4                        : 913
+#      LUT2                        : 191
+#      LUT3                        : 19260
+#      LUT4                        : 919
 #      LUT5                        : 354
-#      LUT6                        : 3208
+#      LUT6                        : 3213
 #      MUXCY                       : 1196
 #      VCC                         : 10
 #      XORCY                       : 1117
@@ -660,14 +660,14 @@ Selected Device : xa7z020clg400-1i
 
 Slice Logic Utilization: 
  Number of Slice Registers:           19080  out of  106400    17%  
- Number of Slice LUTs:                23978  out of  53200    45%  
-    Number used as Logic:             23978  out of  53200    45%  
+ Number of Slice LUTs:                23988  out of  53200    45%  
+    Number used as Logic:             23988  out of  53200    45%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:  23987
-   Number with an unused Flip Flop:    4907  out of  23987    20%  
-   Number with an unused LUT:             9  out of  23987     0%  
-   Number of fully used LUT-FF pairs: 19071  out of  23987    79%  
+ Number of LUT Flip Flop pairs used:  23997
+   Number with an unused Flip Flop:    4917  out of  23997    20%  
+   Number with an unused LUT:             9  out of  23997     0%  
+   Number of fully used LUT-FF pairs: 19071  out of  23997    79%  
    Number of unique control sets:        10
 
 IO Utilization: 
@@ -710,9 +710,9 @@ Timing Summary:
 ---------------
 Speed Grade: -1
 
-   Minimum period: 1.410ns (Maximum Frequency: 709.433MHz)
+   Minimum period: 1.344ns (Maximum Frequency: 744.282MHz)
    Minimum input arrival time before clock: 2.255ns
-   Maximum output required time after clock: 72.069ns
+   Maximum output required time after clock: 72.527ns
    Maximum combinational path delay: No path found
 
 Timing Details:
@@ -721,28 +721,28 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'CLK'
-  Clock period: 1.410ns (frequency: 709.433MHz)
+  Clock period: 1.344ns (frequency: 744.282MHz)
   Total number of paths / destination ports: 35832 / 19064
 -------------------------------------------------------------------------
-Delay:               1.410ns (Levels of Logic = 3)
-  Source:            convolution/line_ops[1].line_op/image_line/regs[0].reg/reg_internal/reg_7 (FF)
-  Destination:       convolution/line_ops[0].line_op/image_line/regs[0].reg/reg_internal/reg_7 (FF)
+Delay:               1.344ns (Levels of Logic = 3)
+  Source:            convolution/line_ops[1].line_op/image_line/regs[0].reg/reg_internal/reg_0 (FF)
+  Destination:       convolution/line_ops[0].line_op/image_line/regs[0].reg/reg_internal/reg_0 (FF)
   Source Clock:      CLK rising
   Destination Clock: CLK rising
 
-  Data Path: convolution/line_ops[1].line_op/image_line/regs[0].reg/reg_internal/reg_7 to convolution/line_ops[0].line_op/image_line/regs[0].reg/reg_internal/reg_7
+  Data Path: convolution/line_ops[1].line_op/image_line/regs[0].reg/reg_internal/reg_0 to convolution/line_ops[0].line_op/image_line/regs[0].reg/reg_internal/reg_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q            12   0.232   0.481  image_line/regs[0].reg/reg_internal/reg_7 (image_line/regs[0].reg/reg_internal/reg_7)
-     end scope: 'convolution/line_ops[1].line_op:LINE_OUT<7>'
-     LUT6:I5->O          256   0.043   0.611  Mmux_line_ins<0>81 (line_ins<0><7>)
-     begin scope: 'convolution/line_ops[0].line_op:LINE_IN<7>'
-     LUT3:I2->O            1   0.043   0.000  image_line/regs[0].reg/Mmux_reg_in81 (image_line/regs[0].reg/reg_in<7>)
-     FDCE:D                   -0.001          image_line/regs[0].reg/reg_internal/reg_7
+     FDCE:C->Q             2   0.232   0.415  image_line/regs[0].reg/reg_internal/reg_0 (image_line/regs[0].reg/reg_internal/reg_0)
+     end scope: 'convolution/line_ops[1].line_op:LINE_OUT<0>'
+     LUT6:I5->O          256   0.043   0.611  Mmux_line_ins<0>11 (line_ins<0><0>)
+     begin scope: 'convolution/line_ops[0].line_op:LINE_IN<0>'
+     LUT3:I2->O            1   0.043   0.000  image_line/regs[0].reg/Mmux_reg_in11 (image_line/regs[0].reg/reg_in<0>)
+     FDCE:D                   -0.001          image_line/regs[0].reg/reg_internal/reg_0
     ----------------------------------------
-    Total                      1.410ns (0.318ns logic, 1.092ns route)
-                                       (22.6% logic, 77.4% route)
+    Total                      1.344ns (0.318ns logic, 1.026ns route)
+                                       (23.7% logic, 76.3% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
@@ -770,20 +770,18 @@ Offset:              2.255ns (Levels of Logic = 5)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
-  Total number of paths / destination ports: 20060906058029470000000000000000000000000000000000000000 / 8
+  Total number of paths / destination ports: 12129850174629389000000000000000000000000000000000000000 / 8
 -------------------------------------------------------------------------
-Offset:              72.069ns (Levels of Logic = 261)
-  Source:            kern/g0[2].kernel_slice/regs[5].reg/reg_internal/reg_7 (FF)
+Offset:              72.527ns (Levels of Logic = 261)
+  Source:            convolution/line_ops[2].line_op/image_line/regs[5].reg/reg_internal/reg_7 (FF)
   Destination:       CONV_RESULT<7> (PAD)
   Source Clock:      CLK rising
 
-  Data Path: kern/g0[2].kernel_slice/regs[5].reg/reg_internal/reg_7 to CONV_RESULT<7>
+  Data Path: convolution/line_ops[2].line_op/image_line/regs[5].reg/reg_internal/reg_7 to CONV_RESULT<7>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q            37   0.232   0.553  kern/g0[2].kernel_slice/regs[5].reg/reg_internal/reg_7 (kern/g0[2].kernel_slice/regs[5].reg/reg_internal/reg_7)
-     begin scope: 'convolution:KERNEL_IN<191>'
-     begin scope: 'convolution/line_ops[2].line_op:KERNEL_IN<47>'
+     FDCE:C->Q             2   0.232   0.405  image_line/regs[5].reg/reg_internal/reg_7 (image_line/regs[5].reg/reg_internal/reg_7)
      DSP48E1:A7->PCOUT47    1   4.036   0.000  Mmult_multiples<5> (Mmult_multiples<5>_PCOUT_to_Maddsub_multiples<6>_PCIN_47)
      DSP48E1:PCIN47->PCOUT47    1   1.713   0.000  Maddsub_multiples<6> (Maddsub_multiples<6>_PCOUT_to_Maddsub_multiples<4>_PCIN_47)
      DSP48E1:PCIN47->PCOUT47    1   1.713   0.000  Maddsub_multiples<4> (Maddsub_multiples<4>_PCOUT_to_Maddsub_multiples<3>_PCIN_47)
@@ -818,7 +816,7 @@ Offset:              72.069ns (Levels of Logic = 261)
      XORCY:CI->O           1   0.251   0.463  ADDERTREE_INTERNAL_Madd3_xor<0>_17 (ADDERTREE_INTERNAL_Madd_183)
      LUT2:I0->O            1   0.043   0.000  ADDERTREE_INTERNAL_Madd7_lut<18> (ADDERTREE_INTERNAL_Madd7_lut<18>)
      MUXCY:S->O            1   0.230   0.000  ADDERTREE_INTERNAL_Madd7_cy<18> (ADDERTREE_INTERNAL_Madd7_cy<18>)
-     XORCY:CI->O           5   0.251   0.426  ADDERTREE_INTERNAL_Madd7_xor<19> (ADDERTREE_INTERNAL_Madd_197)
+     XORCY:CI->O           6   0.251   0.432  ADDERTREE_INTERNAL_Madd7_xor<19> (ADDERTREE_INTERNAL_Madd_197)
      INV:I->O              1   0.053   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Msub_a[23]_unary_minus_1_OUT_lut<19>_INV_0 (div/VALUE[23]_DIVIDER[15]_div_1/Msub_a[23]_unary_minus_1_OUT_lut<19>)
      MUXCY:S->O            1   0.230   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Msub_a[23]_unary_minus_1_OUT_cy<19> (div/VALUE[23]_DIVIDER[15]_div_1/Msub_a[23]_unary_minus_1_OUT_cy<19>)
      MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Msub_a[23]_unary_minus_1_OUT_cy<20> (div/VALUE[23]_DIVIDER[15]_div_1/Msub_a[23]_unary_minus_1_OUT_cy<20>)
@@ -828,145 +826,145 @@ Offset:              72.069ns (Levels of Logic = 261)
      LUT2:I1->O            3   0.043   0.684  div/VALUE[23]_DIVIDER[15]_div_1/Mmux_a[23]_a[23]_mux_1_OUT161 (div/VALUE[23]_DIVIDER[15]_div_1/a[23]_a[23]_mux_1_OUT<23>)
      LUT6:I0->O            4   0.043   0.690  div/VALUE[23]_DIVIDER[15]_div_1/Mmux_a[23]_GND_16_o_MUX_183_o11 (div/VALUE[23]_DIVIDER[15]_div_1/a[23]_GND_16_o_MUX_183_o)
      LUT6:I0->O            3   0.043   0.684  div/VALUE[23]_DIVIDER[15]_div_1/Mmux_a[23]_GND_16_o_MUX_259_o12 (div/VALUE[23]_DIVIDER[15]_div_1/a[23]_GND_16_o_MUX_259_o)
-     LUT6:I0->O            4   0.043   0.682  div/VALUE[23]_DIVIDER[15]_div_1/BUS_0004_INV_843_o3 (div/VALUE[23]_DIVIDER[15]_div_1/BUS_0004_INV_843_o)
+     LUT6:I0->O            4   0.043   0.682  div/VALUE[23]_DIVIDER[15]_div_1/BUS_0004_INV_845_o3 (div/VALUE[23]_DIVIDER[15]_div_1/BUS_0004_INV_845_o)
      LUT5:I0->O            5   0.043   0.603  div/VALUE[23]_DIVIDER[15]_div_1/Mmux_a[23]_GND_16_o_MUX_333_o121 (div/VALUE[23]_DIVIDER[15]_div_1/a[23]_GND_16_o_MUX_335_o)
-     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0005_INV_842_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0005_INV_842_o_lutdi)
-     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0005_INV_842_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0005_INV_842_o_cy<0>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0005_INV_842_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0005_INV_842_o_cy<1>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0005_INV_842_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0005_INV_842_o_cy<2>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0005_INV_842_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0005_INV_842_o_cy<3>)
-     MUXCY:CI->O           6   0.147   0.695  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0005_INV_842_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0005_INV_842_o_cy<4>)
+     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0005_INV_844_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0005_INV_844_o_lutdi)
+     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0005_INV_844_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0005_INV_844_o_cy<0>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0005_INV_844_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0005_INV_844_o_cy<1>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0005_INV_844_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0005_INV_844_o_cy<2>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0005_INV_844_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0005_INV_844_o_cy<3>)
+     MUXCY:CI->O           6   0.147   0.695  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0005_INV_844_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0005_INV_844_o_cy<4>)
      LUT5:I0->O            6   0.043   0.609  div/VALUE[23]_DIVIDER[15]_div_1/Mmux_a[23]_GND_16_o_MUX_405_o131 (div/VALUE[23]_DIVIDER[15]_div_1/a[23]_GND_16_o_MUX_408_o)
-     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0006_INV_841_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0006_INV_841_o_lutdi)
-     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0006_INV_841_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0006_INV_841_o_cy<0>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0006_INV_841_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0006_INV_841_o_cy<1>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0006_INV_841_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0006_INV_841_o_cy<2>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0006_INV_841_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0006_INV_841_o_cy<3>)
-     MUXCY:CI->O          16   0.147   0.768  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0006_INV_841_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0006_INV_841_o_cy<4>)
+     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0006_INV_843_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0006_INV_843_o_lutdi)
+     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0006_INV_843_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0006_INV_843_o_cy<0>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0006_INV_843_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0006_INV_843_o_cy<1>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0006_INV_843_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0006_INV_843_o_cy<2>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0006_INV_843_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0006_INV_843_o_cy<3>)
+     MUXCY:CI->O          16   0.147   0.768  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0006_INV_843_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0006_INV_843_o_cy<4>)
      LUT6:I0->O            7   0.043   0.616  div/VALUE[23]_DIVIDER[15]_div_1/Mmux_a[23]_GND_16_o_MUX_475_o111 (div/VALUE[23]_DIVIDER[15]_div_1/a[23]_GND_16_o_MUX_476_o)
-     LUT5:I1->O            1   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0007_INV_840_o_lut<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0007_INV_840_o_lut<2>)
-     MUXCY:S->O            1   0.230   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0007_INV_840_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0007_INV_840_o_cy<2>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0007_INV_840_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0007_INV_840_o_cy<3>)
-     MUXCY:CI->O          16   0.147   0.760  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0007_INV_840_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0007_INV_840_o_cy<4>)
+     LUT5:I1->O            1   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0007_INV_842_o_lut<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0007_INV_842_o_lut<2>)
+     MUXCY:S->O            1   0.230   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0007_INV_842_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0007_INV_842_o_cy<2>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0007_INV_842_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0007_INV_842_o_cy<3>)
+     MUXCY:CI->O          16   0.147   0.760  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0007_INV_842_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0007_INV_842_o_cy<4>)
      LUT5:I0->O            6   0.043   0.609  div/VALUE[23]_DIVIDER[15]_div_1/Mmux_a[23]_GND_16_o_MUX_543_o151 (div/VALUE[23]_DIVIDER[15]_div_1/a[23]_GND_16_o_MUX_548_o)
-     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0008_INV_839_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0008_INV_839_o_lutdi)
-     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0008_INV_839_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0008_INV_839_o_cy<0>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0008_INV_839_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0008_INV_839_o_cy<1>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0008_INV_839_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0008_INV_839_o_cy<2>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0008_INV_839_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0008_INV_839_o_cy<3>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0008_INV_839_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0008_INV_839_o_cy<4>)
-     MUXCY:CI->O          26   0.147   0.813  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0008_INV_839_o_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0008_INV_839_o_cy<5>)
+     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0008_INV_841_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0008_INV_841_o_lutdi)
+     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0008_INV_841_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0008_INV_841_o_cy<0>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0008_INV_841_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0008_INV_841_o_cy<1>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0008_INV_841_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0008_INV_841_o_cy<2>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0008_INV_841_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0008_INV_841_o_cy<3>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0008_INV_841_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0008_INV_841_o_cy<4>)
+     MUXCY:CI->O          26   0.147   0.813  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0008_INV_841_o_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0008_INV_841_o_cy<5>)
      LUT5:I0->O            6   0.043   0.609  div/VALUE[23]_DIVIDER[15]_div_1/Mmux_a[23]_GND_16_o_MUX_609_o161 (div/VALUE[23]_DIVIDER[15]_div_1/a[23]_GND_16_o_MUX_615_o)
-     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0009_INV_838_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0009_INV_838_o_lutdi)
-     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0009_INV_838_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0009_INV_838_o_cy<0>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0009_INV_838_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0009_INV_838_o_cy<1>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0009_INV_838_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0009_INV_838_o_cy<2>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0009_INV_838_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0009_INV_838_o_cy<3>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0009_INV_838_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0009_INV_838_o_cy<4>)
-     MUXCY:CI->O          22   0.147   0.798  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0009_INV_838_o_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0009_INV_838_o_cy<5>)
+     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0009_INV_840_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0009_INV_840_o_lutdi)
+     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0009_INV_840_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0009_INV_840_o_cy<0>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0009_INV_840_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0009_INV_840_o_cy<1>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0009_INV_840_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0009_INV_840_o_cy<2>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0009_INV_840_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0009_INV_840_o_cy<3>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0009_INV_840_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0009_INV_840_o_cy<4>)
+     MUXCY:CI->O          22   0.147   0.798  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0009_INV_840_o_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0009_INV_840_o_cy<5>)
      LUT5:I0->O            6   0.043   0.609  div/VALUE[23]_DIVIDER[15]_div_1/Mmux_a[23]_GND_16_o_MUX_673_o171 (div/VALUE[23]_DIVIDER[15]_div_1/a[23]_GND_16_o_MUX_680_o)
-     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0010_INV_837_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0010_INV_837_o_lutdi)
-     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0010_INV_837_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0010_INV_837_o_cy<0>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0010_INV_837_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0010_INV_837_o_cy<1>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0010_INV_837_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0010_INV_837_o_cy<2>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0010_INV_837_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0010_INV_837_o_cy<3>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0010_INV_837_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0010_INV_837_o_cy<4>)
-     MUXCY:CI->O          32   0.147   0.815  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0010_INV_837_o_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0010_INV_837_o_cy<5>)
+     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0010_INV_839_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0010_INV_839_o_lutdi)
+     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0010_INV_839_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0010_INV_839_o_cy<0>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0010_INV_839_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0010_INV_839_o_cy<1>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0010_INV_839_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0010_INV_839_o_cy<2>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0010_INV_839_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0010_INV_839_o_cy<3>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0010_INV_839_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0010_INV_839_o_cy<4>)
+     MUXCY:CI->O          32   0.147   0.815  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0010_INV_839_o_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0010_INV_839_o_cy<5>)
      LUT5:I0->O            6   0.043   0.609  div/VALUE[23]_DIVIDER[15]_div_1/Mmux_a[23]_GND_16_o_MUX_735_o181 (div/VALUE[23]_DIVIDER[15]_div_1/a[23]_GND_16_o_MUX_743_o)
-     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0011_INV_836_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0011_INV_836_o_lutdi)
-     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0011_INV_836_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0011_INV_836_o_cy<0>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0011_INV_836_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0011_INV_836_o_cy<1>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0011_INV_836_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0011_INV_836_o_cy<2>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0011_INV_836_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0011_INV_836_o_cy<3>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0011_INV_836_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0011_INV_836_o_cy<4>)
-     MUXCY:CI->O          28   0.147   0.814  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0011_INV_836_o_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0011_INV_836_o_cy<5>)
+     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0011_INV_838_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0011_INV_838_o_lutdi)
+     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0011_INV_838_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0011_INV_838_o_cy<0>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0011_INV_838_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0011_INV_838_o_cy<1>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0011_INV_838_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0011_INV_838_o_cy<2>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0011_INV_838_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0011_INV_838_o_cy<3>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0011_INV_838_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0011_INV_838_o_cy<4>)
+     MUXCY:CI->O          28   0.147   0.814  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0011_INV_838_o_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0011_INV_838_o_cy<5>)
      LUT5:I0->O            6   0.043   0.609  div/VALUE[23]_DIVIDER[15]_div_1/Mmux_a[23]_GND_16_o_MUX_795_o191 (div/VALUE[23]_DIVIDER[15]_div_1/a[23]_GND_16_o_MUX_804_o)
-     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0012_INV_835_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0012_INV_835_o_lutdi)
-     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0012_INV_835_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0012_INV_835_o_cy<0>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0012_INV_835_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0012_INV_835_o_cy<1>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0012_INV_835_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0012_INV_835_o_cy<2>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0012_INV_835_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0012_INV_835_o_cy<3>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0012_INV_835_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0012_INV_835_o_cy<4>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0012_INV_835_o_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0012_INV_835_o_cy<5>)
-     MUXCY:CI->O          38   0.147   0.816  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0012_INV_835_o_cy<6> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0012_INV_835_o_cy<6>)
+     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0012_INV_837_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0012_INV_837_o_lutdi)
+     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0012_INV_837_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0012_INV_837_o_cy<0>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0012_INV_837_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0012_INV_837_o_cy<1>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0012_INV_837_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0012_INV_837_o_cy<2>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0012_INV_837_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0012_INV_837_o_cy<3>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0012_INV_837_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0012_INV_837_o_cy<4>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0012_INV_837_o_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0012_INV_837_o_cy<5>)
+     MUXCY:CI->O          38   0.147   0.816  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0012_INV_837_o_cy<6> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0012_INV_837_o_cy<6>)
      LUT5:I0->O            6   0.043   0.609  div/VALUE[23]_DIVIDER[15]_div_1/Mmux_a[23]_GND_16_o_MUX_853_o1101 (div/VALUE[23]_DIVIDER[15]_div_1/a[23]_GND_16_o_MUX_863_o)
-     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0013_INV_834_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0013_INV_834_o_lutdi)
-     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0013_INV_834_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0013_INV_834_o_cy<0>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0013_INV_834_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0013_INV_834_o_cy<1>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0013_INV_834_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0013_INV_834_o_cy<2>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0013_INV_834_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0013_INV_834_o_cy<3>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0013_INV_834_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0013_INV_834_o_cy<4>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0013_INV_834_o_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0013_INV_834_o_cy<5>)
-     MUXCY:CI->O          34   0.147   0.815  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0013_INV_834_o_cy<6> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0013_INV_834_o_cy<6>)
+     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0013_INV_836_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0013_INV_836_o_lutdi)
+     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0013_INV_836_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0013_INV_836_o_cy<0>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0013_INV_836_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0013_INV_836_o_cy<1>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0013_INV_836_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0013_INV_836_o_cy<2>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0013_INV_836_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0013_INV_836_o_cy<3>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0013_INV_836_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0013_INV_836_o_cy<4>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0013_INV_836_o_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0013_INV_836_o_cy<5>)
+     MUXCY:CI->O          34   0.147   0.815  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0013_INV_836_o_cy<6> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0013_INV_836_o_cy<6>)
      LUT5:I0->O            6   0.043   0.609  div/VALUE[23]_DIVIDER[15]_div_1/Mmux_a[23]_GND_16_o_MUX_909_o1111 (div/VALUE[23]_DIVIDER[15]_div_1/a[23]_GND_16_o_MUX_920_o)
-     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0014_INV_833_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0014_INV_833_o_lutdi)
-     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0014_INV_833_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0014_INV_833_o_cy<0>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0014_INV_833_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0014_INV_833_o_cy<1>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0014_INV_833_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0014_INV_833_o_cy<2>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0014_INV_833_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0014_INV_833_o_cy<3>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0014_INV_833_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0014_INV_833_o_cy<4>)
-     MUXCY:CI->O           2   0.147   0.415  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0014_INV_833_o_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0014_INV_833_o_cy<5>)
-     LUT6:I5->O           53   0.043   0.819  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0014_INV_833_o_cy<6> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0014_INV_833_o_cy<6>)
+     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0014_INV_835_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0014_INV_835_o_lutdi)
+     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0014_INV_835_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0014_INV_835_o_cy<0>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0014_INV_835_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0014_INV_835_o_cy<1>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0014_INV_835_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0014_INV_835_o_cy<2>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0014_INV_835_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0014_INV_835_o_cy<3>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0014_INV_835_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0014_INV_835_o_cy<4>)
+     MUXCY:CI->O           2   0.147   0.415  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0014_INV_835_o_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0014_INV_835_o_cy<5>)
+     LUT6:I5->O           53   0.043   0.819  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0014_INV_835_o_cy<6> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0014_INV_835_o_cy<6>)
      LUT5:I0->O            2   0.043   0.582  div/VALUE[23]_DIVIDER[15]_div_1/Mmux_a[23]_GND_16_o_MUX_963_o1121 (div/VALUE[23]_DIVIDER[15]_div_1/a[23]_GND_16_o_MUX_975_o)
-     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_832_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_832_o_lutdi)
-     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_832_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_832_o_cy<0>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_832_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_832_o_cy<1>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_832_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_832_o_cy<2>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_832_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_832_o_cy<3>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_832_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_832_o_cy<4>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_832_o_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_832_o_cy<5>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_832_o_cy<6> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_832_o_cy<6>)
-     MUXCY:CI->O          30   0.147   0.814  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_832_o_cy<7> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_832_o_cy<7>)
+     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_834_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_834_o_lutdi)
+     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_834_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_834_o_cy<0>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_834_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_834_o_cy<1>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_834_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_834_o_cy<2>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_834_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_834_o_cy<3>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_834_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_834_o_cy<4>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_834_o_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_834_o_cy<5>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_834_o_cy<6> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_834_o_cy<6>)
+     MUXCY:CI->O          30   0.147   0.814  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_834_o_cy<7> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0015_INV_834_o_cy<7>)
      LUT5:I0->O            4   0.043   0.596  div/VALUE[23]_DIVIDER[15]_div_1/Mmux_a[23]_GND_16_o_MUX_1015_o1131 (div/VALUE[23]_DIVIDER[15]_div_1/a[23]_GND_16_o_MUX_1028_o)
-     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0016_INV_831_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0016_INV_831_o_lutdi)
-     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0016_INV_831_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0016_INV_831_o_cy<0>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0016_INV_831_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0016_INV_831_o_cy<1>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0016_INV_831_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0016_INV_831_o_cy<2>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0016_INV_831_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0016_INV_831_o_cy<3>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0016_INV_831_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0016_INV_831_o_cy<4>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0016_INV_831_o_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0016_INV_831_o_cy<5>)
-     MUXCY:CI->O          18   0.147   0.660  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0016_INV_831_o_cy<6> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0016_INV_831_o_cy<6>)
+     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0016_INV_833_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0016_INV_833_o_lutdi)
+     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0016_INV_833_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0016_INV_833_o_cy<0>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0016_INV_833_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0016_INV_833_o_cy<1>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0016_INV_833_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0016_INV_833_o_cy<2>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0016_INV_833_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0016_INV_833_o_cy<3>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0016_INV_833_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0016_INV_833_o_cy<4>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0016_INV_833_o_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0016_INV_833_o_cy<5>)
+     MUXCY:CI->O          18   0.147   0.660  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0016_INV_833_o_cy<6> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0016_INV_833_o_cy<6>)
      LUT6:I3->O            6   0.043   0.609  div/VALUE[23]_DIVIDER[15]_div_1/Mmux_a[23]_GND_16_o_MUX_1065_o1141 (div/VALUE[23]_DIVIDER[15]_div_1/a[23]_GND_16_o_MUX_1079_o)
-     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_830_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_830_o_lutdi)
-     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_830_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_830_o_cy<0>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_830_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_830_o_cy<1>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_830_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_830_o_cy<2>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_830_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_830_o_cy<3>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_830_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_830_o_cy<4>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_830_o_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_830_o_cy<5>)
-     MUXCY:CI->O           5   0.147   0.436  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_830_o_cy<6> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_830_o_cy<6>)
-     LUT6:I5->O           56   0.043   0.820  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_830_o_cy<7> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_830_o_cy<7>)
+     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_832_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_832_o_lutdi)
+     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_832_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_832_o_cy<0>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_832_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_832_o_cy<1>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_832_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_832_o_cy<2>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_832_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_832_o_cy<3>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_832_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_832_o_cy<4>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_832_o_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_832_o_cy<5>)
+     MUXCY:CI->O           5   0.147   0.436  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_832_o_cy<6> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_832_o_cy<6>)
+     LUT6:I5->O           56   0.043   0.820  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_832_o_cy<7> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0017_INV_832_o_cy<7>)
      LUT5:I0->O            6   0.043   0.609  div/VALUE[23]_DIVIDER[15]_div_1/Mmux_a[23]_a[23]_MUX_1113_o1151 (div/VALUE[23]_DIVIDER[15]_div_1/a[23]_a[23]_MUX_1128_o)
-     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_829_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_829_o_lutdi)
-     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_829_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_829_o_cy<0>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_829_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_829_o_cy<1>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_829_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_829_o_cy<2>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_829_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_829_o_cy<3>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_829_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_829_o_cy<4>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_829_o_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_829_o_cy<5>)
-     MUXCY:CI->O           2   0.147   0.554  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_829_o_cy<6> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_829_o_cy<6>)
-     LUT6:I3->O           42   0.043   0.817  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_829_o_cy<7> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_829_o_cy<7>)
+     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_831_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_831_o_lutdi)
+     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_831_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_831_o_cy<0>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_831_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_831_o_cy<1>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_831_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_831_o_cy<2>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_831_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_831_o_cy<3>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_831_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_831_o_cy<4>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_831_o_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_831_o_cy<5>)
+     MUXCY:CI->O           2   0.147   0.554  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_831_o_cy<6> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_831_o_cy<6>)
+     LUT6:I3->O           42   0.043   0.817  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_831_o_cy<7> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0018_INV_831_o_cy<7>)
      LUT5:I0->O            4   0.043   0.596  div/VALUE[23]_DIVIDER[15]_div_1/Mmux_a[23]_a[23]_MUX_1137_o1161 (div/VALUE[23]_DIVIDER[15]_div_1/a[23]_a[23]_MUX_1153_o)
-     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_828_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_828_o_lutdi)
-     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_828_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_828_o_cy<0>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_828_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_828_o_cy<1>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_828_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_828_o_cy<2>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_828_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_828_o_cy<3>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_828_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_828_o_cy<4>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_828_o_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_828_o_cy<5>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_828_o_cy<6> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_828_o_cy<6>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_828_o_cy<7> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_828_o_cy<7>)
-     MUXCY:CI->O          38   0.147   0.816  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_828_o_cy<8> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_828_o_cy<8>)
+     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_830_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_830_o_lutdi)
+     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_830_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_830_o_cy<0>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_830_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_830_o_cy<1>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_830_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_830_o_cy<2>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_830_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_830_o_cy<3>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_830_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_830_o_cy<4>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_830_o_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_830_o_cy<5>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_830_o_cy<6> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_830_o_cy<6>)
+     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_830_o_cy<7> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_830_o_cy<7>)
+     MUXCY:CI->O          38   0.147   0.816  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_830_o_cy<8> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0019_INV_830_o_cy<8>)
      LUT5:I0->O            4   0.043   0.596  div/VALUE[23]_DIVIDER[15]_div_1/Mmux_a[23]_a[23]_MUX_1161_o1171 (div/VALUE[23]_DIVIDER[15]_div_1/a[23]_a[23]_MUX_1178_o)
-     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_827_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_827_o_lutdi)
-     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_827_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_827_o_cy<0>)
-     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_827_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_827_o_cy<1>)
-     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_827_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_827_o_cy<2>)
-     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_827_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_827_o_cy<3>)
-     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_827_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_827_o_cy<4>)
-     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_827_o_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_827_o_cy<5>)
-     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_827_o_cy<6> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_827_o_cy<6>)
-     MUXCY:CI->O          40   0.148   0.617  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_827_o_cy<7> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_827_o_cy<7>)
+     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_829_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_829_o_lutdi)
+     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_829_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_829_o_cy<0>)
+     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_829_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_829_o_cy<1>)
+     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_829_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_829_o_cy<2>)
+     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_829_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_829_o_cy<3>)
+     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_829_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_829_o_cy<4>)
+     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_829_o_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_829_o_cy<5>)
+     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_829_o_cy<6> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_829_o_cy<6>)
+     MUXCY:CI->O          40   0.148   0.617  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_829_o_cy<7> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0020_INV_829_o_cy<7>)
      LUT5:I3->O            4   0.043   0.419  div/VALUE[23]_DIVIDER[15]_div_1/Mmux_a[23]_a[23]_MUX_1185_o1181 (div/VALUE[23]_DIVIDER[15]_div_1/a[23]_a[23]_MUX_1203_o)
      MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Madd_a[23]_GND_16_o_add_45_OUT_Madd_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Madd_a[23]_GND_16_o_add_45_OUT_Madd_cy<5>)
      MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Madd_a[23]_GND_16_o_add_45_OUT_Madd_cy<6> (div/VALUE[23]_DIVIDER[15]_div_1/Madd_a[23]_GND_16_o_add_45_OUT_Madd_cy<6>)
@@ -983,44 +981,44 @@ Offset:              72.069ns (Levels of Logic = 261)
      MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Madd_a[23]_GND_16_o_add_45_OUT_Madd_cy<17> (div/VALUE[23]_DIVIDER[15]_div_1/Madd_a[23]_GND_16_o_add_45_OUT_Madd_cy<17>)
      XORCY:CI->O           2   0.251   0.676  div/VALUE[23]_DIVIDER[15]_div_1/Madd_a[23]_GND_16_o_add_45_OUT_Madd_xor<18> (div/VALUE[23]_DIVIDER[15]_div_1/a[23]_GND_16_o_add_45_OUT<18>)
      LUT6:I0->O            6   0.043   0.695  div/VALUE[23]_DIVIDER[15]_div_1/Mmux_a[23]_a[23]_MUX_1209_o151 (div/VALUE[23]_DIVIDER[15]_div_1/a[23]_a[23]_MUX_1214_o)
-     LUT5:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0022_INV_825_o_lutdi7 (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0022_INV_825_o_lutdi7)
-     MUXCY:DI->O           6   0.353   0.442  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0022_INV_825_o_cy<7> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0022_INV_825_o_cy<7>)
-     LUT5:I4->O           80   0.043   0.825  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0022_INV_825_o_cy<8> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0022_INV_825_o_cy<8>)
+     LUT5:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0022_INV_827_o_lutdi7 (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0022_INV_827_o_lutdi7)
+     MUXCY:DI->O           6   0.353   0.442  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0022_INV_827_o_cy<7> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0022_INV_827_o_cy<7>)
+     LUT5:I4->O           80   0.043   0.825  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0022_INV_827_o_cy<8> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0022_INV_827_o_cy<8>)
      LUT5:I0->O            5   0.043   0.603  div/VALUE[23]_DIVIDER[15]_div_1/Mmux_n1825181 (div/VALUE[23]_DIVIDER[15]_div_1/n1825<3>)
-     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_824_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_824_o_lutdi)
-     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_824_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_824_o_cy<0>)
-     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_824_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_824_o_cy<1>)
-     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_824_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_824_o_cy<2>)
-     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_824_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_824_o_cy<3>)
-     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_824_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_824_o_cy<4>)
-     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_824_o_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_824_o_cy<5>)
-     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_824_o_cy<6> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_824_o_cy<6>)
-     MUXCY:CI->O           2   0.148   0.415  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_824_o_cy<7> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_824_o_cy<7>)
-     LUT6:I5->O           68   0.043   0.822  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_824_o_cy<8> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_824_o_cy<8>)
+     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_826_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_826_o_lutdi)
+     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_826_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_826_o_cy<0>)
+     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_826_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_826_o_cy<1>)
+     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_826_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_826_o_cy<2>)
+     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_826_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_826_o_cy<3>)
+     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_826_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_826_o_cy<4>)
+     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_826_o_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_826_o_cy<5>)
+     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_826_o_cy<6> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_826_o_cy<6>)
+     MUXCY:CI->O           2   0.148   0.415  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_826_o_cy<7> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_826_o_cy<7>)
+     LUT6:I5->O           68   0.043   0.822  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_826_o_cy<8> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0023_INV_826_o_cy<8>)
      LUT5:I0->O            2   0.043   0.582  div/VALUE[23]_DIVIDER[15]_div_1/Mmux_n1829171 (div/VALUE[23]_DIVIDER[15]_div_1/n1829<2>)
-     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_823_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_823_o_lutdi)
-     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_823_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_823_o_cy<0>)
-     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_823_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_823_o_cy<1>)
-     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_823_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_823_o_cy<2>)
-     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_823_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_823_o_cy<3>)
-     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_823_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_823_o_cy<4>)
-     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_823_o_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_823_o_cy<5>)
-     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_823_o_cy<6> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_823_o_cy<6>)
-     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_823_o_cy<7> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_823_o_cy<7>)
-     MUXCY:CI->O           2   0.148   0.469  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_823_o_cy<8> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_823_o_cy<8>)
-     LUT6:I4->O           24   0.043   0.808  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_823_o_cy<9> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_823_o_cy<9>)
+     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_825_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_825_o_lutdi)
+     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_825_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_825_o_cy<0>)
+     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_825_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_825_o_cy<1>)
+     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_825_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_825_o_cy<2>)
+     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_825_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_825_o_cy<3>)
+     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_825_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_825_o_cy<4>)
+     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_825_o_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_825_o_cy<5>)
+     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_825_o_cy<6> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_825_o_cy<6>)
+     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_825_o_cy<7> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_825_o_cy<7>)
+     MUXCY:CI->O           2   0.148   0.469  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_825_o_cy<8> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_825_o_cy<8>)
+     LUT6:I4->O           24   0.043   0.808  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_825_o_cy<9> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0024_INV_825_o_cy<9>)
      LUT5:I0->O            2   0.043   0.582  div/VALUE[23]_DIVIDER[15]_div_1/Mmux_n1731121 (div/VALUE[23]_DIVIDER[15]_div_1/n1731<1>)
-     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_822_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_822_o_lutdi)
-     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_822_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_822_o_cy<0>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_822_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_822_o_cy<1>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_822_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_822_o_cy<2>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_822_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_822_o_cy<3>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_822_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_822_o_cy<4>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_822_o_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_822_o_cy<5>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_822_o_cy<6> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_822_o_cy<6>)
-     MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_822_o_cy<7> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_822_o_cy<7>)
-     MUXCY:CI->O           2   0.148   0.415  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_822_o_cy<8> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_822_o_cy<8>)
-     LUT3:I2->O            1   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_822_o_cy<9>1 (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_822_o_cy<9>1)
+     LUT4:I0->O            0   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_824_o_lutdi (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_824_o_lutdi)
+     MUXCY:DI->O           1   0.218   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_824_o_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_824_o_cy<0>)
+     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_824_o_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_824_o_cy<1>)
+     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_824_o_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_824_o_cy<2>)
+     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_824_o_cy<3> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_824_o_cy<3>)
+     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_824_o_cy<4> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_824_o_cy<4>)
+     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_824_o_cy<5> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_824_o_cy<5>)
+     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_824_o_cy<6> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_824_o_cy<6>)
+     MUXCY:CI->O           1   0.012   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_824_o_cy<7> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_824_o_cy<7>)
+     MUXCY:CI->O           2   0.148   0.415  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_824_o_cy<8> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_824_o_cy<8>)
+     LUT3:I2->O            1   0.043   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_824_o_cy<9> (div/VALUE[23]_DIVIDER[15]_div_1/Mcompar_BUS_0025_INV_824_o_cy<9>)
      MUXCY:S->O            1   0.230   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Madd_GND_16_o_BUS_0001_add_54_OUT[24:0]_cy<0> (div/VALUE[23]_DIVIDER[15]_div_1/Madd_GND_16_o_BUS_0001_add_54_OUT[24:0]_cy<0>)
      MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Madd_GND_16_o_BUS_0001_add_54_OUT[24:0]_cy<1> (div/VALUE[23]_DIVIDER[15]_div_1/Madd_GND_16_o_BUS_0001_add_54_OUT[24:0]_cy<1>)
      MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Madd_GND_16_o_BUS_0001_add_54_OUT[24:0]_cy<2> (div/VALUE[23]_DIVIDER[15]_div_1/Madd_GND_16_o_BUS_0001_add_54_OUT[24:0]_cy<2>)
@@ -1040,14 +1038,15 @@ Offset:              72.069ns (Levels of Logic = 261)
      MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Madd_GND_16_o_BUS_0001_add_54_OUT[24:0]_cy<16> (div/VALUE[23]_DIVIDER[15]_div_1/Madd_GND_16_o_BUS_0001_add_54_OUT[24:0]_cy<16>)
      MUXCY:CI->O           1   0.013   0.000  div/VALUE[23]_DIVIDER[15]_div_1/Madd_GND_16_o_BUS_0001_add_54_OUT[24:0]_cy<17> (div/VALUE[23]_DIVIDER[15]_div_1/Madd_GND_16_o_BUS_0001_add_54_OUT[24:0]_cy<17>)
      XORCY:CI->O           1   0.251   0.662  div/VALUE[23]_DIVIDER[15]_div_1/Madd_GND_16_o_BUS_0001_add_54_OUT[24:0]_xor<18> (div/VALUE[23]_DIVIDER[15]_div_1/GND_16_o_BUS_0001_add_54_OUT[24:0]<18>)
-     LUT6:I1->O            1   0.043   0.576  div/Mmux_RESULT126 (div/Mmux_RESULT126)
-     LUT6:I2->O            8   0.043   0.455  div/Mmux_RESULT129 (div/Mmux_RESULT12)
-     LUT6:I5->O            1   0.043   0.399  div/Mmux_RESULT11 (CONV_RESULT<0>)
+     LUT6:I1->O            1   0.043   0.670  div/Mmux_RESULT1214_SW0 (N18)
+     LUT6:I0->O            1   0.043   0.463  div/Mmux_RESULT1214_SW1 (N22)
+     LUT6:I4->O            8   0.043   0.455  div/Mmux_RESULT1214 (div/Mmux_RESULT12)
+     LUT6:I5->O            1   0.043   0.399  div/Mmux_RESULT1 (CONV_RESULT<0>)
      end scope: 'convolution:CONV_RESULT<0>'
      OBUF:I->O                 0.000          CONV_RESULT_0_OBUF (CONV_RESULT<0>)
     ----------------------------------------
-    Total                     72.069ns (32.306ns logic, 39.763ns route)
-                                       (44.8% logic, 55.2% route)
+    Total                     72.527ns (32.349ns logic, 40.179ns route)
+                                       (44.6% logic, 55.4% route)
 
 =========================================================================
 
@@ -1059,18 +1058,18 @@ Clock to Setup on destination clock CLK
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-CLK            |    1.410|         |         |         |
+CLK            |    1.344|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 37.00 secs
-Total CPU time to Xst completion: 37.28 secs
+Total REAL time to Xst completion: 38.00 secs
+Total CPU time to Xst completion: 37.73 secs
  
 --> 
 
-Total memory usage is 4805768 kilobytes
+Total memory usage is 4808840 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

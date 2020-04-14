@@ -31,8 +31,7 @@ Compiling architecture behavioral of entity CONVOLUTION_OPERATOR [\CONVOLUTION_O
 Compiling architecture behavioral of entity CONVOLUTION_MODULE [\CONVOLUTION_MODULE(256,9,8)\]
 Compiling architecture behavior of entity tb_convolution_module_test
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
 Compiled 24 VHDL Units
 Built simulation executable E:/Master Degree/VSOIZM/vsoizm/Practice/TB_CONVOLUTION_MODULE_TEST_isim_beh.exe
-Fuse Memory Usage: 122360 KB
+Fuse Memory Usage: 122072 KB
 Fuse CPU Usage: 2968 ms

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Drawing;
+﻿using System.Drawing;
 using System.IO;
 
 namespace ImageConverter
@@ -12,13 +7,32 @@ namespace ImageConverter
     {
         static void Main(string[] args)
         {
-            string conv_res = @"E:\Master Degree\VSOIZM\output_file.txt";
-            StreamReader rdr = new StreamReader(conv_res);
-            Bitmap res = new Bitmap(251, 251);
-
-            for(int i = 0; i < 251; i++)
+            string cmd = args.Length > 0 ? args[0] : "restore";
+            
+            if(cmd == "restore")
             {
-                for(int j = 0; j < 251; j++)
+                string convRes = @"E:\Master Degree\VSOIZM\output_file.txt";
+                string imagePath = @"E:\Master Degree\VSOIZM\conv_res.bmp";
+                ConvertNumbersToImage(convRes, imagePath, 249);
+            }
+
+            if(cmd == "encode")
+            {
+                string imagePath = @"E:\Master Degree\VSOIZM\image.png";
+                string outputPath = @"E:\Master Degree\VSOIZM\image.hex";
+
+                ConvertImageToHex(imagePath, outputPath);
+            }
+        }
+
+        static void ConvertNumbersToImage(string inputFilePath, string imagePath, int size)
+        {
+            StreamReader rdr = new StreamReader(inputFilePath);
+            Bitmap res = new Bitmap(size, size);
+
+            for (int i = 0; i < size; i++)
+            {
+                for (int j = 0; j < size; j++)
                 {
                     string line = rdr.ReadLine();
                     int val = int.Parse(line);
@@ -26,12 +40,12 @@ namespace ImageConverter
                 }
             }
 
-            res.Save(@"E:\Master Degree\VSOIZM\conv_res.bmp");
-                    
+            res.Save(imagePath);
+        }
 
-            /*string imagePath = @"E:\Master Degree\VSOIZM\image.png"; //args[0];
-            string outputPath = @"E:\Master Degree\VSOIZM\image.hex";
-            StreamWriter sw = new StreamWriter(outputPath);
+        static void ConvertImageToHex(string imagePath, string hexPath)
+        {
+            StreamWriter sw = new StreamWriter(hexPath);
 
             using (Bitmap img = new Bitmap(imagePath))
             {
@@ -47,7 +61,7 @@ namespace ImageConverter
                 }
             }
 
-            sw.Close();*/
+            sw.Close();
         }
     }
 }

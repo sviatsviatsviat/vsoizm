@@ -1,0 +1,371 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 1I
+-n 3 -fastpaths -xml DIVIDER.twx DIVIDER.ncd -o DIVIDER.twr DIVIDER.pcf
+
+Design file:              DIVIDER.ncd
+Physical constraint file: DIVIDER.pcf
+Device,package,speed:     xa7z020,clg400,I,-1I (PRELIMINARY 1.06 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+DIVIDER<0>     |RESULT<0>      |  118.710|
+DIVIDER<0>     |RESULT<1>      |  119.069|
+DIVIDER<0>     |RESULT<2>      |  118.228|
+DIVIDER<0>     |RESULT<3>      |  118.541|
+DIVIDER<0>     |RESULT<4>      |  118.868|
+DIVIDER<0>     |RESULT<5>      |  118.735|
+DIVIDER<0>     |RESULT<6>      |  118.737|
+DIVIDER<0>     |RESULT<7>      |  119.025|
+DIVIDER<1>     |RESULT<0>      |  117.693|
+DIVIDER<1>     |RESULT<1>      |  118.052|
+DIVIDER<1>     |RESULT<2>      |  117.211|
+DIVIDER<1>     |RESULT<3>      |  117.524|
+DIVIDER<1>     |RESULT<4>      |  117.851|
+DIVIDER<1>     |RESULT<5>      |  117.718|
+DIVIDER<1>     |RESULT<6>      |  117.720|
+DIVIDER<1>     |RESULT<7>      |  118.008|
+DIVIDER<2>     |RESULT<0>      |  117.926|
+DIVIDER<2>     |RESULT<1>      |  118.285|
+DIVIDER<2>     |RESULT<2>      |  117.444|
+DIVIDER<2>     |RESULT<3>      |  117.757|
+DIVIDER<2>     |RESULT<4>      |  118.084|
+DIVIDER<2>     |RESULT<5>      |  117.951|
+DIVIDER<2>     |RESULT<6>      |  117.953|
+DIVIDER<2>     |RESULT<7>      |  118.241|
+DIVIDER<3>     |RESULT<0>      |  117.642|
+DIVIDER<3>     |RESULT<1>      |  118.001|
+DIVIDER<3>     |RESULT<2>      |  117.160|
+DIVIDER<3>     |RESULT<3>      |  117.473|
+DIVIDER<3>     |RESULT<4>      |  117.800|
+DIVIDER<3>     |RESULT<5>      |  117.667|
+DIVIDER<3>     |RESULT<6>      |  117.669|
+DIVIDER<3>     |RESULT<7>      |  117.957|
+DIVIDER<4>     |RESULT<0>      |  118.091|
+DIVIDER<4>     |RESULT<1>      |  118.450|
+DIVIDER<4>     |RESULT<2>      |  117.609|
+DIVIDER<4>     |RESULT<3>      |  117.922|
+DIVIDER<4>     |RESULT<4>      |  118.249|
+DIVIDER<4>     |RESULT<5>      |  118.116|
+DIVIDER<4>     |RESULT<6>      |  118.118|
+DIVIDER<4>     |RESULT<7>      |  118.406|
+DIVIDER<5>     |RESULT<0>      |  118.122|
+DIVIDER<5>     |RESULT<1>      |  118.481|
+DIVIDER<5>     |RESULT<2>      |  117.640|
+DIVIDER<5>     |RESULT<3>      |  117.953|
+DIVIDER<5>     |RESULT<4>      |  118.280|
+DIVIDER<5>     |RESULT<5>      |  118.147|
+DIVIDER<5>     |RESULT<6>      |  118.149|
+DIVIDER<5>     |RESULT<7>      |  118.437|
+DIVIDER<6>     |RESULT<0>      |  117.688|
+DIVIDER<6>     |RESULT<1>      |  118.047|
+DIVIDER<6>     |RESULT<2>      |  117.206|
+DIVIDER<6>     |RESULT<3>      |  117.519|
+DIVIDER<6>     |RESULT<4>      |  117.846|
+DIVIDER<6>     |RESULT<5>      |  117.713|
+DIVIDER<6>     |RESULT<6>      |  117.715|
+DIVIDER<6>     |RESULT<7>      |  118.003|
+DIVIDER<7>     |RESULT<0>      |  118.176|
+DIVIDER<7>     |RESULT<1>      |  118.535|
+DIVIDER<7>     |RESULT<2>      |  117.694|
+DIVIDER<7>     |RESULT<3>      |  118.007|
+DIVIDER<7>     |RESULT<4>      |  118.334|
+DIVIDER<7>     |RESULT<5>      |  118.201|
+DIVIDER<7>     |RESULT<6>      |  118.203|
+DIVIDER<7>     |RESULT<7>      |  118.491|
+DIVIDER<8>     |RESULT<0>      |  117.997|
+DIVIDER<8>     |RESULT<1>      |  118.356|
+DIVIDER<8>     |RESULT<2>      |  117.515|
+DIVIDER<8>     |RESULT<3>      |  117.828|
+DIVIDER<8>     |RESULT<4>      |  118.155|
+DIVIDER<8>     |RESULT<5>      |  118.022|
+DIVIDER<8>     |RESULT<6>      |  118.024|
+DIVIDER<8>     |RESULT<7>      |  118.312|
+DIVIDER<9>     |RESULT<0>      |  117.765|
+DIVIDER<9>     |RESULT<1>      |  118.124|
+DIVIDER<9>     |RESULT<2>      |  117.283|
+DIVIDER<9>     |RESULT<3>      |  117.596|
+DIVIDER<9>     |RESULT<4>      |  117.923|
+DIVIDER<9>     |RESULT<5>      |  117.790|
+DIVIDER<9>     |RESULT<6>      |  117.792|
+DIVIDER<9>     |RESULT<7>      |  118.080|
+DIVIDER<10>    |RESULT<0>      |  117.559|
+DIVIDER<10>    |RESULT<1>      |  117.918|
+DIVIDER<10>    |RESULT<2>      |  117.077|
+DIVIDER<10>    |RESULT<3>      |  117.390|
+DIVIDER<10>    |RESULT<4>      |  117.717|
+DIVIDER<10>    |RESULT<5>      |  117.584|
+DIVIDER<10>    |RESULT<6>      |  117.586|
+DIVIDER<10>    |RESULT<7>      |  117.874|
+DIVIDER<11>    |RESULT<0>      |  117.185|
+DIVIDER<11>    |RESULT<1>      |  117.544|
+DIVIDER<11>    |RESULT<2>      |  116.703|
+DIVIDER<11>    |RESULT<3>      |  117.016|
+DIVIDER<11>    |RESULT<4>      |  117.343|
+DIVIDER<11>    |RESULT<5>      |  117.210|
+DIVIDER<11>    |RESULT<6>      |  117.212|
+DIVIDER<11>    |RESULT<7>      |  117.500|
+DIVIDER<12>    |RESULT<0>      |  117.271|
+DIVIDER<12>    |RESULT<1>      |  117.630|
+DIVIDER<12>    |RESULT<2>      |  116.789|
+DIVIDER<12>    |RESULT<3>      |  117.102|
+DIVIDER<12>    |RESULT<4>      |  117.429|
+DIVIDER<12>    |RESULT<5>      |  117.296|
+DIVIDER<12>    |RESULT<6>      |  117.298|
+DIVIDER<12>    |RESULT<7>      |  117.586|
+DIVIDER<13>    |RESULT<0>      |  117.587|
+DIVIDER<13>    |RESULT<1>      |  117.946|
+DIVIDER<13>    |RESULT<2>      |  117.105|
+DIVIDER<13>    |RESULT<3>      |  117.418|
+DIVIDER<13>    |RESULT<4>      |  117.745|
+DIVIDER<13>    |RESULT<5>      |  117.612|
+DIVIDER<13>    |RESULT<6>      |  117.614|
+DIVIDER<13>    |RESULT<7>      |  117.902|
+DIVIDER<14>    |RESULT<0>      |  117.128|
+DIVIDER<14>    |RESULT<1>      |  117.487|
+DIVIDER<14>    |RESULT<2>      |  116.646|
+DIVIDER<14>    |RESULT<3>      |  116.959|
+DIVIDER<14>    |RESULT<4>      |  117.286|
+DIVIDER<14>    |RESULT<5>      |  117.153|
+DIVIDER<14>    |RESULT<6>      |  117.155|
+DIVIDER<14>    |RESULT<7>      |  117.443|
+DIVIDER<15>    |RESULT<0>      |  118.740|
+DIVIDER<15>    |RESULT<1>      |  119.099|
+DIVIDER<15>    |RESULT<2>      |  118.258|
+DIVIDER<15>    |RESULT<3>      |  118.571|
+DIVIDER<15>    |RESULT<4>      |  118.898|
+DIVIDER<15>    |RESULT<5>      |  118.765|
+DIVIDER<15>    |RESULT<6>      |  118.767|
+DIVIDER<15>    |RESULT<7>      |  119.055|
+VALUE<0>       |RESULT<0>      |  115.606|
+VALUE<0>       |RESULT<1>      |  115.965|
+VALUE<0>       |RESULT<2>      |  115.124|
+VALUE<0>       |RESULT<3>      |  115.437|
+VALUE<0>       |RESULT<4>      |  115.764|
+VALUE<0>       |RESULT<5>      |  115.631|
+VALUE<0>       |RESULT<6>      |  115.633|
+VALUE<0>       |RESULT<7>      |  115.921|
+VALUE<1>       |RESULT<0>      |  115.333|
+VALUE<1>       |RESULT<1>      |  115.692|
+VALUE<1>       |RESULT<2>      |  114.851|
+VALUE<1>       |RESULT<3>      |  115.164|
+VALUE<1>       |RESULT<4>      |  115.491|
+VALUE<1>       |RESULT<5>      |  115.358|
+VALUE<1>       |RESULT<6>      |  115.360|
+VALUE<1>       |RESULT<7>      |  115.648|
+VALUE<2>       |RESULT<0>      |  114.930|
+VALUE<2>       |RESULT<1>      |  115.289|
+VALUE<2>       |RESULT<2>      |  114.448|
+VALUE<2>       |RESULT<3>      |  114.761|
+VALUE<2>       |RESULT<4>      |  115.088|
+VALUE<2>       |RESULT<5>      |  114.955|
+VALUE<2>       |RESULT<6>      |  114.957|
+VALUE<2>       |RESULT<7>      |  115.245|
+VALUE<3>       |RESULT<0>      |  114.406|
+VALUE<3>       |RESULT<1>      |  114.765|
+VALUE<3>       |RESULT<2>      |  113.924|
+VALUE<3>       |RESULT<3>      |  114.237|
+VALUE<3>       |RESULT<4>      |  114.564|
+VALUE<3>       |RESULT<5>      |  114.431|
+VALUE<3>       |RESULT<6>      |  114.433|
+VALUE<3>       |RESULT<7>      |  114.721|
+VALUE<4>       |RESULT<0>      |  115.169|
+VALUE<4>       |RESULT<1>      |  115.528|
+VALUE<4>       |RESULT<2>      |  114.687|
+VALUE<4>       |RESULT<3>      |  115.000|
+VALUE<4>       |RESULT<4>      |  115.327|
+VALUE<4>       |RESULT<5>      |  115.194|
+VALUE<4>       |RESULT<6>      |  115.196|
+VALUE<4>       |RESULT<7>      |  115.484|
+VALUE<5>       |RESULT<0>      |  115.041|
+VALUE<5>       |RESULT<1>      |  115.400|
+VALUE<5>       |RESULT<2>      |  114.559|
+VALUE<5>       |RESULT<3>      |  114.872|
+VALUE<5>       |RESULT<4>      |  115.199|
+VALUE<5>       |RESULT<5>      |  115.066|
+VALUE<5>       |RESULT<6>      |  115.068|
+VALUE<5>       |RESULT<7>      |  115.356|
+VALUE<6>       |RESULT<0>      |  115.079|
+VALUE<6>       |RESULT<1>      |  115.438|
+VALUE<6>       |RESULT<2>      |  114.597|
+VALUE<6>       |RESULT<3>      |  114.910|
+VALUE<6>       |RESULT<4>      |  115.237|
+VALUE<6>       |RESULT<5>      |  115.104|
+VALUE<6>       |RESULT<6>      |  115.106|
+VALUE<6>       |RESULT<7>      |  115.394|
+VALUE<7>       |RESULT<0>      |  115.295|
+VALUE<7>       |RESULT<1>      |  115.654|
+VALUE<7>       |RESULT<2>      |  114.813|
+VALUE<7>       |RESULT<3>      |  115.126|
+VALUE<7>       |RESULT<4>      |  115.453|
+VALUE<7>       |RESULT<5>      |  115.320|
+VALUE<7>       |RESULT<6>      |  115.322|
+VALUE<7>       |RESULT<7>      |  115.610|
+VALUE<8>       |RESULT<0>      |  114.375|
+VALUE<8>       |RESULT<1>      |  114.734|
+VALUE<8>       |RESULT<2>      |  113.893|
+VALUE<8>       |RESULT<3>      |  114.206|
+VALUE<8>       |RESULT<4>      |  114.533|
+VALUE<8>       |RESULT<5>      |  114.400|
+VALUE<8>       |RESULT<6>      |  114.402|
+VALUE<8>       |RESULT<7>      |  114.690|
+VALUE<9>       |RESULT<0>      |  114.306|
+VALUE<9>       |RESULT<1>      |  114.665|
+VALUE<9>       |RESULT<2>      |  113.824|
+VALUE<9>       |RESULT<3>      |  114.137|
+VALUE<9>       |RESULT<4>      |  114.464|
+VALUE<9>       |RESULT<5>      |  114.331|
+VALUE<9>       |RESULT<6>      |  114.333|
+VALUE<9>       |RESULT<7>      |  114.621|
+VALUE<10>      |RESULT<0>      |  114.124|
+VALUE<10>      |RESULT<1>      |  114.483|
+VALUE<10>      |RESULT<2>      |  113.642|
+VALUE<10>      |RESULT<3>      |  113.955|
+VALUE<10>      |RESULT<4>      |  114.282|
+VALUE<10>      |RESULT<5>      |  114.149|
+VALUE<10>      |RESULT<6>      |  114.151|
+VALUE<10>      |RESULT<7>      |  114.439|
+VALUE<11>      |RESULT<0>      |  114.093|
+VALUE<11>      |RESULT<1>      |  114.452|
+VALUE<11>      |RESULT<2>      |  113.611|
+VALUE<11>      |RESULT<3>      |  113.924|
+VALUE<11>      |RESULT<4>      |  114.251|
+VALUE<11>      |RESULT<5>      |  114.118|
+VALUE<11>      |RESULT<6>      |  114.120|
+VALUE<11>      |RESULT<7>      |  114.408|
+VALUE<12>      |RESULT<0>      |  114.048|
+VALUE<12>      |RESULT<1>      |  114.407|
+VALUE<12>      |RESULT<2>      |  113.566|
+VALUE<12>      |RESULT<3>      |  113.879|
+VALUE<12>      |RESULT<4>      |  114.206|
+VALUE<12>      |RESULT<5>      |  114.073|
+VALUE<12>      |RESULT<6>      |  114.075|
+VALUE<12>      |RESULT<7>      |  114.363|
+VALUE<13>      |RESULT<0>      |  114.100|
+VALUE<13>      |RESULT<1>      |  114.459|
+VALUE<13>      |RESULT<2>      |  113.618|
+VALUE<13>      |RESULT<3>      |  113.931|
+VALUE<13>      |RESULT<4>      |  114.258|
+VALUE<13>      |RESULT<5>      |  114.125|
+VALUE<13>      |RESULT<6>      |  114.127|
+VALUE<13>      |RESULT<7>      |  114.415|
+VALUE<14>      |RESULT<0>      |  114.038|
+VALUE<14>      |RESULT<1>      |  114.397|
+VALUE<14>      |RESULT<2>      |  113.556|
+VALUE<14>      |RESULT<3>      |  113.869|
+VALUE<14>      |RESULT<4>      |  114.196|
+VALUE<14>      |RESULT<5>      |  114.063|
+VALUE<14>      |RESULT<6>      |  114.065|
+VALUE<14>      |RESULT<7>      |  114.353|
+VALUE<15>      |RESULT<0>      |  113.530|
+VALUE<15>      |RESULT<1>      |  113.889|
+VALUE<15>      |RESULT<2>      |  113.048|
+VALUE<15>      |RESULT<3>      |  113.361|
+VALUE<15>      |RESULT<4>      |  113.688|
+VALUE<15>      |RESULT<5>      |  113.555|
+VALUE<15>      |RESULT<6>      |  113.557|
+VALUE<15>      |RESULT<7>      |  113.845|
+VALUE<16>      |RESULT<0>      |  113.867|
+VALUE<16>      |RESULT<1>      |  114.226|
+VALUE<16>      |RESULT<2>      |  113.385|
+VALUE<16>      |RESULT<3>      |  113.698|
+VALUE<16>      |RESULT<4>      |  114.025|
+VALUE<16>      |RESULT<5>      |  113.892|
+VALUE<16>      |RESULT<6>      |  113.894|
+VALUE<16>      |RESULT<7>      |  114.182|
+VALUE<17>      |RESULT<0>      |  113.963|
+VALUE<17>      |RESULT<1>      |  114.322|
+VALUE<17>      |RESULT<2>      |  113.481|
+VALUE<17>      |RESULT<3>      |  113.794|
+VALUE<17>      |RESULT<4>      |  114.121|
+VALUE<17>      |RESULT<5>      |  113.988|
+VALUE<17>      |RESULT<6>      |  113.990|
+VALUE<17>      |RESULT<7>      |  114.278|
+VALUE<18>      |RESULT<0>      |  113.555|
+VALUE<18>      |RESULT<1>      |  113.914|
+VALUE<18>      |RESULT<2>      |  113.073|
+VALUE<18>      |RESULT<3>      |  113.386|
+VALUE<18>      |RESULT<4>      |  113.713|
+VALUE<18>      |RESULT<5>      |  113.580|
+VALUE<18>      |RESULT<6>      |  113.582|
+VALUE<18>      |RESULT<7>      |  113.870|
+VALUE<19>      |RESULT<0>      |  114.067|
+VALUE<19>      |RESULT<1>      |  114.426|
+VALUE<19>      |RESULT<2>      |  113.585|
+VALUE<19>      |RESULT<3>      |  113.898|
+VALUE<19>      |RESULT<4>      |  114.225|
+VALUE<19>      |RESULT<5>      |  114.092|
+VALUE<19>      |RESULT<6>      |  114.094|
+VALUE<19>      |RESULT<7>      |  114.382|
+VALUE<20>      |RESULT<0>      |  114.083|
+VALUE<20>      |RESULT<1>      |  114.442|
+VALUE<20>      |RESULT<2>      |  113.601|
+VALUE<20>      |RESULT<3>      |  113.914|
+VALUE<20>      |RESULT<4>      |  114.241|
+VALUE<20>      |RESULT<5>      |  114.108|
+VALUE<20>      |RESULT<6>      |  114.110|
+VALUE<20>      |RESULT<7>      |  114.398|
+VALUE<21>      |RESULT<0>      |  113.779|
+VALUE<21>      |RESULT<1>      |  114.138|
+VALUE<21>      |RESULT<2>      |  113.297|
+VALUE<21>      |RESULT<3>      |  113.610|
+VALUE<21>      |RESULT<4>      |  113.937|
+VALUE<21>      |RESULT<5>      |  113.804|
+VALUE<21>      |RESULT<6>      |  113.806|
+VALUE<21>      |RESULT<7>      |  114.094|
+VALUE<22>      |RESULT<0>      |  113.959|
+VALUE<22>      |RESULT<1>      |  114.318|
+VALUE<22>      |RESULT<2>      |  113.477|
+VALUE<22>      |RESULT<3>      |  113.790|
+VALUE<22>      |RESULT<4>      |  114.117|
+VALUE<22>      |RESULT<5>      |  113.984|
+VALUE<22>      |RESULT<6>      |  113.986|
+VALUE<22>      |RESULT<7>      |  114.274|
+VALUE<23>      |RESULT<0>      |  113.609|
+VALUE<23>      |RESULT<1>      |  113.968|
+VALUE<23>      |RESULT<2>      |  113.127|
+VALUE<23>      |RESULT<3>      |  113.440|
+VALUE<23>      |RESULT<4>      |  113.767|
+VALUE<23>      |RESULT<5>      |  113.634|
+VALUE<23>      |RESULT<6>      |  113.636|
+VALUE<23>      |RESULT<7>      |  113.924|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Apr 14 20:17:38 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4964 MB
+
+
+
