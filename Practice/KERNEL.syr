@@ -465,15 +465,15 @@ Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
   Total number of paths / destination ports: 4016 / 1968
 -------------------------------------------------------------------------
 Offset:              0.974ns (Levels of Logic = 2)
-  Source:            SIZE<0> (PAD)
+  Source:            SIZE<1> (PAD)
   Destination:       g0[7].kernel_slice/regs[6].reg/reg_internal/reg_7 (FF)
   Destination Clock: CLK rising
 
-  Data Path: SIZE<0> to g0[7].kernel_slice/regs[6].reg/reg_internal/reg_7
+  Data Path: SIZE<1> to g0[7].kernel_slice/regs[6].reg/reg_internal/reg_7
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O           648   0.000   0.931  SIZE_0_IBUF (SIZE_0_IBUF)
+     IBUF:I->O           648   0.000   0.931  SIZE_1_IBUF (SIZE_1_IBUF)
      LUT6:I0->O            1   0.043   0.000  g0[0].kernel_slice/regs[6].reg/Mmux_reg_in11 (g0[0].kernel_slice/regs[6].reg/reg_in<0>)
      FDCE:D                   -0.001          g0[0].kernel_slice/regs[6].reg/reg_internal/reg_0
     ----------------------------------------
@@ -542,12 +542,12 @@ CLK            |    0.863|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 7.00 secs
-Total CPU time to Xst completion: 7.39 secs
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.44 secs
  
 --> 
 
-Total memory usage is 4717832 kilobytes
+Total memory usage is 4717512 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    1 (   0 filtered)

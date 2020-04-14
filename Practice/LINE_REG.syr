@@ -10,7 +10,7 @@ Total CPU time to Xst completion: 0.06 secs
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total CPU time to Xst completion: 0.07 secs
  
 --> Reading design: LINE_REG.prj
 
@@ -134,7 +134,7 @@ Elaborating entity <REG> (architecture <Behavioral>) with generics from library 
 
 Synthesizing Unit <LINE_REG>.
     Related source file is "E:\Master Degree\VSOIZM\vsoizm\Practice\LINE_REG.vhd".
-        SIZE = 8
+        SIZE = 12
         OUTSIZE = 9
         WORD = 8
     Summary:
@@ -160,10 +160,10 @@ Unit <REG> synthesized.
 HDL Synthesis Report
 
 Macro Statistics
-# Registers                                            : 8
- 8-bit register                                        : 8
-# Multiplexers                                         : 8
- 8-bit 2-to-1 multiplexer                              : 8
+# Registers                                            : 12
+ 8-bit register                                        : 12
+# Multiplexers                                         : 12
+ 8-bit 2-to-1 multiplexer                              : 12
 
 =========================================================================
 
@@ -176,10 +176,10 @@ Macro Statistics
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# Registers                                            : 64
- Flip-Flops                                            : 64
-# Multiplexers                                         : 8
- 8-bit 2-to-1 multiplexer                              : 8
+# Registers                                            : 96
+ Flip-Flops                                            : 96
+# Multiplexers                                         : 12
+ 8-bit 2-to-1 multiplexer                              : 12
 
 =========================================================================
 
@@ -194,14 +194,6 @@ Optimizing unit <LINE_REG> ...
 Mapping all equations...
 Building and optimizing final netlist ...
 Found area constraint ratio of 100 (+ 5) on block LINE_REG, actual ratio is 0.
-FlipFlop regs[7].reg/reg_internal/reg_7 has been replicated 1 time(s) to handle iob=true attribute.
-FlipFlop regs[7].reg/reg_internal/reg_6 has been replicated 1 time(s) to handle iob=true attribute.
-FlipFlop regs[7].reg/reg_internal/reg_5 has been replicated 1 time(s) to handle iob=true attribute.
-FlipFlop regs[7].reg/reg_internal/reg_4 has been replicated 1 time(s) to handle iob=true attribute.
-FlipFlop regs[7].reg/reg_internal/reg_3 has been replicated 1 time(s) to handle iob=true attribute.
-FlipFlop regs[7].reg/reg_internal/reg_2 has been replicated 1 time(s) to handle iob=true attribute.
-FlipFlop regs[7].reg/reg_internal/reg_1 has been replicated 1 time(s) to handle iob=true attribute.
-FlipFlop regs[7].reg/reg_internal/reg_0 has been replicated 1 time(s) to handle iob=true attribute.
 
 Final Macro Processing ...
 
@@ -209,8 +201,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 72
- Flip-Flops                                            : 72
+# Registers                                            : 96
+ Flip-Flops                                            : 96
 
 =========================================================================
 
@@ -233,12 +225,11 @@ Top Level Output File Name         : LINE_REG.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 65
-#      GND                         : 1
+# BELS                             : 96
 #      LUT5                        : 8
-#      LUT6                        : 56
-# FlipFlops/Latches                : 72
-#      FDCE                        : 72
+#      LUT6                        : 88
+# FlipFlops/Latches                : 96
+#      FDCE                        : 96
 # Clock Buffers                    : 1
 #      BUFGP                       : 1
 # IO Buffers                       : 94
@@ -252,21 +243,20 @@ Selected Device : xa7z020clg400-1i
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:              64  out of  106400     0%  
- Number of Slice LUTs:                   64  out of  53200     0%  
-    Number used as Logic:                64  out of  53200     0%  
+ Number of Slice Registers:              96  out of  106400     0%  
+ Number of Slice LUTs:                   96  out of  53200     0%  
+    Number used as Logic:                96  out of  53200     0%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:     64
-   Number with an unused Flip Flop:       0  out of     64     0%  
-   Number with an unused LUT:             0  out of     64     0%  
-   Number of fully used LUT-FF pairs:    64  out of     64   100%  
+ Number of LUT Flip Flop pairs used:     97
+   Number with an unused Flip Flop:       1  out of     97     1%  
+   Number with an unused LUT:             1  out of     97     1%  
+   Number of fully used LUT-FF pairs:    95  out of     97    97%  
    Number of unique control sets:         1
 
 IO Utilization: 
  Number of IOs:                          95
  Number of bonded IOBs:                  95  out of    125    76%  
-    IOB Flip Flops/Latches:               8
 
 Specific Feature Utilization:
  Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
@@ -292,7 +282,7 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-CLK                                | BUFGP                  | 72    |
+CLK                                | BUFGP                  | 96    |
 -----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
@@ -304,7 +294,7 @@ Timing Summary:
 Speed Grade: -1
 
    Minimum period: 0.690ns (Maximum Frequency: 1449.275MHz)
-   Minimum input arrival time before clock: 0.865ns
+   Minimum input arrival time before clock: 0.872ns
    Maximum output required time after clock: 0.637ns
    Maximum combinational path delay: No path found
 
@@ -315,60 +305,60 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'CLK'
   Clock period: 0.690ns (frequency: 1449.276MHz)
-  Total number of paths / destination ports: 56 / 56
+  Total number of paths / destination ports: 88 / 88
 -------------------------------------------------------------------------
 Delay:               0.690ns (Levels of Logic = 1)
-  Source:            regs[6].reg/reg_internal/reg_7 (FF)
-  Destination:       regs[5].reg/reg_internal/reg_7 (FF)
+  Source:            regs[8].reg/reg_internal/reg_7 (FF)
+  Destination:       regs[7].reg/reg_internal/reg_7 (FF)
   Source Clock:      CLK rising
   Destination Clock: CLK rising
 
-  Data Path: regs[6].reg/reg_internal/reg_7 to regs[5].reg/reg_internal/reg_7
+  Data Path: regs[8].reg/reg_internal/reg_7 to regs[7].reg/reg_internal/reg_7
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q             2   0.232   0.415  regs[6].reg/reg_internal/reg_7 (regs[6].reg/reg_internal/reg_7)
-     LUT6:I5->O            1   0.043   0.000  regs[5].reg/Mmux_reg_in81 (regs[5].reg/reg_in<7>)
-     FDCE:D                   -0.001          regs[5].reg/reg_internal/reg_7
+     FDCE:C->Q             2   0.232   0.415  regs[8].reg/reg_internal/reg_7 (regs[8].reg/reg_internal/reg_7)
+     LUT6:I5->O            1   0.043   0.000  regs[7].reg/Mmux_reg_in81 (regs[7].reg/reg_in<7>)
+     FDCE:D                   -0.001          regs[7].reg/reg_internal/reg_7
     ----------------------------------------
     Total                      0.690ns (0.275ns logic, 0.415ns route)
                                        (39.9% logic, 60.1% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
-  Total number of paths / destination ports: 504 / 216
+  Total number of paths / destination ports: 672 / 288
 -------------------------------------------------------------------------
-Offset:              0.865ns (Levels of Logic = 2)
-  Source:            LINE_LENGTH<0> (PAD)
-  Destination:       regs[6].reg/reg_internal/reg_7 (FF)
+Offset:              0.872ns (Levels of Logic = 2)
+  Source:            LINE_LENGTH<1> (PAD)
+  Destination:       regs[10].reg/reg_internal/reg_7 (FF)
   Destination Clock: CLK rising
 
-  Data Path: LINE_LENGTH<0> to regs[6].reg/reg_internal/reg_7
+  Data Path: LINE_LENGTH<1> to regs[10].reg/reg_internal/reg_7
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            64   0.000   0.822  LINE_LENGTH_0_IBUF (LINE_LENGTH_0_IBUF)
-     LUT6:I1->O            1   0.043   0.000  regs[2].reg/Mmux_reg_in81 (regs[2].reg/reg_in<7>)
-     FDCE:D                   -0.001          regs[2].reg/reg_internal/reg_7
+     IBUF:I->O            96   0.000   0.829  LINE_LENGTH_1_IBUF (LINE_LENGTH_1_IBUF)
+     LUT6:I1->O            1   0.043   0.000  regs[10].reg/Mmux_reg_in81 (regs[10].reg/reg_in<7>)
+     FDCE:D                   -0.001          regs[10].reg/reg_internal/reg_7
     ----------------------------------------
-    Total                      0.865ns (0.043ns logic, 0.822ns route)
-                                       (5.0% logic, 95.0% route)
+    Total                      0.872ns (0.043ns logic, 0.829ns route)
+                                       (4.9% logic, 95.1% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
-  Total number of paths / destination ports: 72 / 72
+  Total number of paths / destination ports: 80 / 80
 -------------------------------------------------------------------------
 Offset:              0.637ns (Levels of Logic = 1)
-  Source:            regs[6].reg/reg_internal/reg_7 (FF)
-  Destination:       OUTPUT<55> (PAD)
+  Source:            regs[8].reg/reg_internal/reg_7 (FF)
+  Destination:       OUTPUT<71> (PAD)
   Source Clock:      CLK rising
 
-  Data Path: regs[6].reg/reg_internal/reg_7 to OUTPUT<55>
+  Data Path: regs[8].reg/reg_internal/reg_7 to OUTPUT<71>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q             2   0.232   0.405  regs[6].reg/reg_internal/reg_7 (regs[6].reg/reg_internal/reg_7)
-     OBUF:I->O                 0.000          OUTPUT_55_OBUF (OUTPUT<55>)
+     FDCE:C->Q             2   0.232   0.405  regs[8].reg/reg_internal/reg_7 (regs[8].reg/reg_internal/reg_7)
+     OBUF:I->O                 0.000          OUTPUT_71_OBUF (OUTPUT<71>)
     ----------------------------------------
     Total                      0.637ns (0.232ns logic, 0.405ns route)
                                        (36.4% logic, 63.6% route)
@@ -390,11 +380,11 @@ CLK            |    0.690|         |         |         |
 
 
 Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 5.44 secs
+Total CPU time to Xst completion: 5.50 secs
  
 --> 
 
-Total memory usage is 4709192 kilobytes
+Total memory usage is 4711240 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

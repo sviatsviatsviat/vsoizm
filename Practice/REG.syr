@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
+Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.06 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
  
 --> Reading design: REG.prj
 
@@ -105,7 +105,7 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "E:\Master Degree\VSOIZM\Practice\REG.vhd" into library work
+Parsing VHDL file "E:\Master Degree\VSOIZM\vsoizm\Practice\REG.vhd" into library work
 Parsing entity <REG>.
 Parsing architecture <Behavioral> of entity <reg>.
 
@@ -120,7 +120,7 @@ Elaborating entity <REG> (architecture <Behavioral>) with generics from library 
 =========================================================================
 
 Synthesizing Unit <REG>.
-    Related source file is "E:\Master Degree\VSOIZM\Practice\REG.vhd".
+    Related source file is "E:\Master Degree\VSOIZM\vsoizm\Practice\REG.vhd".
         N = 8
     Found 8-bit register for signal <REG_OUT>.
     Summary:
@@ -309,7 +309,7 @@ Cross Clock Domains Report:
 
 
 Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 5.37 secs
+Total CPU time to Xst completion: 5.39 secs
  
 --> 
 
