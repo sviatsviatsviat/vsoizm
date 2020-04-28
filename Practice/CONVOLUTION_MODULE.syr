@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> Reading design: CONVOLUTION_MODULE.prj
 
@@ -1065,11 +1065,11 @@ CLK            |    1.344|         |         |         |
 
 
 Total REAL time to Xst completion: 38.00 secs
-Total CPU time to Xst completion: 38.08 secs
+Total CPU time to Xst completion: 38.14 secs
  
 --> 
 
-Total memory usage is 4806920 kilobytes
+Total memory usage is 4806856 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

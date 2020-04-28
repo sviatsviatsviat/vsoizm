@@ -8,7 +8,7 @@
 <msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Master Degree\VSOIZM\vsoizm\Practice\KERNEL.vhd</arg>&quot; line <arg fmt="%s" index="2">79</arg>: Output port &lt;<arg fmt="%s" index="3">LINE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">g0[0].kernel_slice</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\Master Degree\VSOIZM\vsoizm\Practice\CONVOLUTION_OPERATOR.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">LINE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">line_ops[0].line_op</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Master Degree\VSOIZM\vsoizm\Practice\CONVOLUTION_OPERATOR.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">LINE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">line_ops[0].line_op</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
 </messages>

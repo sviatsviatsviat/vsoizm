@@ -19,7 +19,13 @@ constant WORD: integer := 8;
 subtype t_word is std_logic_vector(7 downto 0);
 type mem_array is array(0 to 256*256-1) of t_word;
 
-impure function init_ram_hex(FileName : STRING; size: integer) return mem_array is
+impure function init_ram_hex(FileName : STRING; size: integer) return mem_array;
+  
+end ConvolutionPack;
+
+package body ConvolutionPack is
+ 
+ impure function init_ram_hex(FileName : STRING; size: integer) return mem_array is
   file text_file : text open read_mode is FileName;
   variable text_line : line;
   variable ram_content : mem_array;
@@ -67,9 +73,5 @@ begin
  
   return ram_content;
 end function;
-
-end ConvolutionPack;
-
-package body ConvolutionPack is
  
 end ConvolutionPack;
