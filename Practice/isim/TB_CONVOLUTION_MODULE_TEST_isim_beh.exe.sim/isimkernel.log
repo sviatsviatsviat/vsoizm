@@ -2,14 +2,14 @@ Command line:
    TB_CONVOLUTION_MODULE_TEST_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  56317
+     -socket  61966
 
-Wed Apr 15 00:16:10 2020
+Mon May 04 19:23:27 2020
 
 
- Elaboration Time: 0.890625 sec
+ Elaboration Time: 0.9375 sec
 
- Current Memory Usage: 5943.28 Meg
+ Current Memory Usage: 5943.32 Meg
 
  Total Signals          : 33722
  Total Nets             : 1118180
@@ -26,9 +26,9 @@ In process TB_CONVOLUTION_MODULE_TEST.vhd:stim_proc
  
 
 
- Total Simulation Time: 239.547 sec
+ Total Simulation Time: 251.422 sec
 
- Current Memory Usage: 5786 Meg
+ Current Memory Usage: 5786.04 Meg
 
-Wed Apr 15 00:28:08 2020
+Mon May 04 19:30:12 2020
 

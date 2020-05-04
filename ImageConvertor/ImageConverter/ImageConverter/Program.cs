@@ -1,4 +1,5 @@
-﻿using System.Drawing;
+﻿using System;
+using System.Drawing;
 using System.IO;
 
 namespace ImageConverter
@@ -8,20 +9,18 @@ namespace ImageConverter
         static void Main(string[] args)
         {
             string cmd = args.Length > 0 ? args[0] : "restore";
+            string inputPath = args.Length > 1 ? args[1] : throw new ArgumentNullException("Input file path is not set");
+            string outputPath = args.Length > 2 ? args[2] : throw new ArgumentNullException("Output path is not set");
             
             if(cmd == "restore")
             {
-                string convRes = @"E:\Master Degree\VSOIZM\output_file.txt";
-                string imagePath = @"E:\Master Degree\VSOIZM\conv_res.bmp";
-                ConvertNumbersToImage(convRes, imagePath, 249);
+                int imgSize = int.Parse(args[3]);
+                ConvertNumbersToImage(inputPath, outputPath, imgSize);
             }
 
             if(cmd == "encode")
             {
-                string imagePath = @"E:\Master Degree\VSOIZM\image.png";
-                string outputPath = @"E:\Master Degree\VSOIZM\image.hex";
-
-                ConvertImageToHex(imagePath, outputPath);
+                ConvertImageToHex(inputPath, outputPath);
             }
         }
 

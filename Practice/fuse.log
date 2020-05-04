@@ -33,5 +33,5 @@ Compiling architecture behavior of entity tb_convolution_module_test
 Time Resolution for simulation is 1ps.
 Compiled 24 VHDL Units
 Built simulation executable E:/Master Degree/VSOIZM/vsoizm/Practice/TB_CONVOLUTION_MODULE_TEST_isim_beh.exe
-Fuse Memory Usage: 122072 KB
+Fuse Memory Usage: 121536 KB
 Fuse CPU Usage: 3046 ms

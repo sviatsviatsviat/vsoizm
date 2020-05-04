@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-04-28T19:53:18</DateModified>
+  <DateModified>2020-05-04T19:21:04</DateModified>
   <ModuleName>CONVOLUTION_MODULE</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>E:/Master Degree/VSOIZM/vsoizm/Practice/iseconfig/CONVOLUTION_MODULE.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>E:/Master Degree/VSOIZM/vsoizm/Practice</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>E:/Master Degree/VSOIZM/vsoizm/Practice\</ImplementationReportsDirectory>
   <DateInitialized>2020-04-28T19:53:17</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

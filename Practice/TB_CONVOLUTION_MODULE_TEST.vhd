@@ -71,8 +71,8 @@ ARCHITECTURE behavior OF TB_CONVOLUTION_MODULE_TEST IS
 	constant kern_size : integer := 5;
 	constant img_size: integer := 253;
 	
-	signal kernel_mem: mem_array := init_ram_hex("E:\Master Degree\VSOIZM\laplacian_gaussian.hex", kern_size**2);
-	signal image_mem: mem_array := init_ram_hex("E:\Master Degree\VSOIZM\image.hex", img_size**2);
+	signal kernel_mem: mem_array := init_ram_hex("..\Test Data\laplacian_gaussian.hex", kern_size**2);
+	signal image_mem: mem_array := init_ram_hex("..\Test Data\image.hex", img_size**2);
 
 	signal bool_started_write: boolean := false;
 
@@ -107,7 +107,7 @@ BEGIN
    -- Stimulus process
    stim_proc: process
 	
-	file test_vector      : text open write_mode is "E:\Master Degree\VSOIZM\output_file.txt";
+	file test_vector      : text open write_mode is "..\Test Data\output_file.txt";
 	variable row          : line;
 	
    begin
